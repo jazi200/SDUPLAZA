@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F4F2;
+    text-align: center;
+    position: relative; 
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.con{
+    display: flex;
+}
+
+header{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h1{
+    color: #212153;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.con p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: #212153 3px solid;
+    font-size: 20px;
+    font-weight: 600;
+    color: #212153;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.btn:focus{
+    background-color: #212153;
+    color: #fff;
+}
+
+
+
+.first{
+    width: 1231px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+
+.order{
+    width: 600px;
+    height: 520px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.product{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.flx{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flx img{
+    width: 32px;
+    height: 32px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.order p{
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+
+.product p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.product button{
+    width: 100px;
+    height: 31px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    border: none;
+}
+
+
+.ready{
+    width: 200px;
+    height: 50px;
+    background-color: #212153;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 15px;
+    bottom: none;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.gray .first .order{
+    background-color: #D9D9D9;
+}

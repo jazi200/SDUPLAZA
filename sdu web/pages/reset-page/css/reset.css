@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 1440px;
+    /* height: 1024px; */
+    height: 100%;
+    margin: 0 auto;
+    background-color: #212153;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo{
+    margin-top: 247px;
+    margin-left: 156px;
+    margin-right: 156px;
+    width: 400px;
+    height: 506px;
+}
+
+button{
+    cursor: pointer;
+  }
+
+h1{
+    font-weight: 600;
+    color: #212153;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 20px;
+    color: #212153;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.reset{
+    height: 1024px;
+    width: 720px;
+    background-color: #fff;
+}
+
+.content{
+    margin: 0 auto;
+    margin-top: 193px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+input[type="password"]{
+    border-radius: 20px;
+    width: 500px;
+    height: 60px;
+    padding-left: 20px;
+    font-size: 24px;
+    border-color: #212153;
+    border-bottom-color: #212153;
+    margin-bottom: 40px;
+}
+
+
+input[type="submit"] {
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    background-color: #212153;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.pass-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 470px;
+  }
+
+  label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #212153;
+    display: inline-block;
+    margin-bottom: 10px; 
+  }

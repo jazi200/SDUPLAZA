@@ -1,0 +1,42 @@
+<!-- DONE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <img src="../../img/logo.png" alt="" class="logo">
+    <div class="login">
+        <div class="content">
+            <p>Welcome to SDU PLAZA!</p>
+            <form action="#">
+                <div class="form-group">
+                    <input type="text" id="id" name="id" placeholder="ID" required>
+                  </div>
+                <div class="password">
+                  <input type="password" id="password" name="password" placeholder="Password" required>
+                  <img src="../../img/eye1.png" alt="" onclick="pass()" class="pass-icon" id="pass-icon">
+                </div>
+              </form>
+              <div class="remfor">
+                <div class="form-group">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <a href="../forgot-page/forgot.html">Forgot password?</a>
+              </div>
+              <input type="submit" value="Sign In" id="LoginBtn">
+              <div class="noaccount">
+                <p>Don't have an account?</p>
+                <a href="../registration-page/signup.html">Sign up</a>
+              </div>
+        </div>
+    </div>
+    <script src="script/loginScript.js"></script>
+</body>
+</html>

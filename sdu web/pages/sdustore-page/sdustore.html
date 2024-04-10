@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sdustore</title>
+    <link rel="stylesheet" href="css/sdustore.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="content">
+                <a href="profile.html">
+                    <img src="../../img/profile.png" alt="" class="profile">
+                </a>
+                <div class="search-bar" onclick="changeBorderColor()">
+                    <input type="text" placeholder="Search..">
+                    <a href=""><img src="../../img/searchf.png" alt=""></a>
+                  </div>
+                <div class="basket" onclick="goToBasket()">
+                    <img src="../../img/basket.png" alt="" class="icon">
+                    <p id="sum">0T</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <menu>
+        <nav>
+            <ul>
+                <li><a href="../redcoffee-page/redcoffee.html">Red Coffee</a></li>
+                <li><a href="../urbo-page/urbo.html">Urbo</a></li>
+                <li><a href="../redcanteen-page/redcanteen.html">Red Canteen</a></li>
+                <li><a href="../donerhouse-page/donerhouse.html">Doner house</a></li>
+                <li><a href="../sdustore-page/sdustore.html" style="color: #212153;">Sdu store</a></li>
+                <li><a href="../belkafood-page/belkafood.html">Belka Food</a></li>
+                <li><a href="../accatering-page/accatering.html">AcCatering</a></li>
+                <li><a href="../green-page/greencanteen.html">Green Canteen</a></li>
+            </ul>
+        </nav>
+    </menu>
+
+    <img src="../../img/sdustore/stored.png" alt="" class="mainimg">
+
+    <div class="btns">
+        <div class="center">
+            <button class="filter-btn" data-category="top">TOP</button>
+            <button class="filter-btn" data-category="bottle">BOTTLE</button>
+            <button class="filter-btn" data-category="accessory">ACCESSORY</button>
+            <button class="filter-btn" data-category="box">BOX</button>
+        </div>
+    </div>
+    </div>
+
+    <section class="products">
+        <div class="center">
+            <div class="pro" data-category="top">
+                
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store1.png" alt="" onclick="showMoreDetail(1)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add" onclick="addToBasketMain(150, 'T-Shirt oversize', '', 9000, 'SDU_STORE', 'MENU', '../../img/sdustore/store1.png')">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store2.png" alt="" onclick="showMoreDetail(2)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add" onclick="addToBasketMain(151, 'T-Shirt oversize', '', 9000, 'SDU_STORE', 'MENU', '../../img/sdustore/store2.png')">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store3.png" alt="" onclick="showMoreDetail(3)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add" onclick="addToBasketMain(153, 'T-Shirt oversize', '', 9000, 'SDU_STORE', 'MENU', '../../img/sdustore/store3.png')">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store4.png" alt="" onclick="showMoreDetail(4)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add" onclick="addToBasketMain(154, 'T-Shirt oversize', '', 9000, 'SDU_STORE', 'MENU', '../../img/sdustore/store4.png')">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store5.png" alt="" onclick="showMoreDetail(5)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">Buiyrtsa</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store6.png" alt="" onclick="showMoreDetail(6)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">TAMAM</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store7.png" alt="" onclick="showMoreDetail(7)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">Buiyrtsa</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store8.png" alt="" onclick="showMoreDetail(8)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ALUMNI SDU</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store9.png" alt="" onclick="showMoreDetail(9)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ALUMNI SDU</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store10.png" alt="" onclick="showMoreDetail(10)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ALUMNI SDU</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store11.png" alt="" onclick="showMoreDetail(11)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ALUMNI SDU</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store12.png" alt="" onclick="showMoreDetail(12)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store13.png" alt="" onclick="showMoreDetail(13)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU EST.1996</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store14.png" alt="" onclick="showMoreDetail(14)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store15.png" alt="" onclick="showMoreDetail(15)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store16.png" alt="" onclick="showMoreDetail(16)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">HAYIRLISI</p>
+                        <p>T-Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store17.png" alt="" onclick="showMoreDetail(17)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ARKADAŞ</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store18.png" alt="" onclick="showMoreDetail(18)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ALUMNI SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store19.png" alt="" onclick="showMoreDetail(19)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ALUMNI SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store20.png" alt="" onclick="showMoreDetail(20)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store21.png" alt="" onclick="showMoreDetail(21)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store22.png" alt="" onclick="showMoreDetail(22)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store23.png" alt="" onclick="showMoreDetail(23)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store24.png" alt="" onclick="showMoreDetail(24)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store25.png" alt="" onclick="showMoreDetail(25)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store26.png" alt="" onclick="showMoreDetail(26)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store27.png" alt="" onclick="showMoreDetail(27)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ENGINEERING AND NATURAL SCIENCES</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store28.png" alt="" onclick="showMoreDetail(28)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU (BUSINESS SCHOOL)</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store29.png" alt="" onclick="showMoreDetail(29)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">LAW AND SOCIAL SCIENCES</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store30.png" alt="" onclick="showMoreDetail(30)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store31.png" alt="" onclick="showMoreDetail(31)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">EDUCATION AND HUMANITIES</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store32.png" alt="" onclick="showMoreDetail(32)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ALUMNI SDU</p>
+                        <p>SweatShirt oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store33.png" alt="" onclick="showMoreDetail(33)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Hoodie oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store34.png" alt="" onclick="showMoreDetail(34)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Hoodie oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store35.png" alt="" onclick="showMoreDetail(35)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">HAYIRLISI</p>
+                        <p>Hoodie oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store36.png" alt="" onclick="showMoreDetail(36)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">Buiyrtsa</p>
+                        <p>Hoodie oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store37.png" alt="" onclick="showMoreDetail(37)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Sweatshirt  oversize (L/S/M)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store38.png" alt="" onclick="showMoreDetail(38)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store39.png" alt="" onclick="showMoreDetail(39)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ALUMNI SDU</p>
+                        <p>Hoodie oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store40.png" alt="" onclick="showMoreDetail(40)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/store41.png" alt="" onclick="showMoreDetail(41)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store42.png" alt="" onclick="showMoreDetail(42)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Hoodie oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store43.png" alt="" onclick="showMoreDetail(43)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ALUMNI SDU</p>
+                        <p>Hoodie oversize (L/M/S)</p>
+                        <p class="price">16000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/store40.png" alt="" onclick="showMoreDetail(44)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">Hoodie oversize (L/M/S)</p>
+                        <p>Shirt oversize (L/M/S)</p>
+                        <p class="price">9000 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="center">
+            <div class="pro" data-category="bottle" style="display: none;">
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/bottle1.png" alt="">
+                        <button id="add" class="kosu" onclick="addToBasketMain(155, 'Raise', 'Bottle glass | 520 ml', 4000, 'SDU_STORE', 'MENU', '../../img/sdustore/bottle1.png')"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">Raise</p>
+                        <p>Bottle glass | 520 ml</p>
+                        <p class="price">4000 т</p>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/bottle2.png" alt="">
+                        <button id="add" class="kosu" onclick="addToBasketMain(156, 'SDU Bottle', 'Aluminium Bottle | 500 ml', 5000, 'SDU_STORE', 'MENU', '../../img/sdustore/bottle2.png')"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU Bottle</p>
+                        <p>Aluminium Bottle | 500 ml</p>
+                        <p class="price">5000 т</p>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/bottle3.png" alt="">
+                        <button id="add" class="kosu" onclick="addToBasketMain(157, 'OKA', 'Cup  | 20 ml', 2000, 'SDU_STORE', 'MENU', '../../img/sdustore/bottle3.png')"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">OKA</p>
+                        <p>Cup  | 20 ml</p>
+                        <p class="price">2000 т</p>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/bottle4.png" alt="">
+                        <button id="add" class="kosu" onclick="addToBasketMain(158, 'Raise', 'Stainless steel | 550 ml', 6000, 'SDU_STORE', 'MENU', '../../img/sdustore/bottle4.png')"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">ODIM</p>
+                        <p>Stainless steel | 550 ml </p>
+                        <p class="price">6000 т</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="center">
+            <div class="pro" data-category="accessory" style="display: none;">
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/accessory1.png" alt="" onclick="showMoreDetail(1)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Shopper bag | standard</p>
+                        <p class="price">19 900 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/accessory2.png" alt="" onclick="showMoreDetail(2)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Shopper bag | standard</p>
+                        <p class="price">19 900 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/accessory3.png" alt="" onclick="showMoreDetail(3)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Shopper bag | standard</p>
+                        <p class="price">19 900 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Color</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/accessory4.png" alt="" onclick="showMoreDetail(4)">
+                        <button class="size"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>Shopper bag | standard</p>
+                        <p class="price">19 900 т</p>
+                        <div id="sizeModal" class="modal" style="display: none;">
+                            <div class="modal-content">
+                                <div class="block">
+                                    <p>Size</p>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="block1">
+                                    <button class="size-btn">S</button>
+                                    <button class="size-btn">M</button>
+                                    <button class="size-btn">L</button>
+                                </div>
+                                <button id="addButton" class="Add">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="center">
+            <div class="pro" data-category="box" style="display: none;">
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/sdustore/box1.png" alt="">
+                        <button id="add" class="kosu"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>T-Shirt+Cup+Shopper</p>
+                        <p class="price">19900 т</p>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/box2.png" alt="">
+                        <button id="add" class="kosu"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU </p>
+                        <p>T-Shirt+Cup+Shopper</p>
+                        <p class="price">19900 т</p>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/box3.png" alt="">
+                        <button id="add" class="kosu"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>T-Shirt+Cup+Shopper</p>
+                        <p class="price">19900 т</p>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/sdustore/box4.png" alt="">
+                        <button id="add" class="kosu"><img src="../../img/sdustore/size.png" alt=""></button>
+                        <p class="b">SDU</p>
+                        <p>T-Shirt+Cup+Shopper</p>
+                        <p class="price">19900 т</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="moredetail1" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store1.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail2" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store2.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail3" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store3.png" alt="">
+        <div class="details">
+            <p>SweatShirt oversize (L/M/S)</p>
+            <p class="price">16000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail4" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store4.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail5" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store5.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail6" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store6.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail7" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store7.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail8" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store8.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail9" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store9.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail10" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store10.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail11" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store11.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <div id="moredetail12" class="moredetail" style="display: none;">
+        <img src="../../img/sdustore/store12.png" alt="">
+        <div class="details">
+            <p>T-Shirt oversize (L/M/S)</p>
+            <p class="price">9000 т</p>
+            <p id="selectedColorText">Selected color : </p>
+            <div class="colors">
+                <button id="white" class="color-btn white" onclick="setColor('White')"></button>
+                <button id="blue" class="color-btn blue" onclick="setColor('Blue')"></button>
+                <button id="black" class="color-btn black" onclick="setColor('Black')"></button>
+                <button id="gray" class="color-btn gray" onclick="setColor('Gray')"></button>
+            </div>
+            <p>Size :</p>
+            <div class="sizes">
+                <button class="size-btn">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+            </div> 
+            <button id="addButton" class="Add" onclick="goBack()">+ Add</button>
+        </div>
+    </div>
+
+    <p style="display: none;" id="size-wear">
+        
+    </p>
+
+    <script src="../../script/product.js"></script>
+    <script src="../../script/basket.js"></script>
+    <script src="script/sdustore.js"></script>
+
+</body>
+</html>

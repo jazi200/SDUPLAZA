@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="css/payment.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>PAYMENT</h1>
+    <div class="blocks">
+        <div class="first">
+            <div class="container">
+            <div class="flex">
+                <p>Your order</p>
+                <button><img src="../../img/minibasket.png" alt=""> Empty basket</button>
+            </div>
+            <div class="content">
+            </div>
+            
+
+            <input type="text" placeholder="comments">
+            </div>
+        </div>
+
+        <div class="first">
+            <div class="container">
+                <div class="flex">
+                    <p>Payment method</p>
+                </div>
+                <div class="flex2">
+                    <div class="addcard">
+                        <img src="../../img/dollarr.png" alt=""> 
+                        <p id="card-info"></p>
+                    </div>
+                    <button class="change" onclick="openModal()">Change</button>
+                </div>
+                <img src="../../img/line.png" alt="" class="separator">
+                <h1>Total</h1>
+                <div class="total">
+                    <p>Cost of goods</p>
+                    <p id="sum">500 T</p>
+                </div>
+                <div class="payy">
+                    <button class="pay" onclick="opeenModal()">Pay</button>
+                    <p id="sum">500 T</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="con">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <p>Adding a card</p>
+                <input id="card-number" maxlength="16" type="number" placeholder="Card Number" class="number">
+                <div class="ff">
+                    <input id="card-date" type="month" placeholder="Validity"><br>
+                    <input id="card-cvv" type="password" placeholder="CVV" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+                </div>
+                <button class="cancel" onclick="closeModal()">Cancel</button>
+                <button class="linkc" onclick="addCard()">Link a card</button>
+            </div>
+        </div>
+      </div>
+
+      <div id="myModal1" class="modal1">
+        <div class="content1">
+            <div class="con1">
+                <span class="close" onclick="closeeModal()">&times;</span>
+                <img src="../../img/success.png" alt="">
+                <h1>Payment Successfully !</h1>
+                <button class="back" onclick="backToHome()">Back to home</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../script/product.js"></script>
+    <script src="../../script/basket.js"></script>
+    <script src="script/payment.js"></script>
+</body>
+</html>

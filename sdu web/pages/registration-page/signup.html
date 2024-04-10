@@ -1,0 +1,62 @@
+<!-- DONE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login">
+        <div class="content">
+            <p>Welcome to SDU PLAZA!</p>
+            <form action="#">
+                <div class="form-group">
+                  <input type="text" id="username" name="username" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="id" name="id" placeholder="ID" required>
+                  </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                </div>
+                <div class="password">
+                  <input type="password" id="password" name="password" placeholder="Password" required>
+                  <img src="../../img/eye1.png" alt="" onclick="pass()" class="pass-icon" id="pass-icon">
+                </div>
+              </form>
+              <input type="submit" value="Sign Up" id="SignupBtn" style="margin-top: -10px;">
+              <div class="orsignup">
+                <div class="line"></div>
+                <p>Or sign up with</p>
+                <div class="line"></div>
+              </div>
+              <div class="others">
+                <img src="../../img/google.png" alt="" style="margin-right: 20px;">
+                <img src="../../img/facebook.png" alt="" style="margin-left: 20px;">
+            </div>
+        </div>
+    </div>
+
+
+    <img src="../../img/logo.png" alt="" class="logo">  
+    
+    <script>
+        function pass() {
+          var passwordInput = document.getElementById("password");
+          var passIcon = document.getElementById("pass-icon");
+
+          if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            passIcon.src = "../../img/eye.png";
+          } else {
+            passwordInput.type = "password";
+            passIcon.src = "../../img/eye1.png";
+          }
+        }
+    </script>
+    <script src="./script/signUpScript.js"></script>
+</body>
+</html>

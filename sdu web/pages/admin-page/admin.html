@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="con">
+                <h1>Orders</h1>
+                <p>05.04.2024  at 2:03 pm from Draft Orders</p>
+                <button class="btn filter-btn" data-category="ready">ORDER READY</button>
+                <button class="btn filter-btn" data-category="placed">ORDER PLACED</button>
+                <button class="btn filter-btn" data-category="orders">ORDERS</button>    
+            </div>
+        </div>
+    </header>
+
+    <section class="orders">
+        <div class="data" data-category="ready">
+
+            <div class="first">
+                <div class="order">
+                    <p>Red Canteen</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Самса с курицей 250 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Пиде 290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Француз булочка 280 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="ready" class="ready">ORDER READY</button>
+                </div>
+                <div class="order">
+                    <p>Urbo</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Экспрессо 650 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Американо 590 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Капучино 890 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="ready" class="ready">ORDER READY</button>
+                </div>
+            </div>
+
+            <div class="first">
+                <div class="order">
+                    <p>Green Canteen</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Самса с курицей 250 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Пиде 290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Француз булочка 280 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="ready" class="ready">ORDER READY</button>
+                </div>
+                <div class="order">
+                    <p>Doner house</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Самса с курицей 250 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Пиде 290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Француз булочка 280 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="ready" class="ready">ORDER READY</button>
+                </div>
+            </div>
+
+            <div class="first">
+                <div class="order">
+                    <p>Red Coffee</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Облепиховый чай 590 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Моккачино 1590 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Раф (Кокосовый )  990 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="ready" class="ready">ORDER READY</button>
+                </div>
+                <div class="order">
+                    <p>Belka Food</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Пепперони (25 см) 2390  тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Куриный в лаваше 1290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Донер куриный на тарелке 1390 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="ready" class="ready">ORDER READY</button>
+                </div>
+            </div>
+
+            <div class="first">
+                <div class="order">
+                    <p>AcCatering</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Солянка 550 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Куриный рулет  700 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Цезарь 1200 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="ready" class="ready">ORDER READY</button>
+                </div>
+                <div class="order">
+                    <p>Sdu Store</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>T-Shirt (M / black) 9000 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Aluminium Bottle (500 ml/ black) 5000 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>T-Shirt(M/ black)+Cup(white) +Shopper(black)            19 900 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="ready" class="ready">ORDER READY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="orders">
+        <div class="data" data-category="placed" style="display: none;">
+            <div class="first">
+                <div class="order">
+                    <div class="flx">
+                        <p>Red Canteen</p> 
+                        <img src="checkbox2.png" alt="">
+                    </div>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Самса с курицей 250 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Пиде 290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Француз булочка 280 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="placed" class="ready">ORDER PLACED</button>
+                </div>
+                <div class="order">
+                    <div class="flx">
+                        <p>Urbo</p> 
+                        <img src="checkbox2.png" alt="">
+                    </div>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Экспрессо 650 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Американо 590 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Капучино 890 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="placed" class="ready">ORDER PLACED</button>
+                </div>
+            </div>
+            <div class="first">
+                <div class="order">
+                    <div class="flx">
+                        <p>Green Canteen</p> 
+                        <img src="checkbox2.png" alt="">
+                    </div>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Самса с курицей 250 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Пиде 290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Француз булочка 280 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="placed" class="ready">ORDER PLACED</button>
+                </div>
+                <div class="order">
+                    <div class="flx">
+                        <p>Doner house</p> 
+                        <img src="checkbox2.png" alt="">
+                    </div>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Самса с курицей 250 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Пиде 290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Француз булочка 280 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="placed" class="ready">ORDER PLACED</button>
+                </div>
+            </div>
+            <div class="first">
+                <div class="order">
+                    <div class="flx">
+                        <p>Red Coffee</p> 
+                        <img src="checkbox2.png" alt="">
+                    </div>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Облепиховый чай 590 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Моккачино 1590 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Раф (Кокосовый )  990 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="placed" class="ready">ORDER PLACED</button>
+                </div>
+                <div class="order">
+                    <div class="flx">
+                        <p>Belka Food</p> 
+                        <img src="checkbox2.png" alt="">
+                    </div>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Пепперони (25 см) 2390  тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Куриный в лаваше 1290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Донер куриный на тарелке 1390 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="placed" class="ready">ORDER PLACED</button>
+                </div>
+            </div>
+            <div class="first">
+                <div class="order">
+                    <div class="flx">
+                        <p>AcCatering</p> 
+                        <img src="checkbox2.png" alt="">
+                    </div>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Солянка 550 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Куриный рулет  700 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Цезарь 1200 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="placed" class="ready">ORDER PLACED</button>
+                </div>
+                <div class="order">
+                    <div class="flx">
+                        <p>Sdu Store</p> 
+                        <img src="checkbox2.png" alt="">
+                    </div>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>T-Shirt (M / black) 9000 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Aluminium Bottle (500 ml/ black) 5000 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>T-Shirt(M/ black)+Cup(white) +Shopper(black)            19 900 тг</p>
+                        <button>1</button>
+                    </div>
+                    <button id="placed" class="ready">ORDER PLACED</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="orders">
+        <div class="data gray" data-category="orders" style="display: none;">
+            <div class="first">
+                <div class="order">
+                    <p>Red Canteen</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Самса с курицей 250 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Пиде 290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Француз булочка 280 тг</p>
+                        <button>1</button>
+                    </div>
+                </div>
+                <div class="order">
+                    <p>Urbo</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Экспрессо 650 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Американо 590 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Капучино 890 тг</p>
+                        <button>1</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="first">
+                <div class="order">
+                    <p>Green Canteen</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Самса с курицей 250 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Пиде 290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Француз булочка 280 тг</p>
+                        <button>1</button>
+                    </div>
+                </div>
+                <div class="order">
+                    <p>Doner house</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Самса с курицей 250 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Пиде 290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Француз булочка 280 тг</p>
+                        <button>1</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="first">
+                <div class="order">
+                    <p>Red Coffee</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Облепиховый чай 590 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Моккачино 1590 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Раф (Кокосовый )  990 тг</p>
+                        <button>1</button>
+                    </div>
+                    </div>
+                <div class="order">
+                    <p>Belka Food</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Пепперони (25 см) 2390  тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Куриный в лаваше 1290 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Донер куриный на тарелке 1390 тг</p>
+                        <button>1</button>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="first">
+                <div class="order">
+                    <p>AcCatering</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>Солянка 550 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Куриный рулет  700 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Цезарь 1200 тг</p>
+                        <button>1</button>
+                    </div>
+                    </div>
+                <div class="order">
+                    <p>Sdu Store</p>
+                    <p>200103057</p>
+                    <div class="product">
+                        <p>T-Shirt (M / black) 9000 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>Aluminium Bottle (500 ml/ black) 5000 тг</p>
+                        <button>1</button>
+                    </div>
+                    <div class="product">
+                        <p>T-Shirt(M/ black)+Cup(white) +Shopper(black)            19 900 тг</p>
+                        <button>1</button>
+                    </div>
+                    </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="./script/admin.js"></script>
+</body>
+</html>

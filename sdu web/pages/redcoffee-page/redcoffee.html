@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>urbo</title>
+    <link rel="stylesheet" href="css/urbo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="content">
+                <a href="../profile-page/profile.html">
+                    <img src="../../img/profile.png" alt="" class="profile">
+                </a>
+                <div class="search-bar" onclick="changeBorderColor()">
+                    <input type="text" placeholder="Search..">
+                    <a href=""><img src="../../img/searchf.png" alt=""></a>
+                </div>
+                <div class="basket" onclick="goToBasket()">
+                    <img src="../../img/basket.png" alt="" class="icon">
+                    <p id="sum">0T</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <menu>
+        <nav>
+            <ul>
+                <li><a href="../redcoffee-page/redcoffee.html" style="color: #212153;">Red Coffee</a></li>
+                <li><a href="../urbo-page/urbo.html">Urbo</a></li>
+                <li><a href="../redcanteen-page/redcanteen.html">Red Canteen</a></li>
+                <li><a href="../donerhouse-page/donerhouse.html">Doner house</a></li>
+                <li><a href="../sdustore-page/sdustore.html">Sdu store</a></li>
+                <li><a href="../belkafood-page/belkafood.html">Belka Food</a></li>
+                <li><a href="../accatering-page/accatering.html">AcCatering</a></li>
+                <li><a href="../green-page/greencanteen.html">Green Canteen</a></li>
+            </ul>
+        </nav>
+    </menu>
+
+    <img src="../../img/uurbo.png" alt="" class="mainimg">
+
+    <div class="btns">
+        <div class="center">
+            <button class="filter-btn" data-category="menu">MENU</button>
+            <button class="filter-btn" data-category="coffee">COFFEE</button>
+            <button class="filter-btn" data-category="tea">TEA</button>
+            <button class="filter-btn" data-category="drink">COLD DRINK</button>
+        </div>
+    </div>
+
+    <section class="products">
+        <div class="center">
+            <div class="pro" data-category="menu">
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo1.png" alt="">
+                        <p class="price">650 т</p>
+                        <p>Экспрессо</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(1, 'Экспрессо', '300 мл', 650, 'URBO', 'MENU', '../../img/urbo/urbo1.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo2.png" alt="">
+                        <p class="price">590  т</p>
+                        <p>Американо</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(2, 'Американо', '300 мл', 590, 'URBO', 'MENU', '../../img/urbo/urbo2.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo3.png" alt="">
+                        <p class="price">890 т</p>
+                        <p>Капучино</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(3, 'Капучино', '300 мл', 890, 'URBO', 'MENU', '../../img/urbo/urbo3.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo3.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Капучино</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(4, 'Капучино', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo3.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo4.png" alt="">
+                        <p class="price">890 т</p>
+                        <p>Латте</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(5, 'Латте', '400 мл', 890, 'URBO', 'MENU', '../../img/urbo/urbo4.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo4.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Латте</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(6, 'Латте', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo4.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo5.png" alt="">
+                        <p class="price">790 т</p>
+                        <p>Флэт Уайт</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">200 мл</p>
+                        <button class="add" onclick="openModal(7, 'Флэт Уайт', '200 мл', 790, 'URBO', 'MENU', '../../img/urbo/urbo5.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo6.png" alt="">
+                        <p class="price">1590 т</p>
+                        <p>Моккачино</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(9, 'Моккачино', '300 мл', 1590, 'URBO', 'MENU', '../../img/urbo/urbo6.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo6.png" alt="">
+                        <p class="price">1690 т</p>
+                        <p>Моккачино</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(10, 'Моккачино', '400 мл', 1690, 'URBO', 'MENU', '../../img/urbo/urbo6.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo7.png" alt="">
+                        <p class="price">1490 т</p>
+                        <p>Матча чай зеленый</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="addToBasketMain(11, 'Матча чай зеленый', '300 мл', 1490, 'URBO', 'MENU', '../../img/urbo/urbo7.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo8.png" alt="">
+                        <p class="price">790  т</p>
+                        <p>Горячий шоколад</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">200 мл</p>
+                        <button class="add" onclick="addToBasketMain(12, 'Горячий шоколад', '200 мл', 790, 'URBO', 'MENU', '../../img/urbo/urbo8.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo9.png" alt="">
+                        <p class="price">890  т</p>
+                        <p>Какао</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="addToBasketMain(13, 'Какао', '300 мл', 890, 'URBO', 'MENU', '../../img/urbo/urbo9.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo9.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Какао</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(14, 'Какао', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo9.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo10.png" alt="">
+                        <p class="price">1490 т</p>
+                        <p>Раф Классический</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(15, 'Раф Классический', '300 мл', 1490, 'URBO', 'MENU', '../../img/urbo/urbo6=10.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo10.png" alt="">
+                        <p class="price">1590 т</p>
+                        <p>Раф Классический</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(16, 'Раф Классический', '400 мл', 1590, 'URBO', 'MENU', '../../img/urbo/urbo6=10.png')"">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo11.png" alt="">
+                        <p class="price">1590 т</p>
+                        <p>Раф сникерс</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(17, 'Раф сникерс', '400 мл', 1590, 'URBO', 'MENU', '../../img/urbo/urbo6=11.png')"">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo11.png" alt="">
+                        <p class="price">1490 т</p>
+                        <p>Раф сникерс</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(18, 'Раф сникерс', '300 мл', 1490, 'URBO', 'MENU', '../../img/urbo/urbo6=11.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo12.png" alt="">
+                        <p class="price">1390 т</p>
+                        <p>Имбирный чай</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(19, 'Имбирный чай', '400 мл', 1390, 'URBO', 'MENU', '../../img/urbo/urbo12.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo13.png" alt="">
+                        <p class="price">890 т</p>
+                        <p>Облепиховый чай</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(20, 'Облепиховый чай', '400 мл', 890, 'URBO', 'MENU', '../../img/urbo/urbo13.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo14.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Морокканский чай </p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(21, 'Морокканский чай', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo14.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo15.png" alt="">
+                        <p class="price">790 т</p>
+                        <p>Ташкентский чай</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(22, 'Ташкентский чай', '400 мл', 790, 'URBO', 'MENU', '../../img/urbo/urbo15.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo16.png" alt="">
+                        <p class="price">490 т</p>
+                        <p>Черный чай </p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(23, 'Черный чай', '400 мл', 490, 'URBO', 'MENU', '../../img/urbo/urbo16.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo17.png" alt="">
+                        <p class="price">490 т</p>
+                        <p>Зеленый чай</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(24, 'Облепиховый чай', '400 мл', 490, 'URBO', 'MENU', '../../img/urbo/urbo17.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo18.png" alt="">
+                        <p class="price">690 т</p>
+                        <p>Молочный улун</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(25, 'Молочный улун', '400 мл', 690, 'URBO', 'MENU', '../../img/urbo/urbo18.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo19.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Черника с вишней</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(26, 'Черника с вишней', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo19.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo20.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Горный луг</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(27, 'Горный луг', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo20.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo21.png" alt="">
+                        <p class="price">690 т</p>
+                        <p>Ягодный</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(28, 'Ягодный', '400 мл', 690, 'URBO', 'MENU', '../../img/urbo/urbo21.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo22.png" alt="">
+                        <p class="price">690 т</p>
+                        <p>Земляника со сливками</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(29, 'Земляника со сливками', '400 мл', 690, 'URBO', 'MENU', '../../img/urbo/urbo22.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo23.png" alt="">
+                        <p class="price">690 т</p>
+                        <p>Ройбуш</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(30, 'Ройбуш', '400 мл', 690, 'URBO', 'MENU', '../../img/urbo/urbo23.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo24.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Тегуанинь</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(31, 'Тегуанинь', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo24.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="center">
+            <div class="pro" data-category="coffee" style="display: none;">
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo1.png" alt="">
+                        <p class="price">650 т</p>
+                        <p>Экспрессо</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(1, 'Экспрессо', '300 мл', 650, 'URBO', 'MENU', '../../img/urbo/urbo1.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo2.png" alt="">
+                        <p class="price">590  т</p>
+                        <p>Американо</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(2, 'Американо', '300 мл', 590, 'URBO', 'MENU', '../../img/urbo/urbo2.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo3.png" alt="">
+                        <p class="price">890 т</p>
+                        <p>Капучино</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(3, 'Капучино', '300 мл', 890, 'URBO', 'MENU', '../../img/urbo/urbo3.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo3.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Капучино</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(4, 'Капучино', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo3.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo4.png" alt="">
+                        <p class="price">890 т</p>
+                        <p>Латте</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(5, 'Латте', '400 мл', 890, 'URBO', 'MENU', '../../img/urbo/urbo4.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo4.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Латте</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(6, 'Латте', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo4.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo5.png" alt="">
+                        <p class="price">790 т</p>
+                        <p>Флэт Уайт</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">200 мл</p>
+                        <button class="add" onclick="openModal(7, 'Флэт Уайт', '200 мл', 790, 'URBO', 'MENU', '../../img/urbo/urbo5.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo6.png" alt="">
+                        <p class="price">1590 т</p>
+                        <p>Моккачино</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(9, 'Моккачино', '300 мл', 1590, 'URBO', 'MENU', '../../img/urbo/urbo6.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo6.png" alt="">
+                        <p class="price">1690 т</p>
+                        <p>Моккачино</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(10, 'Моккачино', '400 мл', 1690, 'URBO', 'MENU', '../../img/urbo/urbo6.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo7.png" alt="">
+                        <p class="price">1490 т</p>
+                        <p>Матча чай зеленый</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="addToBasketMain(11, 'Матча чай зеленый', '300 мл', 1490, 'URBO', 'MENU', '../../img/urbo/urbo7.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo8.png" alt="">
+                        <p class="price">790  т</p>
+                        <p>Горячий шоколад</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">200 мл</p>
+                        <button class="add" onclick="addToBasketMain(12, 'Горячий шоколад', '200 мл', 790, 'URBO', 'MENU', '../../img/urbo/urbo8.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo9.png" alt="">
+                        <p class="price">890  т</p>
+                        <p>Какао</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="addToBasketMain(13, 'Какао', '300 мл', 890, 'URBO', 'MENU', '../../img/urbo/urbo9.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo9.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Какао</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(14, 'Какао', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo9.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo10.png" alt="">
+                        <p class="price">1490 т</p>
+                        <p>Раф Классический</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">300 мл</p>
+                        <button class="add" onclick="openModal(15, 'Раф Классический', '300 мл', 1490, 'URBO', 'MENU', '../../img/urbo/urbo6=10.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo10.png" alt="">
+                        <p class="price">1590 т</p>
+                        <p>Раф Классический</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="openModal(16, 'Раф Классический', '400 мл', 1590, 'URBO', 'MENU', '../../img/urbo/urbo6=10.png')"">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="center">
+            <div class="pro" data-category="tea" style="display: none;">
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo13.png" alt="">
+                        <p class="price">890 т</p>
+                        <p>Облепиховый чай</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(20, 'Облепиховый чай', '400 мл', 890, 'URBO', 'MENU', '../../img/urbo/urbo13.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo14.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Морокканский чай </p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(21, 'Морокканский чай', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo14.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo15.png" alt="">
+                        <p class="price">790 т</p>
+                        <p>Ташкентский чай</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(22, 'Ташкентский чай', '400 мл', 790, 'URBO', 'MENU', '../../img/urbo/urbo15.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo16.png" alt="">
+                        <p class="price">490 т</p>
+                        <p>Черный чай </p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(23, 'Черный чай', '400 мл', 490, 'URBO', 'MENU', '../../img/urbo/urbo16.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo17.png" alt="">
+                        <p class="price">490 т</p>
+                        <p>Зеленый чай</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(24, 'Облепиховый чай', '400 мл', 490, 'URBO', 'MENU', '../../img/urbo/urbo17.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo18.png" alt="">
+                        <p class="price">690 т</p>
+                        <p>Молочный улун</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(25, 'Молочный улун', '400 мл', 690, 'URBO', 'MENU', '../../img/urbo/urbo18.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/urbo19.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Черника с вишней</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(26, 'Черника с вишней', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo19.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo20.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Горный луг</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(27, 'Горный луг', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo20.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/urbo21.png" alt="">
+                        <p class="price">690 т</p>
+                        <p>Ягодный</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(28, 'Ягодный', '400 мл', 690, 'URBO', 'MENU', '../../img/urbo/urbo21.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="product">
+                    <img src="../../img/urbo/urbo22.png" alt="">
+                    <p class="price">690 т</p>
+                    <p>Земляника со сливками</p>
+                    <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                    <button class="add" onclick="addToBasketMain(29, 'Земляника со сливками', '400 мл', 690, 'URBO', 'MENU', '../../img/urbo/urbo22.png')">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="../../img/urbo/urbo23.png" alt="">
+                    <p class="price">690 т</p>
+                    <p>Ройбуш</p>
+                    <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                    <button class="add" onclick="addToBasketMain(30, 'Ройбуш', '400 мл', 690, 'URBO', 'MENU', '../../img/urbo/urbo23.png')">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="../../img/urbo/urbo24.png" alt="">
+                    <p class="price">990 т</p>
+                    <p>Тегуанинь</p>
+                    <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                    <button class="add" onclick="addToBasketMain(31, 'Тегуанинь', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/urbo24.png')">
+                        + Add
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="center">
+            <div class="pro" data-category="drink" style="display: none;">
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/cold1.png" alt="">
+                        <p class="price">1990 т</p>
+                        <p>Классик bubble tea</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(59, 'Классик bubble tea', '400 мл', 1990, 'URBO', 'MENU', '../../img/urbo/cold1.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/cold2.png" alt="">
+                        <p class="price">1990 т</p>
+                        <p>Матча bubble tea</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(60, 'Матча bubble tea', '400 мл', 1990, 'URBO', 'MENU', '../../img/urbo/cold2.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/cold3.png" alt="">
+                        <p class="price">1190 т</p>
+                        <p>Малиново-ванильный Алматино</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(61, 'Малиново-ванильный Алматино', '400 мл', 1190, 'URBO', 'MENU', '../../img/urbo/cold3.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/cold4.png" alt="">
+                        <p class="price">1790 т</p>
+                        <p>Орео Алматино</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(62, 'Орео Алматино', '400 мл', 1790, 'URBO', 'MENU', '../../img/urbo/cold4.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/cold5.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Классик Содовая</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(63, 'Классик Содовая', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/cold5.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/cold6.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Анчан Содовая</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(64, 'Анчан Содовая', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/cold6.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/cold7.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Blue curacao Содовая</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(65, 'Blue curacao Содовая', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/cold7.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/cold8.png" alt="">
+                        <p class="price">1190 т</p>
+                        <p>Малина Спрайт</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(66, 'Малина Спрайт', '400 мл', 1190, 'URBO', 'MENU', '../../img/urbo/cold8.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/cold9.png" alt="">
+                        <p class="price">1490 т</p>
+                        <p>Вишня-банан Смузи</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(67, 'Вишня-банан Смузи', '400 мл', 1490, 'URBO', 'MENU', '../../img/urbo/cold9.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/cold10.png" alt="">
+                        <p class="price">1490 т</p>
+                        <p>Киви Смузи</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(68, 'Киви Смузи', '400 мл', 1490, 'URBO', 'MENU', '../../img/urbo/cold10.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/cold11.png" alt="">
+                        <p class="price">1990 т</p>
+                        <p>Манго Смузи</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(69, 'Манго Смузи', '400 мл', 1990, 'URBO', 'MENU', '../../img/urbo/cold11.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/cold12.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Манго-маракуйя 
+                            Лимонад</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(70, 'Манго-маракуйя Лимонад', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/cold12.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="product">
+                        <img src="../../img/urbo/cold13.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Киви-лайм лимонад</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(71, 'Киви-лайм лимонад', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/cold13.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/cold14.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Ягодный микс лимонад</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(72, 'Ягодный микс лимонад', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/cold14.png')">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="../../img/urbo/cold15.png" alt="">
+                        <p class="price">990 т</p>
+                        <p>Мохито лимонад</p>
+                        <p style="margin-top: 10px; margin-bottom: 0; font-weight: 700;">400 мл</p>
+                        <button class="add" onclick="addToBasketMain(73, 'Мохито лимонад', '400 мл', 990, 'URBO', 'MENU', '../../img/urbo/cold15.png')">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="con">
+                <span class="close" onclick="closeModal()">&times;</span>
+
+                <h3 id="modal-name"></h3>
+                
+                <h5 id="hiddenProductName" style="display: none;"></h5>
+                <h5 id="hiddenProductPrice" style="display: none;"></h5>
+
+                <form id="caramel-form">
+                    <label for="caramel">
+                        <input type="checkbox" id="caramel" name="syrup" value="caramel">
+                        <span class="syrup-name">Карамель</span> <span class="plus-200">+200</span>
+                    </label>
+                    <label for="vanilla">
+                        <input type="checkbox" id="vanilla" name="syrup" value="cacao">
+                        <span class="syrup-name">Кокосовый</span> <span class="plus-200">+200</span>
+                    </label>
+                    <label for="vanilla">
+                        <input type="checkbox" id="vanilla" name="syrup" value="vanilla">
+                        <span class="syrup-name">Ванильный</span> <span class="plus-200">+200</span>
+                    </label>
+                    <label for="chocolate">
+                        <input type="checkbox" id="chocolate" name="syrup" value="chocolate">
+                        <span class="syrup-name">Шоколадный</span> <span class="plus-200">+200</span>
+                    </label>
+                    <label for="vanilla">
+                        <input type="checkbox" id="vanilla" name="syrup" value="salt vanilla">
+                        <span class="syrup-name">Соленая карамель</span> <span class="plus-200">+200</span>
+                    </label>
+                    <label for="vanilla">
+                        <input type="checkbox" id="vanilla" name="syrup" value="oreh vanilla">
+                        <span class="syrup-name">Ореховый</span> <span class="plus-200">+200</span>
+                    </label>
+                </form>
+
+                <button class="sadd" onclick="addToCart()">
+                    + Add
+                </button>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="addToBasket" style="display: none;">
+        <p id="basket-id"></p>
+        <p id="basket-name"></p>
+        <p id="basket-description"></p>
+        <p id="basket-price"></p>
+        <p id="basket-type"></p>
+        <p id="basket-menu"></p>
+        <img src="" id="basket-image">
+    </div>
+
+    <script src="../../script/product.js"></script>
+    <script src="../../script/basket.js"></script>
+    <script src="script/urbo.js"></script>
+    
+</body>
+</html>

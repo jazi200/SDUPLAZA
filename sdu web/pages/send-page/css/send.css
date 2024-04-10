@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 1440px;
+    /* height: 1024px; */
+    height: 100%;
+    margin: 0 auto;
+    background-color: #212153;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo{
+    margin-top: 247px;
+    margin-left: 156px;
+    margin-right: 156px;
+    width: 400px;
+    height: 506px;
+}
+
+button{
+    cursor: pointer;
+  }
+
+h1{
+    font-weight: 600;
+    color: #212153;
+    font-size: 48px;
+}
+
+p{
+    font-size: 20px;
+    color: #212153;
+    font-weight: 500;
+}
+
+.forgot{
+    height: 1024px;
+    width: 720px;
+    background-color: #fff;
+}
+
+.content{
+    margin: 0 auto;
+    margin-top: 220px;
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: center;
+}
+
+/* form{
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+    justify-content: center;
+} */
+
+.numbers{
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+    justify-content: center;
+}
+
+input[type="number"]{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 40px;
+    border-color: #212153;
+    color: #212153;
+}
+
+
+#checkBtn{
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    background-color: #212153;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+button{
+    background-color: transparent;
+    border-style: none;
+    color: #212153;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+
+.resend{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    color: #212153;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.resend a{
+    margin-top: 20px;
+    margin-left: 2px;
+}

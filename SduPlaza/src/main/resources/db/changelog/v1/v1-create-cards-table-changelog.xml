@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="v1-2" author="Sdu Plaza">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="cards"/>
+            </not>
+        </preConditions>
+
+        <createTable tableName="cards">
+            <column name="id" type="BIGSERIAL">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="created_at" type="timestamp" defaultValueComputed="now()">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_at" type="timestamp"/>
+            <column name="type" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="number" type="varchar(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="expiration_month" type="varchar(2)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="expiration_year" type="varchar(2)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="cvv" type="varchar(3)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_id" type="bigint">
+                <constraints
+                        foreignKeyName="fk_external_identities_users"
+                        referencedTableName="users"
+                        referencedColumnNames="id"
+                        nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

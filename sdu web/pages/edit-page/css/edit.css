@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 1440px;
+    /* height: 1024px; */
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+  }
+
+header img{
+    width: 22px;
+    height: 42px;
+    margin-left: -900px;
+}
+
+h1{
+    color: #212153;
+    font-size: 56px;
+    margin-top: -10px;
+}
+
+header{
+    display: flex;
+    margin-top: 100px;
+}
+
+.content{
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #F5F4F2;
+    margin-bottom: 100px;
+}
+
+.editProfile{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: start;
+    margin-top: 55px;
+    margin-left: 100px;
+}
+
+label{
+    color: #212153;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.buttons-container{
+    margin-top: 50px;
+}
+
+.edit{
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #212153;
+    border-radius: 20px;
+}
+
+.exit{
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #212153;
+    background-color: #fff;
+    border: #212153 solid 3px;
+    border-radius: 20px;
+}
+
+input{
+    width: 600px;
+    height: 60px;
+    background-color: #EEEFF3;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+.update{
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #212153;
+    border-radius: 20px;
+}
+
+.exit{
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #212153;
+    background-color: #fff;
+    border: #212153 solid 3px;
+    border-radius: 20px;
+}

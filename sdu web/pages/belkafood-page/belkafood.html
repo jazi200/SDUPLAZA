@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belka Food</title>
+    <link rel="stylesheet" href="css/belkafood.css">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="content">
+                <a href="profile.html">
+                    <img src="img/profile.png" alt="" class="profile">
+                </a>
+                <div class="search-bar" onclick="changeBorderColor()">
+                    <input type="text" placeholder="Search..">
+                    <a href=""><img src="img/searchf.png" alt=""></a>
+                </div>
+                <div class="basket" onclick="goToBasket()">
+                    <img src="img/basket.png" alt="" class="icon">
+                    <p>0T</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <menu>
+        <nav>
+            <ul>
+                <li><a href="redcoffee.html">Red Coffee</a></li>
+                <li><a href="urbo.html">Urbo</a></li>
+                <li><a href="redcanteen.html">Red Canteen</a></li>
+                <li><a href="donerhouse.html">Doner house</a></li>
+                <li><a href="">Sdu store</a></li>
+                <li><a href="belkafood.html" style="color: #212153;">Belka Food</a></li>
+                <li><a href="accatering.html">AcCatering</a></li>
+                <li><a href="greencanteen.html">Green Canteen</a></li>
+            </ul>
+        </nav>
+    </menu>
+
+    <img src="img/main.png" alt="" class="mainimg">
+
+    <div class="btns">
+        <div class="center">
+            <button class="filter-btn" data-category="pizza">PIZZA MENU</button>
+            <button class="filter-btn" data-category="doner">DONER MENU</button>
+            <button class="filter-btn" data-category="kombo">KOMBO</button>
+            <button class="filter-btn" data-category="food">FOOD MENU</button>
+        </div>
+    </div>
+
+    <section class="products">
+        <div class="center">
+
+            <div class="pro" data-category="pizza">
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/belka1.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2190 T (25cm)">
+                                2190 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2290 T (30cm)">
+                                2290 T (30cm)
+                              </label><br>
+                            <p>Маргарита</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/belka2.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2390 T (25cm)">
+                                2390 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2690 T (30cm)">
+                                2690 T (30cm)
+                              </label><br>
+                            <p>Пепперони</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/belka3.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2090 T (25cm)">
+                                2090 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2390 T (30cm)">
+                                2390 T (30cm)
+                              </label><br>
+                            <p>Сырная</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                </div>
+                
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/belka4.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2190 T (25cm)">
+                                2450 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2290 T (30cm)">
+                                2890 T (30cm)
+                              </label><br>
+                            <p>Грибная</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/belka5.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2390 T (25cm)">
+                                2450 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2690 T (30cm)">
+                                2890 T (30cm)
+                              </label><br>
+                            <p>Прошутто</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/belka6.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2090 T (25cm)">
+                                2690 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2390 T (30cm)">
+                                3090 T (30cm)
+                              </label><br>
+                            <p>4 сезона</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                </div>
+
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/belka7.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2190 T (25cm)">
+                                2750 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2290 T (30cm)">
+                                3290 T (30cm)
+                              </label><br>
+                            <p>Изабелла</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/belka8.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2390 T (25cm)">
+                                2750 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2690 T (30cm)">
+                                3090 T (30cm)
+                              </label><br>
+                            <p>Мексика</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/belka9.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2090 T (25cm)">
+                                2590 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2390 T (30cm)">
+                                3150 T (30cm)
+                              </label><br>
+                            <p>Пепперони (2x)</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                </div>
+
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/belka10.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2190 T (25cm)">
+                                2750 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2290 T (30cm)">
+                                3090 T (30cm)
+                              </label><br>
+                            <p>Цезарь</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/belka11.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2390 T (25cm)">
+                                2890 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2690 T (30cm)">
+                                3090 T (30cm)
+                              </label><br>
+                            <p>Мясная</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/belka12.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2090 T (25cm)">
+                                3190 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2390 T (30cm)">
+                                3590 T (30cm)
+                              </label><br>
+                            <p>Белка</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                </div>
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/belka13.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2190 T (25cm)">
+                                3350 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2290 T (30cm)">
+                                3590 T (30cm)
+                              </label><br>
+                            <p>Hawaii</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/belka14.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2390 T (25cm)">
+                                2450 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2690 T (30cm)">
+                                2890 T (30cm)
+                              </label><br>
+                            <p>Салями</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/belka15.png" alt="">
+                        <form action="#">
+                            <label>
+                                <input type="radio" name="option" value="2090 T (25cm)">
+                                2750 T (25cm)
+                              </label><br>
+                              <label>
+                                <input type="radio" name="option" value="2390 T (30cm)">
+                                3090 T (30cm)
+                              </label><br>
+                            <p>Болоньезе</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="center">
+
+            <div class="pro" data-category="doner" style="display: none;">
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/doner1.png" alt="">
+                            <p class="price">1290 T</p>
+                            <p>Куриный в лаваше</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/doner2.png" alt="">
+                        <p class="price">1390 T</p>
+                            <p>Говяжий в лаваше</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/doner3.png" alt="">
+                        <p class="price">1390 T</p>
+                            <p>Ассорти в лаваше</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                </div>
+                
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/doner4.png" alt="">
+                        <p class="price">1390 T</p>
+                            <p>Куриный в батоне</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/doner5.png" alt="">
+                        <p class="price">1490 T</p>
+                            <p>Говяжий в батоне</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/doner6.png" alt="">
+                        <p class="price">1490 T</p>
+                        <p>Ассорти в батоне</p>
+                        <button class="add">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/doner7.png" alt="">
+                        <p class="price">1900 T</p>
+                        <p style="margin-top: 0;">Донер куриный
+                            на тарелке</p>
+                        <button class="add">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/doner8.png" alt="">
+                        <p class="price">2100 T</p>
+                        <p style="margin-top: 0;">Донер говяжий 
+                            на тарелке</p>
+                        <button class="add">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/doner9.png" alt="">
+                        <p class="price">2200 T</p>
+                            <p style="margin-top: 0;">Донер ассорти
+                                на тарелке</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                </div>
+
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/doner10.png" alt="">
+                        <p class="price">990 T</p>
+                            <p>Чизбургер куриный</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/doner11.png" alt="">
+                        <p class="price">1050 T</p>
+                            <p>Чизбургер говяжий</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/doner12.png" alt="">
+                        <p class="price">1050 T</p>
+                            <p>Чизбургер наггетсы</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section> 
+
+    <section class="products">
+        <div class="center">
+
+            <div class="pro" data-category="kombo" style="display: none;">
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/kombo1.png" alt="">
+                        <p class="price">1590 T</p>
+                            <p style="font-size: 20px;">Куриный комбо
+                                (донер+суп+айран)</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/kombo1.png" alt="">
+                        <p class="price">1690 T</p>
+                            <p style="font-size: 20px;">Говяжий комбо
+                                (донер+суп+айран)</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/kombo1.png" alt="">
+                        <p class="price">1790 T</p>
+                            <p style="font-size: 20px;">Ассорти комбо
+                                (донер+суп+айран)</p>
+                            <button class="add">
+                                + Add
+                            </button>
+                    </div>
+                </div>
+                
+
+
+                <div class="first">
+                    <div class="product">
+                        <img src="img/belkafood/kombo2.png" alt="">
+                        <p class="price">2990 T</p>
+                        <p style="font-size: 20px;">Комбо бургер
+                            “FRIENDS”</p>
+                        <button class="add" onclick="openModal()">
+                            + Add
+                        </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/kombo3.png" alt="">
+                        <p class="price">3990 T</p>
+                            <p style="font-size: 20px;">Пицца комбо
+                                “EL CLASSICO”</p>
+                            <button class="add" onclick="opeenModal()">
+                                + Add
+                            </button>
+                    </div>
+                    <div class="product">
+                        <img src="img/belkafood/kombo4.png" alt="">
+                        <p class="price">4490 T</p>
+                        <p style="font-size: 20px;">Пицца комбо
+                            “OHANA”</p>
+                        <button class="add" onclick="opeeenModal()">
+                            + Add
+                        </button>
+                    </div>
+                </div>
+
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <div class="con">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <div class="f">
+                                <img src="img/belkafood/kombo2.png" alt="">
+                                <div class="txt">
+                                    <p class="name">Комбо бургер <br>
+                                        <b>“FRIENDS”</b></p>
+                                    <div class="ff">
+                                    <p class="price">
+                                        2990 T
+                                    </p>
+                                    <button class="add">
+                                        + Add
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                            <img src="img/line.png" alt="" class="lien">
+                            <p class="desc">Описание</p>
+                            <p class="xx">1 куриный/говяжий, 1 куриный/говяжий, фри на 2-их, напиток 1 л.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="myModal1" class="modal">
+                    <div class="modal-content">
+                        <div class="con">
+                            <span class="close" onclick="clooseModal()">&times;</span>
+                            <div class="f">
+                                <img src="img/belkafood/kombo3.png" alt="">
+                                <div class="txt">
+                                    <p class="name">Пицца комбо <br>
+                                        <b>“EL CLASSICO”</b></p>
+                                    <div class="ff">
+                                    <p class="price">
+                                        3990 T
+                                    </p>
+                                    <button class="add">
+                                        + Add
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                            <img src="img/line.png" alt="" class="lien">
+                            <p class="desc">Описание</p>
+                            <p class="xx">на выбор 30 см: грибная, пепперони, прошутто, сырная, маргарита, фри на 2-их, напиток 1л.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="myModal2" class="modal">
+                    <div class="modal-content">
+                        <div class="con">
+                            <span class="close" onclick="cloooseModal()">&times;</span>
+                            <div class="f">
+                                <img src="img/belkafood/kombo4.png" alt="">
+                                <div class="txt">
+                                    <p class="name">Пицца комбо <br>
+                                        <b>“OHANA”</b></p>
+                                    <div class="ff">
+                                    <p class="price">
+                                        4990 T
+                                    </p>
+                                    <button class="add">
+                                        + Add
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                            <img src="img/line.png" alt="" class="lien">
+                            <p class="desc">Описание</p>
+                            <p class="xx">на выбор 25 см: грибная, пепперони, прошутто, сырная, hawaii, маргарита, фри на 2-их, наггетсы, напиток 1л.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="center">
+            <div class="pro" data-category="food">
+            <div class="first">
+                <div class="product">
+                    <img src="img/belkafood/food1.png" alt="">
+                    <p class="price">590 т</p>
+                    <p>Завтрак домашний</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food2.png" alt="">
+                    <p class="price">590  т</p>
+                    <p>Завтрак английский</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food3.png" alt="">
+                    <p class="price">590 т</p>
+                    <p style="font-size: 25px;">Завтрак классический </p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+            </div>
+            <div class="first">
+                <div class="product">
+                    <img src="img/belkafood/food4.png" alt="">
+                    <p class="price">790 т</p>
+                    <p style="font-size: 25px;">Завтрак американский</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food5.png" alt="">
+                    <p class="price">650 т</p>
+                    <p>Фри</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food6.png" alt="">
+                    <p class="price">1250 т</p>
+                    <p>Хычины</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+            </div>
+            <div class="first">
+                <div class="product">
+                    <img src="img/belkafood/food7.png" alt="">
+                    <p class="price">1390 т</p>
+                    <p>Наггетсы 5 шт</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food8.png" alt="">
+                    <p class="price">1150 т</p>
+                    <p>Тако с фри</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food9.png" alt="">
+                    <p class="price">450 т</p>
+                    <p>Фруктовая
+                        нарезка</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+            </div>
+            <div class="first">
+                <div class="product">
+                    <img src="img/belkafood/food10.png" alt="">
+                    <p class="price">1390 т</p>
+                    <p>Сырные палочки</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food11.png" alt="">
+                    <p class="price">490 т</p>
+                    <p>Тост с колбасой</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food12.png" alt="">
+                    <p class="price">490 т</p>
+                    <p>Тост с сыром </p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+            </div>
+            <div class="first">
+                <div class="product">
+                    <img src="img/belkafood/food13.png" alt="">
+                    <p class="price">690 т</p>
+                    <p>Тост ассорти</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food14.png" alt="">
+                    <p class="price">990 т</p>
+                    <p>Пиде с сыром</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food15.png" alt="">
+                    <p class="price">990 т</p>
+                    <p>Пиде с яйцом</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+            </div>
+            <div class="first">
+                <div class="product">
+                    <img src="img/belkafood/food16.png" alt="">
+                    <p class="price">1090 т</p>
+                    <p>Пиде с колбасой</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food17.png" alt="">
+                    <p class="price">1090 т</p>
+                    <p>Пиде с курицей</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food18.png" alt="">
+                    <p class="price">1190 т</p>
+                    <p>Пиде с мясом</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+            </div>
+            <div class="first">
+                <div class="product">
+                    <img src="img/belkafood/food19.png" alt="">
+                    <p class="price">1150 т</p>
+                    <p>Пиде с фаршем</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/belkafood/food20.png" alt="">
+                    <p class="price">650 т</p>
+                    <p>Чечевичный суп</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="img/redcanteen/img20.png" alt="">
+                    <p class="price">280 т</p>
+                    <p>Слойка творогом</p>
+                    <button class="add">
+                        + Add
+                    </button>
+                </div>
+            </div>
+             </div>
+        </div>
+    </section>
+
+    <script src="script/belkafood.js"></script>
+
+</body>
+</html>

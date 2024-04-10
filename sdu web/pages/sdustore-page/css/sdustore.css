@@ -1,0 +1,395 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 1440px;
+    /* height: 1024px; */
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F4F2;
+    text-align: center;
+    position: relative; 
+}
+
+.container{
+    width: 1340px;
+    margin: 0 auto;
+}
+
+
+button{
+  cursor: pointer;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    background-color: transparent;
+}
+
+.profile{
+    width: 64px;
+    height: 64px; 
+}
+
+.basket{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 70px;
+    background-color: #212153;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon{
+    width: 44px;
+    height: 33px;
+    margin-top: 16px;
+    margin-right: 23px;
+}
+
+.basket p{
+    margin-top: 13px;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.search-bar input{
+    width: 797px;
+    height: 70px;
+    /* background-color: #FFFFFF; */
+     border-radius: 30px;
+    border-color: transparent;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #212153;
+  } 
+
+  input:focus {
+    outline-color: #212153;
+  }
+  
+  .search-bar img{
+    width: 50px;
+    height: 50px;
+    margin-right: -100px;
+    margin-top: 15px;
+  }
+
+  ul{
+    max-width: 1336px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+  a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+  }
+
+  menu{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  .mainimg{
+    width: 1200px;
+    height: 300px;
+    margin-top: 40px;
+  }
+
+  h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #212153;
+    margin-top: 44px;
+    margin-bottom: 60px;
+  }
+
+  .center{
+    width: 1415px; /* Set the width */
+    margin: 0 auto;
+  }
+
+  section{
+    margin-top: 50px;
+  }
+
+ 
+  .first{
+    max-width: 1415px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  .product{
+    width: 350px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+
+  .product .size{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 0;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    margin-left: 220px;
+    margin-bottom: 27px;
+  }
+
+  .product p{
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  
+  .b{
+    font-weight: bolder;
+  }
+
+  .price{
+    font-weight: bolder;
+  }
+
+  .add{
+    width: 280px;
+    height: 60px;
+    background-color: #212153;
+    border-style: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .btns{
+    display: flex;
+    margin-top: 42px;
+  }
+
+  .btns button{
+    width: 200px;
+    color: #212153;
+    text-decoration: none;
+    border: #212153 3px solid;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+
+  .btns button:focus {
+    background-color: #212153; 
+    color: white; 
+}
+
+
+
+
+.modal {
+    position: absolute;
+    top: 50%; /* adjust as needed */
+    left: 50%; /* adjust as needed */
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 400px;
+}
+
+.block{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.close {
+    font-size: 38px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    margin-left: 200px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.close:hover {
+    color: #000;
+} 
+
+.product {
+  position: relative; /* ensure product container is positioned relative */
+}
+
+.block1{
+  display: flex;
+  width: 192px;
+  justify-content: space-between;
+  margin-left: 79px;
+  margin-top: 11px;
+}
+
+.block1 button{
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  width: 50px;
+  height: 50px;
+}
+
+.block1 button:focus{
+  border: 1px black solid;
+}
+
+.Add{
+    width: 350px;
+    height: 60px;
+    background-color: #212153;
+    border-style: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 17px;
+}
+
+
+.moredetail{
+  display: flex;
+  width: 1072px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.moredetail img{
+  width: 600px;
+  height: 600px;
+}
+
+.details{
+  width: 390px;
+  height: 570px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 30px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.details p{
+  margin-top: 40px;
+}
+
+.colors{
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sizes{
+  display: flex;
+  width: 192px;
+  justify-content: space-between;
+}
+
+.sizes button{
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  width: 50px;
+  height: 50px;
+}
+
+.sizes button:focus{
+  border: 1px black solid;
+}
+
+.colors button{
+  width: 50px;
+  height: 50px;
+}
+
+.white{
+  background-color: #fff;
+  border: 1px #404C64 solid;
+}
+
+.blue{
+  background-color: #404C64;
+  border: none;
+}
+
+.black{
+  background-color: #000;
+  border: none;
+}
+
+.gray{
+  background-color: #C3C3C3;
+  border: none;
+}
+
+.white:focus{
+  border: 3px black solid;
+}
+
+.black:focus{
+  border: 3px white solid;
+}
+
+.blue:focus{
+  border: 3px white solid;
+}
+
+.gray:focus{
+  border: 3px white solid;
+}
+
+
+.kosu{
+  background-color: transparent;
+  border: none;
+  margin-left: 190px;
+}
+

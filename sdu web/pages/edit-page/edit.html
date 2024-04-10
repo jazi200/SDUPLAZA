@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/edit.css">
+</head>
+<body>
+    <header>
+        <a href="../profile-page/profile.html"><img src="../../img/undo.png" alt="" class="undo"></a>
+        <h1>My Profile</h1>
+    </header>
+
+    <section class="content">
+        <div id="editPage" class="editProfile">
+            <label>Username:</label>
+            <input type="text" id="editUsername" placeholder="Username">
+            <label>Email:</label>
+            <input type="email" id="editEmail" placeholder="Email">
+            <label>ID:</label>
+            <input type="text" id="editId" placeholder="ID">
+            <div class="btns">
+                <button id="updateBtn" class="update">Update Information</button>
+                <button id="exitEditBtn" class="exit">Exit</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script/edit.js"></script>
+</body>
+</html>
