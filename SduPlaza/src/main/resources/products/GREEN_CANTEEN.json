@@ -1,0 +1,326 @@
+[
+  {
+    "id": 318,
+    "name": "Хот дог",
+    "description": null,
+    "price": "600",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link1"
+  },
+  {
+    "id": 319,
+    "name": "Француз булочка",
+    "description": null,
+    "price": "280",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link2"
+  },
+  {
+    "id": 320,
+    "name": "Пиде",
+    "description": null,
+    "price": "290",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link3"
+  },
+  {
+    "id": 321,
+    "name": "Самса с сыром",
+    "description": null,
+    "price": "320",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link4"
+  },
+  {
+    "id": 322,
+    "name": "Самса с курицей",
+    "description": null,
+    "price": "320",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link5"
+  },
+  {
+    "id": 323,
+    "name": "Самса с мясом",
+    "description": null,
+    "price": "320",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link6"
+  },
+  {
+    "id": 324,
+    "name": "Корверт колбаса",
+    "description": null,
+    "price": "280",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link7"
+  },
+  {
+    "id": 325,
+    "name": "Слойка с яблока",
+    "description": null,
+    "price": "280",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link8"
+  },
+  {
+    "id": 326,
+    "name": "Сэндвич куриный",
+    "description": null,
+    "price": "470",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link9"
+  },
+  {
+    "id": 327,
+    "name": "Поча с картошкой",
+    "description": null,
+    "price": "220",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link10"
+  },
+  {
+    "id": 328,
+    "name": "Поча с сыром",
+    "description": null,
+    "price": "220",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link11"
+  },
+  {
+    "id": 329,
+    "name": "Пастич",
+    "description": null,
+    "price": "260",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link12"
+  },
+  {
+    "id": 330,
+    "name": "Уйгурская самса с мясом",
+    "description": null,
+    "price": "269",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link13"
+  },
+  {
+    "id": 331,
+    "name": "Сосиска в тесте слоеном",
+    "description": null,
+    "price": "220",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link14"
+  },
+  {
+    "id": 332,
+    "name": "Сосиска в тесте жареная",
+    "description": null,
+    "price": "260",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link15"
+  },
+  {
+    "id": 333,
+    "name": "Вартушка",
+    "description": null,
+    "price": "250",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link16"
+  },
+  {
+    "id": 334,
+    "name": "Лакомка",
+    "description": null,
+    "price": "250",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link17"
+  },
+  {
+    "id": 335,
+    "name": "Курассан шокалад",
+    "description": null,
+    "price": "350",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link18"
+  },
+  {
+    "id": 336,
+    "name": "Лаваш мясом",
+    "description": null,
+    "price": "450",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link19"
+  },
+  {
+    "id": 337,
+    "name": "Ачма шоколад",
+    "description": null,
+    "price": "270",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link20"
+  },
+  {
+    "id": 338,
+    "name": "Слойка творогом",
+    "description": null,
+    "price": "280",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link21"
+  },
+  {
+    "id": 339,
+    "name": "Сладкий картошка",
+    "description": null,
+    "price": "200",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link1"
+  },
+  {
+    "id": 340,
+    "name": "Молочная девочка",
+    "description": null,
+    "price": "500",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link2"
+  },
+  {
+    "id": 341,
+    "name": "Пахлава",
+    "description": null,
+    "price": "300",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link3"
+  },
+  {
+    "id": 342,
+    "name": "Фисташковы пирог",
+    "description": null,
+    "price": "700",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link4"
+  },
+  {
+    "id": 343,
+    "name": "Напалеон",
+    "description": null,
+    "price": "500",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link5"
+  },
+  {
+    "id": 344,
+    "name": "Рулет",
+    "description": null,
+    "price": "450",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link6"
+  },
+  {
+    "id": 345,
+    "name": "Медовый",
+    "description": null,
+    "price": "450",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link7"
+  },
+  {
+    "id": 346,
+    "name": "Пончик",
+    "description": null,
+    "price": "160",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link8"
+  },
+  {
+    "id": 347,
+    "name": "Блины",
+    "description": null,
+    "price": "120",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link9"
+  },
+  {
+    "id": 348,
+    "name": "Вупипай",
+    "description": null,
+    "price": "600",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link10"
+  },
+  {
+    "id": 349,
+    "name": "Испанский чизкейк",
+    "description": null,
+    "price": "900",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link11"
+  },
+  {
+    "id": 350,
+    "name": "Тварожный чизкейк",
+    "description": null,
+    "price": "600",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link12"
+  },
+  {
+    "id": 351,
+    "name": "Сеикерс",
+    "description": null,
+    "price": "600",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link13"
+  },
+  {
+    "id": 352,
+    "name": "Прага",
+    "description": null,
+    "price": "500",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link14"
+  },
+  {
+    "id": 353,
+    "name": "Карамель",
+    "description": null,
+    "price": "400",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link15"
+  }
+]

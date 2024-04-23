@@ -43,20 +43,22 @@ function displayBasketItems(basket) {
     productDiv.classList.add('product');
 
     productDiv.innerHTML = `
-      <div class="line">
-        <img src="${item.image}" alt="${item.name}">
-        <div class="txt">
-          <p class="name">${item.name}</p>
-          <p class="price">${item.price} т</p>
-        </div>
-        <div class="counter">
-          <button class="decrement" onclick="decrement('${item.id}')">-</button>
-          <div class="value">${item.quantity}</div>
-          <button class="increment" onclick="increment('${item.id}')">+</button>
-        </div>
+    <div class="line">
+      <img src="../../../img/${item.type}/${item.menu}/${item.image}.png" alt="${item.name}">
+      <div class="txt">
+        <p class="name">${item.name}</p>
+        <p class="price">${item.price} т</p>
+        <p class="desc">${item.description} т</p>
       </div>
-      <img src="../../img/line.png" alt="" class="separator">
+      <div class="counter">
+        <button class="decrement" onclick="decrement('${item.id}')">-</button>
+        <div class="value">${item.quantity}</div>
+        <button class="increment" onclick="increment('${item.id}')">+</button>
+      </div>
+    </div>
+    <img src="../../img/line.png" alt="" class="separator">
     `;
+    
 
     contentSection.appendChild(productDiv);
   });

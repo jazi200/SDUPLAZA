@@ -17,6 +17,7 @@ body{
 }
 
 
+
 button{
   cursor: pointer;
 }
@@ -66,8 +67,7 @@ button{
 .search-bar input{
     width: 797px;
     height: 70px;
-    /* background-color: #FFFFFF; */
-     border-radius: 30px;
+    border-radius: 30px;
     border-color: transparent;
     text-align: center;
     font-size: 24px;
@@ -120,34 +120,29 @@ button{
     margin-bottom: 60px;
   }
 
-  .center{
-    width: 1197px; /* Set the width */
-    margin: 0 auto;
-  }
-
   section{
     margin-top: 50px;
   }
 
- 
-  .first{
-    max-width: 1197px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-  }
 
+  .pro{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
   .product{
     width: 350px;
     height: 550px;
+    margin-right: 25px;
+    margin-left: 25px;
     background-color: #fff;
     border-radius: 20px;
+    padding-top: 35px;
+    margin-bottom: 67px;
   }
-
-  .product img{
-    margin-top: 42px;
-  }
-
+  
   .product .price{
     font-size: 32px;
     font-weight: 600;
@@ -156,14 +151,23 @@ button{
     margin-bottom: 0;
     margin-top: 30px;
   }
-
+  
+  .product .size{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+  
   .products p{
     font-size: 28px;
     font-weight: 500;
     text-align: left;
     margin-left: 40px;
-    margin-top: 10px;
-    margin-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 0;
   }
 
   .add{
@@ -175,15 +179,21 @@ button{
     color: #fff;
     font-size: 24px;
     font-weight: 900;
-  }
+    margin-top: 25px;
+  } 
 
   .btns{
     display: flex;
-    margin-top: 42px;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    max-width: 598px;
+    margin: 0 auto;
+    margin-top: 50px;
   }
 
   .btns button{
-    width: 200px;
+    width: 264px;
+    height: 67px;
     color: #212153;
     text-decoration: none;
     border: #212153 3px solid;
@@ -194,13 +204,12 @@ button{
     font-weight: bold;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-right: 35px;
-    margin-left: 35px;
   }
 
   .btns button:focus {
     background-color: #212153; 
     color: white; 
 }
+
 
 

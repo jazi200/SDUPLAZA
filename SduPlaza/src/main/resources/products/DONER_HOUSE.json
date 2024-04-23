@@ -1,0 +1,488 @@
+[
+  {
+    "id": 264,
+    "name": "Маргарита",
+    "description": "25 см, 30см",
+    "price": "2190, 2290",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 265,
+    "name": "Пепперони",
+    "description": "25 см, 30см",
+    "price": "2390, 2690",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 266,
+    "name": "Сырная",
+    "description": "25 см, 30см",
+    "price": "2090, 2390",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 267,
+    "name": "Грибная",
+    "description": "25 см, 30см",
+    "price": "2450, 2890",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 268,
+    "name": "Прошутто",
+    "description": "25 см, 30см",
+    "price": "2450, 2890",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 269,
+    "name": "4 сезона",
+    "description": "25 см, 30см",
+    "price": "2690, 3090",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 270,
+    "name": "Изабелла",
+    "description": "25 см, 30см",
+    "price": "2750, 3290",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 271,
+    "name": "Мексика",
+    "description": "25 см, 30см",
+    "price": "2750, 3090",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 272,
+    "name": "Пепперони(2х)",
+    "description": "25 см, 30см",
+    "price": "2590, 3150",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 273,
+    "name": "Цезарь",
+    "description": "25 см, 30см",
+    "price": "2750, 3090",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 274,
+    "name": "Мясная",
+    "description": "25 см, 30см",
+    "price": "2890, 3090",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 275,
+    "name": "Белка",
+    "description": "25 см, 30см",
+    "price": "3190, 3590",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 276,
+    "name": "Hawaii",
+    "description": "25 см, 30см",
+    "price": "3350, 3590",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link13"
+  },
+  {
+    "id": 277,
+    "name": "Салями",
+    "description": "25 см, 30см",
+    "price": "2450, 2890",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link14"
+  },
+  {
+    "id": 278,
+    "name": "Болоньезе",
+    "description": "25 см, 30см",
+    "price": "2750, 3090",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link15"
+  },
+  {
+    "id": 279,
+    "name": "Куриный в лаваше",
+    "description": null,
+    "price": "1290",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 280,
+    "name": "Говяжий в лаваше",
+    "description": null,
+    "price": "1390",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 281,
+    "name": "Ассорти в лаваше",
+    "description": null,
+    "price": "1390",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 282,
+    "name": "Куриный в батоне",
+    "description": null,
+    "price": "1390",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 283,
+    "name": "Говяжий в батоне",
+    "description": null,
+    "price": "1490",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 284,
+    "name": "Ассорти в батоне",
+    "description": null,
+    "price": "1490",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 285,
+    "name": "Донер куриный на тарелке",
+    "description": null,
+    "price": "1900",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 286,
+    "name": "Донер говяжий на тарелке",
+    "description": null,
+    "price": "2100",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 287,
+    "name": "Донер ассорти на тарелке",
+    "description": null,
+    "price": "2200",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 288,
+    "name": "Чизбургер куриный",
+    "description": null,
+    "price": "990",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 289,
+    "name": "Чизбургер говяжий",
+    "description": null,
+    "price": "1050",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 290,
+    "name": "Чизбургер наггетсы",
+    "description": null,
+    "price": "1050",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 291,
+    "name": "Куриный комбо(донер+суп+айран)",
+    "description": null,
+    "price": "1590",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link1"
+  },
+  {
+    "id": 292,
+    "name": "Говяжий комбо(донер+суп+айран)",
+    "description": null,
+    "price": "1690",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link2"
+  },
+  {
+    "id": 293,
+    "name": "Ассорти комбо(донер+суп+айран)",
+    "description": null,
+    "price": "1790",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link3"
+  },
+  {
+    "id": 294,
+    "name": "Комбо бургер(FRIENDS)",
+    "description": null,
+    "price": "2990",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link4"
+  },
+  {
+    "id": 295,
+    "name": "Пицца комбо(EL CLASSICO)",
+    "description": null,
+    "price": "3990",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link5"
+  },
+  {
+    "id": 296,
+    "name": "Пицца комбо(OHANA)",
+    "description": null,
+    "price": "4490",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link6"
+  },
+  {
+    "id": 297,
+    "name": "Хот дог",
+    "description": null,
+    "price": "600",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 298,
+    "name": "Француз булочка",
+    "description": null,
+    "price": "280",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 299,
+    "name": "Пиде",
+    "description": null,
+    "price": "290",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 300,
+    "name": "Самса с сыром",
+    "description": null,
+    "price": "320",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 301,
+    "name": "Самса с курицей",
+    "description": null,
+    "price": "320",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 302,
+    "name": "Самса с мясом",
+    "description": null,
+    "price": "320",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 303,
+    "name": "Корверт колбаса",
+    "description": null,
+    "price": "280",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 304,
+    "name": "Слойка с яблока",
+    "description": null,
+    "price": "280",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 305,
+    "name": "Сэндвич куриный",
+    "description": null,
+    "price": "470",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 306,
+    "name": "Поча с картошкой",
+    "description": null,
+    "price": "220",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 307,
+    "name": "Поча с сыром",
+    "description": null,
+    "price": "220",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 308,
+    "name": "Пастич",
+    "description": null,
+    "price": "260",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 309,
+    "name": "Уйгурская самса с мясом",
+    "description": null,
+    "price": "269",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link13"
+  },
+  {
+    "id": 310,
+    "name": "Сосиска в тесте слоеном",
+    "description": null,
+    "price": "220",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link14"
+  },
+  {
+    "id": 311,
+    "name": "Сосиска в тесте жареная",
+    "description": null,
+    "price": "260",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link15"
+  },
+  {
+    "id": 312,
+    "name": "Вартушка",
+    "description": null,
+    "price": "250",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link16"
+  },
+  {
+    "id": 313,
+    "name": "Лакомка",
+    "description": null,
+    "price": "250",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link17"
+  },
+  {
+    "id": 314,
+    "name": "Курассан шокалад",
+    "description": null,
+    "price": "350",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link18"
+  },
+  {
+    "id": 315,
+    "name": "Лаваш мясом",
+    "description": null,
+    "price": "450",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link19"
+  },
+  {
+    "id": 316,
+    "name": "Ачма шоколад",
+    "description": null,
+    "price": "270",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link20"
+  },
+  {
+    "id": 317,
+    "name": "Слойка творогом",
+    "description": null,
+    "price": "280",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link21"
+  }
+]

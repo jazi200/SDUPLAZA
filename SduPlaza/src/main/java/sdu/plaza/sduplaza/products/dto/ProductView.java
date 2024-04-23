@@ -1,6 +1,7 @@
 package sdu.plaza.sduplaza.products.dto;
 
 import lombok.*;
+import sdu.plaza.sduplaza.products.enums.ProductMenu;
 import sdu.plaza.sduplaza.products.enums.ProductType;
 
 @Getter
@@ -10,12 +11,13 @@ import sdu.plaza.sduplaza.products.enums.ProductType;
 @Builder
 public class ProductView  {
 
-    private Integer amount;
+    private Long id;
     private String name;
     private String description;
-    private Double price;
+    private String price;
     private ProductType type;
-    private String menu;
+    private ProductMenu menu;
+    private Integer amount;
     private String image;
 
 }

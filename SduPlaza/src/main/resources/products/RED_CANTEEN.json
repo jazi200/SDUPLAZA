@@ -1,0 +1,326 @@
+[
+  {
+    "id": 149,
+    "name": "Хот дог",
+    "description": null,
+    "price": "600",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link1"
+  },
+  {
+    "id": 150,
+    "name": "Француз булочка",
+    "description": null,
+    "price": "280",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link2"
+  },
+  {
+    "id": 151,
+    "name": "Пиде",
+    "description": null,
+    "price": "290",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link3"
+  },
+  {
+    "id": 152,
+    "name": "Самса с сыром",
+    "description": null,
+    "price": "320",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link4"
+  },
+  {
+    "id": 153,
+    "name": "Самса с курицей",
+    "description": null,
+    "price": "320",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link5"
+  },
+  {
+    "id": 154,
+    "name": "Самса с мясом",
+    "description": null,
+    "price": "320",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link6"
+  },
+  {
+    "id": 155,
+    "name": "Корверт колбаса",
+    "description": null,
+    "price": "280",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link7"
+  },
+  {
+    "id": 156,
+    "name": "Слойка с яблока",
+    "description": null,
+    "price": "280",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link8"
+  },
+  {
+    "id": 157,
+    "name": "Сэндвич куриный",
+    "description": null,
+    "price": "470",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link9"
+  },
+  {
+    "id": 158,
+    "name": "Поча с картошкой",
+    "description": null,
+    "price": "220",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link10"
+  },
+  {
+    "id": 159,
+    "name": "Поча с сыром",
+    "description": null,
+    "price": "220",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link11"
+  },
+  {
+    "id": 160,
+    "name": "Пастич",
+    "description": null,
+    "price": "260",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link12"
+  },
+  {
+    "id": 161,
+    "name": "Уйгурская самса с мясом",
+    "description": null,
+    "price": "269",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link13"
+  },
+  {
+    "id": 162,
+    "name": "Сосиска в тесте слоеном",
+    "description": null,
+    "price": "220",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link14"
+  },
+  {
+    "id": 163,
+    "name": "Сосиска в тесте жареная",
+    "description": null,
+    "price": "260",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link15"
+  },
+  {
+    "id": 164,
+    "name": "Вартушка",
+    "description": null,
+    "price": "250",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link16"
+  },
+  {
+    "id": 165,
+    "name": "Лакомка",
+    "description": null,
+    "price": "250",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link17"
+  },
+  {
+    "id": 166,
+    "name": "Курассан шокалад",
+    "description": null,
+    "price": "350",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link18"
+  },
+  {
+    "id": 167,
+    "name": "Лаваш мясом",
+    "description": null,
+    "price": "450",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link19"
+  },
+  {
+    "id": 168,
+    "name": "Ачма шоколад",
+    "description": null,
+    "price": "270",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link20"
+  },
+  {
+    "id": 169,
+    "name": "Слойка творогом",
+    "description": null,
+    "price": "280",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link21"
+  },
+  {
+    "id": 170,
+    "name": "Сладкий картошка",
+    "description": null,
+    "price": "200",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link1"
+  },
+  {
+    "id": 171,
+    "name": "Молочная девочка",
+    "description": null,
+    "price": "500",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link2"
+  },
+  {
+    "id": 172,
+    "name": "Пахлава",
+    "description": null,
+    "price": "300",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link3"
+  },
+  {
+    "id": 173,
+    "name": "Фисташковы пирог",
+    "description": null,
+    "price": "700",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link4"
+  },
+  {
+    "id": 174,
+    "name": "Напалеон",
+    "description": null,
+    "price": "500",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link5"
+  },
+  {
+    "id": 175,
+    "name": "Рулет",
+    "description": null,
+    "price": "450",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link6"
+  },
+  {
+    "id": 176,
+    "name": "Медовый",
+    "description": null,
+    "price": "450",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link7"
+  },
+  {
+    "id": 177,
+    "name": "Пончик",
+    "description": null,
+    "price": "160",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link8"
+  },
+  {
+    "id": 178,
+    "name": "Блины",
+    "description": null,
+    "price": "120",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link9"
+  },
+  {
+    "id": 179,
+    "name": "Вупипай",
+    "description": null,
+    "price": "600",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link10"
+  },
+  {
+    "id": 180,
+    "name": "Испанский чизкейк",
+    "description": null,
+    "price": "900",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link11"
+  },
+  {
+    "id": 181,
+    "name": "Тварожный чизкейк",
+    "description": null,
+    "price": "600",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link12"
+  },
+  {
+    "id": 182,
+    "name": "Сеикерс",
+    "description": null,
+    "price": "600",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link13"
+  },
+  {
+    "id": 183,
+    "name": "Прага",
+    "description": null,
+    "price": "500",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link14"
+  },
+  {
+    "id": 184,
+    "name": "Карамель",
+    "description": null,
+    "price": "400",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link15"
+  }
+]

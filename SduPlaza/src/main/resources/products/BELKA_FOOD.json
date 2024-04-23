@@ -1,0 +1,479 @@
+[
+  {
+    "id": 185,
+    "name": "Маргарита",
+    "description": " ",
+    "price": "2190, 2290",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 186,
+    "name": "Пепперони",
+    "description": " ",
+    "price": "2390, 2690",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 187,
+    "name": "Сырная",
+    "description": " ",
+    "price": "2090, 2390",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 188,
+    "name": "Грибная",
+    "description": " ",
+    "price": "2450, 2890",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 189,
+    "name": "Прошутто",
+    "description": " ",
+    "price": "2450, 2890",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 190,
+    "name": "4 сезона",
+    "description": " ",
+    "price": "2690, 3090",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 191,
+    "name": "Изабелла",
+    "description": " ",
+    "price": "2750, 3290",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 192,
+    "name": "Мексика",
+    "description": " ",
+    "price": "2750, 3090",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 193,
+    "name": "Пепперони(2х)",
+    "description": " ",
+    "price": "2590, 3150",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 194,
+    "name": "Цезарь",
+    "description": " ",
+    "price": "2750, 3090",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 195,
+    "name": "Мясная",
+    "description": " ",
+    "price": "2890, 3090",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 196,
+    "name": "Белка",
+    "description": " ",
+    "price": "3190, 3590",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 197,
+    "name": "Hawaii",
+    "description": " ",
+    "price": "3350, 3590",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link13"
+  },
+  {
+    "id": 198,
+    "name": "Салями",
+    "description": " ",
+    "price": "2450, 2890",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link14"
+  },
+  {
+    "id": 199,
+    "name": "Болоньезе",
+    "description": " ",
+    "price": "2750, 3090",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link15"
+  },
+  {
+    "id": 200,
+    "name": "Куриный в лаваше",
+    "description": " ",
+    "price": "1290",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 201,
+    "name": "Говяжий в лаваше",
+    "description": " ",
+    "price": "1390",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 202,
+    "name": "Ассорти в лаваше",
+    "description": " ",
+    "price": "1390",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 203,
+    "name": "Куриный в батоне",
+    "description": " ",
+    "price": "1390",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 204,
+    "name": "Говяжий в батоне",
+    "description": " ",
+    "price": "1490",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 205,
+    "name": "Ассорти в батоне",
+    "description": " ",
+    "price": "1490",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 206,
+    "name": "Донер куриный на тарелке",
+    "description": " ",
+    "price": "1900",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 207,
+    "name": "Донер говяжий на тарелке",
+    "description": " ",
+    "price": "2100",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 208,
+    "name": "Донер ассорти на тарелке",
+    "description": " ",
+    "price": "2200",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 209,
+    "name": "Чизбургер куриный",
+    "description": " ",
+    "price": "990",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 210,
+    "name": "Чизбургер говяжий",
+    "description": " ",
+    "price": "1050",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 211,
+    "name": "Чизбургер наггетсы",
+    "description": " ",
+    "price": "1050",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 212,
+    "name": "Куриный комбо(донер+суп+айран)",
+    "description": " ",
+    "price": "1590",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link1"
+  },
+  {
+    "id": 213,
+    "name": "Говяжий комбо(донер+суп+айран)",
+    "description": " ",
+    "price": "1690",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link2"
+  },
+  {
+    "id": 214,
+    "name": "Ассорти комбо(донер+суп+айран)",
+    "description": " ",
+    "price": "1790",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link3"
+  },
+  {
+    "id": 215,
+    "name": "Комбо бургер(FRIENDS)",
+    "description": " ",
+    "price": "2990",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link4"
+  },
+  {
+    "id": 216,
+    "name": "Пицца комбо(EL CLASSICO)",
+    "description": " ",
+    "price": "3990",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link5"
+  },
+  {
+    "id": 217,
+    "name": "Пицца комбо(OHANA)",
+    "description": " ",
+    "price": "4490",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link6"
+  },
+  {
+    "id": 218,
+    "name": "Завтрак домашний",
+    "description": " ",
+    "price": "590",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 219,
+    "name": "Завтрак англиский",
+    "description": " ",
+    "price": "590",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 220,
+    "name": "Завтрак классический",
+    "description": " ",
+    "price": "590",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 221,
+    "name": "Завтрак американский",
+    "description": " ",
+    "price": "790",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 222,
+    "name": "Фри",
+    "description": " ",
+    "price": "650",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 223,
+    "name": "Хычины",
+    "description": " ",
+    "price": "1250",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 224,
+    "name": "Наггетсы 5 шт",
+    "description": " ",
+    "price": "1390",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 225,
+    "name": "Тако с фри",
+    "description": " ",
+    "price": "1150",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 226,
+    "name": "Фруктовая нарезка",
+    "description": " ",
+    "price": "450",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 227,
+    "name": "Сырные палочки",
+    "description": " ",
+    "price": "1390",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 228,
+    "name": "Тост с колбасой",
+    "description": " ",
+    "price": "490",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 229,
+    "name": "Тост с сыром",
+    "description": " ",
+    "price": "490",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 230,
+    "name": "Тост ассорти",
+    "description": " ",
+    "price": "690",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link13"
+  },
+  {
+    "id": 231,
+    "name": "Пиде с сыром",
+    "description": " ",
+    "price": "990",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link14"
+  },
+  {
+    "id": 232,
+    "name": "Пиде с яйцом",
+    "description": " ",
+    "price": "990",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link15"
+  },
+  {
+    "id": 233,
+    "name": "Пиде с колбасой",
+    "description": " ",
+    "price": "1090",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link16"
+  },
+  {
+    "id": 234,
+    "name": "Пиде с курицей",
+    "description": " ",
+    "price": "1090",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link17"
+  },
+  {
+    "id": 235,
+    "name": "Пиде с мясом",
+    "description": " ",
+    "price": "1190",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link18"
+  },
+  {
+    "id": 236,
+    "name": "Пиде с фаршем",
+    "description": " ",
+    "price": "1150",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link19"
+  },
+  {
+    "id": 237,
+    "name": "Чечевичный суп",
+    "description": " ",
+    "price": "650",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link20"
+  }
+]

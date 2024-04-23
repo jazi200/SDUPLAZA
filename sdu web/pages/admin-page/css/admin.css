@@ -21,6 +21,8 @@ button{
 
 .con{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header{
@@ -40,6 +42,9 @@ h1{
     font-weight: 600;
     margin-left: 30px;
     padding-top: 30px;
+}
+.left, .right{
+    display: flex;
 }
 
 .btn{
@@ -62,25 +67,28 @@ h1{
 
 
 
-.first{
-    width: 1231px;
-    margin: 0 auto;
+.details{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin: 0px !important;
+    padding: 0px 40px !important;
 }
-
-
-
-.order{
-    width: 600px;
-    height: 520px;
-    background-color: #fff;
-    border-radius: 40px;
-    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.2);
-    text-align: left;
+#market{
+    font-size: 50px !important;
+    padding: 0px 40px !important;
+    margin: 0px !important;
 }
+.status{
 
+}
+.id{
+    font-size: 20px !important;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .product{
     display: flex;
     margin-left: 30px;
@@ -103,7 +111,6 @@ h1{
 .order p{
     font-size: 32px;
     font-weight: 600;
-    margin-left: 30px;
     margin-top: 40px;
 }
 
@@ -139,4 +146,38 @@ h1{
 
 .gray .first .order{
     background-color: #D9D9D9;
+}
+
+menu{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+
+}
+ul{
+    max-width: 1336px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+.orders {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.order {
+    width: 600px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-top: 50px;
 }

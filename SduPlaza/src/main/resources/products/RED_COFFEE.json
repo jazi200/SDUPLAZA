@@ -1,0 +1,659 @@
+[
+  {
+    "id": 76,
+    "name": "Экспрессо",
+    "description": "300 мл",
+    "price": "390",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link1"
+  },
+  {
+    "id": 77,
+    "name": "Американо",
+    "description": "300 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link2"
+  },
+  {
+    "id": 78,
+    "name": "Капучино",
+    "description": "300 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link3"
+  },
+  {
+    "id": 79,
+    "name": "Капучино",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link4"
+  },
+  {
+    "id": 80,
+    "name": "Латте",
+    "description": "300 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link5"
+  },
+  {
+    "id": 81,
+    "name": "Латте",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link6"
+  },
+  {
+    "id": 82,
+    "name": "Раф",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link7"
+  },
+  {
+    "id": 83,
+    "name": "Раф",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link8"
+  },
+  {
+    "id": 84,
+    "name": "Мокко",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link9"
+  },
+  {
+    "id": 85,
+    "name": "Мокко",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link10"
+  },
+  {
+    "id": 86,
+    "name": "Шоколад",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link11"
+  },
+  {
+    "id": 87,
+    "name": "Шоколад",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link12"
+  },
+  {
+    "id": 88,
+    "name": "Ванильный милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link13"
+  },
+  {
+    "id": 89,
+    "name": "Клубничный милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link14"
+  },
+  {
+    "id": 90,
+    "name": "Банановый милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link15"
+  },
+  {
+    "id": 91,
+    "name": "ICE Латте",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link16"
+  },
+  {
+    "id": 92,
+    "name": "ICE Американо",
+    "description": "400 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link17"
+  },
+  {
+    "id": 93,
+    "name": "ICE Шоколад",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link18"
+  },
+  {
+    "id": 94,
+    "name": "Облепиховый чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link19"
+  },
+  {
+    "id": 95,
+    "name": "Морокканский чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link20"
+  },
+  {
+    "id": 96,
+    "name": "Ташкентский чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link21"
+  },
+  {
+    "id": 97,
+    "name": "Фраппучино",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link22"
+  },
+  {
+    "id": 98,
+    "name": "Гляссе",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link23"
+  },
+  {
+    "id": 99,
+    "name": "Черный чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link24"
+  },
+  {
+    "id": 100,
+    "name": "Зеленый чай",
+    "description": "400 мл",
+    "price": "390",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link25"
+  },
+  {
+    "id": 101,
+    "name": "Ягодный чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link26"
+  },
+  {
+    "id": 102,
+    "name": "Ягодный чай",
+    "description": "300 мл",
+    "price": "490",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link27"
+  },
+  {
+    "id": 103,
+    "name": "Сникерс милкшейк",
+    "description": "400 мл",
+    "price": "1190",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link28"
+  },
+  {
+    "id": 104,
+    "name": "Орео милкшейк",
+    "description": "400 мл",
+    "price": "1190",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link29"
+  },
+  {
+    "id": 105,
+    "name": "Имбирниый чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link30"
+  },
+  {
+    "id": 106,
+    "name": "Классический лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link31"
+  },
+  {
+    "id": 107,
+    "name": "Клубничный лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link32"
+  },
+  {
+    "id": 108,
+    "name": "Манго-маракуйя",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link33"
+  },
+  {
+    "id": 109,
+    "name": "Мохито",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link34"
+  },
+  {
+    "id": 110,
+    "name": "Ягодный лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link35"
+  },
+  {
+    "id": 111,
+    "name": "Киви лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link36"
+  },
+  {
+    "id": 112,
+    "name": "Экспрессо",
+    "description": "300 мл",
+    "price": "390",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link1"
+  },
+  {
+    "id": 113,
+    "name": "Американо",
+    "description": "300 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link2"
+  },
+  {
+    "id": 114,
+    "name": "Капучино",
+    "description": "300 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link3"
+  },
+  {
+    "id": 115,
+    "name": "Капучино",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link4"
+  },
+  {
+    "id": 116,
+    "name": "Латте",
+    "description": "300 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link5"
+  },
+  {
+    "id": 117,
+    "name": "Латте",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link6"
+  },
+  {
+    "id": 118,
+    "name": "Раф",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link7"
+  },
+  {
+    "id": 119,
+    "name": "Раф",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link8"
+  },
+  {
+    "id": 120,
+    "name": "Мокко",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link9"
+  },
+  {
+    "id": 121,
+    "name": "Мокко",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link10"
+  },
+  {
+    "id": 122,
+    "name": "Шоколад",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link11"
+  },
+  {
+    "id": 123,
+    "name": "Шоколад",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link12"
+  },
+  {
+    "id": 124,
+    "name": "Фраппучино",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link13"
+  },
+  {
+    "id": 125,
+    "name": "Гляссе",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link14"
+  },
+  {
+    "id": 126,
+    "name": "ICE Шоколад",
+    "description": "400 мл",
+    "price": "1690",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link15"
+  },
+  {
+    "id": 127,
+    "name": "ICE Латте",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link16"
+  },
+  {
+    "id": 128,
+    "name": "ICE Американо",
+    "description": "400 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link17"
+  },
+  {
+    "id": 129,
+    "name": "Облепиховый чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link1"
+  },
+  {
+    "id": 130,
+    "name": "Морокканский чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link2"
+  },
+  {
+    "id": 131,
+    "name": "Ташкентский чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link3"
+  },
+  {
+    "id": 132,
+    "name": "Зеленый чай",
+    "description": "400 мл",
+    "price": "390",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link4"
+  },
+  {
+    "id": 133,
+    "name": "Ягодный чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link5"
+  },
+  {
+    "id": 134,
+    "name": "Черный чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link6"
+  },
+  {
+    "id": 135,
+    "name": "Имбирниый чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link7"
+  },
+  {
+    "id": 136,
+    "name": "Ягодный чай",
+    "description": "300 мл",
+    "price": "490",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link8"
+  },
+  {
+    "id": 137,
+    "name": "Классический лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link1"
+  },
+  {
+    "id": 138,
+    "name": "Клубничный лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link2"
+  },
+  {
+    "id": 139,
+    "name": "Манго-маракуйя",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link3"
+  },
+  {
+    "id": 140,
+    "name": "Мохито",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link4"
+  },
+  {
+    "id": 141,
+    "name": "Ягодный лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link5"
+  },
+  {
+    "id": 142,
+    "name": "Киви лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link6"
+  },
+  {
+    "id": 143,
+    "name": "Лайм лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link7"
+  },
+  {
+    "id": 144,
+    "name": "Сникерс милкшейк",
+    "description": "400 мл",
+    "price": "1190",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link8"
+  },
+  {
+    "id": 145,
+    "name": "Орео милкшейк",
+    "description": "400 мл",
+    "price": "1190",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link9"
+  },
+  {
+    "id": 146,
+    "name": "Ванильный милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link10"
+  },
+  {
+    "id": 147,
+    "name": "Клубничный милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link11"
+  },
+  {
+    "id": 148,
+    "name": "Банановый милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link12"
+  }
+]

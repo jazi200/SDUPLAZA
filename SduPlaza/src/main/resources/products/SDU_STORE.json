@@ -1,0 +1,650 @@
+[
+  {
+    "id": 354,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link1"
+  },
+  {
+    "id": 355,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link2"
+  },
+  {
+    "id": 356,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link3"
+  },
+  {
+    "id": 357,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link4"
+  },
+  {
+    "id": 358,
+    "name": "Buiyrtsa",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link5"
+  },
+  {
+    "id": 359,
+    "name": "TAMAM",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link6"
+  },
+  {
+    "id": 360,
+    "name": "Buiyrtsa",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link7"
+  },
+  {
+    "id": 361,
+    "name": "ALUMNI SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link8"
+  },
+  {
+    "id": 362,
+    "name": "ALUMNI SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link9"
+  },
+  {
+    "id": 363,
+    "name": "ALUMNI SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link10"
+  },
+  {
+    "id": 364,
+    "name": "ALUMNI SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link11"
+  },
+  {
+    "id": 365,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link12"
+  },
+  {
+    "id": 366,
+    "name": "SDU EST.1996",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link13"
+  },
+  {
+    "id": 367,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link14"
+  },
+  {
+    "id": 368,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link15"
+  },
+  {
+    "id": 369,
+    "name": "HAYIRLISI",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link16"
+  },
+  {
+    "id": 370,
+    "name": "ARKADAS",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link17"
+  },
+  {
+    "id": 371,
+    "name": "ALUMNI SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link18"
+  },
+  {
+    "id": 372,
+    "name": "ALUMNI SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link19"
+  },
+  {
+    "id": 373,
+    "name": "ALUMNI SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link20"
+  },
+  {
+    "id": 374,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link21"
+  },
+  {
+    "id": 375,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link22"
+  },
+  {
+    "id": 376,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link23"
+  },
+  {
+    "id": 377,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link24"
+  },
+  {
+    "id": 378,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link25"
+  },
+  {
+    "id": 379,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link26"
+  },
+  {
+    "id": 380,
+    "name": "ENGINEERING AND NATURAL SCIENCES",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link27"
+  },
+  {
+    "id": 381,
+    "name": "SDU (BUSINESS SCHOOL)",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link28"
+  },
+  {
+    "id": 382,
+    "name": "LAW AND SOCIAL SCIENCES",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link29"
+  },
+  {
+    "id": 383,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link30"
+  },
+  {
+    "id": 384,
+    "name": "EDUCATION AND HUMANITIES",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link31"
+  },
+  {
+    "id": 385,
+    "name": "ALUMNI SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link32"
+  },
+  {
+    "id": 386,
+    "name": "SDU",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link33"
+  },
+  {
+    "id": 387,
+    "name": "SDU",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link34"
+  },
+  {
+    "id": 388,
+    "name": "HAYIRLISI",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link35"
+  },
+  {
+    "id": 389,
+    "name": "Buiyrtsa",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link36"
+  },
+  {
+    "id": 390,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "27000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link37"
+  },
+  {
+    "id": 391,
+    "name": "SDU",
+    "description": "Shirt oversize(L/M/S)",
+    "price": "27000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link38"
+  },
+  {
+    "id": 392,
+    "name": "ALUMNI SDU",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link39"
+  },
+  {
+    "id": 393,
+    "name": "SDU",
+    "description": "Shirt oversize(L/M/S)",
+    "price": "27000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link40"
+  },
+  {
+    "id": 394,
+    "name": "SDU",
+    "description": "Shirt oversize(L/M/S)",
+    "price": "27000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link41"
+  },
+  {
+    "id": 395,
+    "name": "SDU",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link42"
+  },
+  {
+    "id": 396,
+    "name": "ALUMNI SDU",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link43"
+  },
+  {
+    "id": 397,
+    "name": "Raise",
+    "description": "Bottle glass | 520 ml",
+    "price": "4000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link1"
+  },
+  {
+    "id": 398,
+    "name": "SDU Bottle",
+    "description": "Aluminium Bottle | 500 ml",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link2"
+  },
+  {
+    "id": 399,
+    "name": "OKA",
+    "description": "Cup | 20 ml",
+    "price": "2000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link3"
+  },
+  {
+    "id": 400,
+    "name": "ODIM",
+    "description": "Stainless steel | 550 ml",
+    "price": "6000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link4"
+  },
+  {
+    "id": 401,
+    "name": "SDU",
+    "description": "Mugs ceramics | 250 ml",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link5"
+  },
+  {
+    "id": 402,
+    "name": "SDU",
+    "description": "Mugs ceramics | 250 ml",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link6"
+  },
+  {
+    "id": 403,
+    "name": "SDU Bottle",
+    "description": "Aluminium Bottle",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link7"
+  },
+  {
+    "id": 404,
+    "name": "EDUCATION AND HUMANITIES",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link8"
+  },
+  {
+    "id": 405,
+    "name": "SDU",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link9"
+  },
+  {
+    "id": 406,
+    "name": "BUSINESS SCHOOL",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link10"
+  },
+  {
+    "id": 407,
+    "name": "LAW AND SOCIAL SCIENCES",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link11"
+  },
+  {
+    "id": 408,
+    "name": "SDU",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link12"
+  },
+  {
+    "id": 409,
+    "name": "ENGINEERING AND NATURAL SCIENCES",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link13"
+  },
+  {
+    "id": 410,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19000",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link1"
+  },
+  {
+    "id": 411,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link2"
+  },
+  {
+    "id": 412,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link3"
+  },
+  {
+    "id": 413,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link4"
+  },
+  {
+    "id": 414,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link5"
+  },
+  {
+    "id": 415,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link6"
+  },
+  {
+    "id": 416,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link7"
+  },
+  {
+    "id": 417,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link8"
+  },
+  {
+    "id": 418,
+    "name": "SDU",
+    "description": "Panama",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link9"
+  },
+  {
+    "id": 419,
+    "name": "SDU",
+    "description": "Panama",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link10"
+  },
+  {
+    "id": 420,
+    "name": "SDU",
+    "description": "Cap",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link11"
+  },
+  {
+    "id": 421,
+    "name": "SDU",
+    "description": "Cap",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link12"
+  },
+  {
+    "id": 422,
+    "name": "SDU",
+    "description": "T-Shirt+Cup+Shopper",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "BOX",
+    "image": "link1"
+  },
+  {
+    "id": 423,
+    "name": "SDU",
+    "description": "T-Shirt+Cup+Shopper",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "BOX",
+    "image": "link2"
+  },
+  {
+    "id": 424,
+    "name": "SDU",
+    "description": "T-Shirt+Cup+Shopper",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "BOX",
+    "image": "link3"
+  },
+  {
+    "id": 425,
+    "name": "SDU",
+    "description": "T-Shirt+Cup+Shopper",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "BOX",
+    "image": "link4"
+  }
+]

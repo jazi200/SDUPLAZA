@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+        <p id="shop" style="display: none;">AC_CATERING</p>
         <div class="container">
             <div class="content">
                 <a href="profile.html">
@@ -47,277 +48,21 @@
         <div class="center">
             <button class="filter-btn" data-category="salads">SALADS</button>
             <button class="filter-btn" data-category="soup">SOUP</button>
-            <button class="filter-btn" data-category="hot-dishes">HOT DISHES</button>
-            <button class="filter-btn" data-category="side-dishes">SIDE DISHES</button>
+            <button class="filter-btn" data-category="hot_dishes">HOT DISHES</button>
+            <button class="filter-btn" data-category="side_dishes">SIDE DISHES</button>
             <button class="filter-btn" data-category="baking">BAKING</button>
         </div>
     </div>
 
-    <div class="products">
-        <div class="center">
-
-
-            <div class="product" data-category="salads">
-                <div class="first">
-                    <div class="pro">
-                        <img src="../../img/accate/ac1.png" alt="">
-                        <p class="price">530 т</p>
-                        <p>Оливье с колбасой</p>
-                        <button class="add" onclick="addToBasketMain(74, 'Оливье с колбасой', '', 530, 'URBO', 'MENU', '../../img/accate/ac1.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/ac2.png" alt="">
-                        <p class="price">650 т</p>
-                        <p>Сельд под шубой</p>
-                        <button class="add" onclick="addToBasketMain(75, 'Сельд под шубой', '', 650, 'URBO', 'MENU', '../../img/accate/ac2.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/ac3.png" alt="">
-                        <p class="price">550 т</p>
-                        <p>Цезарь</p>
-                        <button class="add" onclick="addToBasketMain(76, 'Цезарь', '', 550, 'URBO', 'MENU', '../../img/accate/ac3.png')">
-                            + Add
-                        </button>
-                    </div>
-                </div>
-                <div class="first">
-                    <div class="pro">
-                        <img src="../../img/accate/ac4.png" alt="">
-                        <p class="price">470 т</p>
-                        <p>Винегрет</p>
-                        <button class="add" onclick="addToBasketMain(77, 'Винегрет', '', 470, 'URBO', 'MENU', '../../img/accate/ac4.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/ac5.png" alt="">
-                        <p class="price">350 т</p>
-                        <p>Морковный</p>
-                        <button class="add" onclick="addToBasketMain(78, 'Морковный', '', 350, 'URBO', 'MENU', '../../img/accate/ac5.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/ac6.png" alt="">
-                        <p class="price">350 т</p>
-                        <p>Салат свежий</p>
-                        <button class="add" onclick="addToBasketMain(79, 'Салат свежий', '', 350, 'URBO', 'MENU', '../../img/accate/ac6.png')">
-                            + Add
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product" data-category="soup" style="display: none;">
-                <div class="first">
-                    <div class="pro">
-                        <img src="../../img/accate/soup1.png" alt="">
-                        <p class="price">700 т</p>
-                        <p>Солянка</p>
-                        <button class="add" onclick="addToBasketMain(80, 'Солянка', '', 700, 'URBO', 'MENU', '../../img/accate/soup1.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/soup2.png" alt="">
-                        <p class="price">650 т</p>
-                        <p>Борщ</p>
-                        <button class="add" onclick="addToBasketMain(81, 'Борщ', '', 650, 'URBO', 'MENU', '../../img/accate/soup2.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/soup3.png" alt="">
-                        <p class="price">550 т</p>
-                        <p>Суп чечевичный</p>
-                        <button class="add" onclick="addToBasketMain(82, 'Суп чечевичный', '', 550, 'URBO', 'MENU', '../../img/accate/soup3.png')">
-                            + Add
-                        </button>
-                    </div>
-                </div>
-                <div class="first">
-                    <div class="pro">
-                        <img src="../../img/accate/soup4.png" alt="">
-                        <p class="price">470 т</p>
-                        <p style="font-size: 22px;">Суп лапша из курицы</p>
-                        <button class="add" onclick="addToBasketMain(83, 'Суп лапша из курицы', '', 470, 'URBO', 'MENU', '../../img/accate/soup4.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/soup5.png" alt="">
-                        <p class="price">350 т</p>
-                        <p>Суп гороховый</p>
-                        <button class="add" onclick="addToBasketMain(84, 'Суп гороховый', '', 350, 'URBO', 'MENU', '../../img/accate/soup5.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/soup6.png" alt="">
-                        <p class="price">350 т</p>
-                        <p>Суп рассольник</p>
-                        <button class="add" onclick="addToBasketMain(85, 'Суп рассольник', '', 350, 'URBO', 'MENU', '../../img/accate/soup6.png')">
-                            + Add
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="product" data-category="hot-dishes" style="display: none;">
-                <div class="first">
-                    <div class="pro">
-                        <img src="../../img/accate/hot1.png" alt="">
-                        <p class="price">1200 т</p>
-                        <p>Куриный рулет</p>
-                        <button class="add" onclick="addToBasketMain(86, 'Куриный рулет', '', 1200, 'URBO', 'MENU', '../../img/accate/hot1.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/hot2.png" alt="">
-                        <p class="price">1850 т</p>
-                        <p>Манты с мясом</p>
-                        <button class="add" onclick="addToBasketMain(87, 'Манты с мясом', '', 1850, 'URBO', 'MENU', '../../img/accate/hot2.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/hot3.png" alt="">
-                        <p class="price">1920 т</p>
-                        <p>Гуляш</p>
-                        <button class="add" onclick="addToBasketMain(88, 'Гуляш', '', 1920, 'URBO', 'MENU', '../../img/accate/hot3.png')">
-                            + Add
-                        </button>
-                    </div>
-                </div>
-                <div class="first">
-                    <div class="pro">
-                        <img src="../../img/accate/hot4.png" alt="">
-                        <p class="price">1560 т</p>
-                        <p>Курица запеченная </p>
-                        <button class="add" onclick="addToBasketMain(89, 'Курица запеченная', '', 1560, 'URBO', 'MENU', '../../img/accate/hot4.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/hot5.png" alt="">
-                        <p class="price">1200 т</p>
-                        <p>Плов</p>
-                        <button class="add" onclick="addToBasketMain(90, 'Плов', '', 1200, 'URBO', 'MENU', '../../img/accate/hot5.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/hot6.png" alt="">
-                        <p class="price">1500 т</p>
-                        <p>Мясо по-французски</p>
-                        <button class="add" onclick="addToBasketMain(91, 'Мясо по-французски', '', 1500, 'URBO', 'MENU', '../../img/accate/hot6.png')">
-                            + Add
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="product" data-category="side-dishes" style="display: none;">
-                <div class="first">
-                    <div class="pro">
-                        <img src="../../img/accate/gar1.png" alt="">
-                        <p class="price">420 т</p>
-                        <p>Гарнир рис</p>
-                        <button class="add" onclick="addToBasketMain(92, 'Гарнир рис', '', 420, 'URBO', 'MENU', '../../img/accate/gar1.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/gar2.png" alt="">
-                        <p class="price">360 т</p>
-                        <p>Гарнир гречка</p>
-                        <button class="add" onclick="addToBasketMain(93, 'Гарнир гречка', '', 360, 'URBO', 'MENU', '../../img/accate/gar2.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/gar3.png" alt="">
-                        <p class="price">420 т</p>
-                        <p>Картофельное пюре</p>
-                        <button class="add" onclick="addToBasketMain(94, 'Картофельное пюре', '', 420, 'URBO', 'MENU', '../../img/accate/gar3.png')">
-                            + Add
-                        </button>
-                    </div>
-                </div>
-                <div class="first">
-                    <div class="pro">
-                        <img src="../../img/accate/gar4.png" alt="">
-                        <p class="price">420 т</p>
-                        <p>Макароны</p>
-                        <button class="add" onclick="addToBasketMain(95, 'Макароны', '', 420, 'URBO', 'MENU', '../../img/accate/gar4.png')">
-                            + Add
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="product" data-category="baking" style="display: none;">
-                <div class="first">
-                    <div class="pro">
-                        <img src="../../img/accate/bak1.png" alt="">
-                        <p class="price">1020 т</p>
-                        <p>Чизкейк испанский</p>
-                        <button class="add" onclick="addToBasketMain(96, 'Чизкейк испанский', '', 1020, 'URBO', 'MENU', '../../img/accate/bak1.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/bak2.png" alt="">
-                        <p class="price">840 т</p>
-                        <p>Медовик</p>
-                        <button class="add" onclick="addToBasketMain(97, 'Медовик', '', 840, 'URBO', 'MENU', '../../img/accate/bak2.png')">
-                            + Add
-                        </button>
-                    </div>
-                    <div class="pro">
-                        <img src="../../img/accate/bak3.png" alt="">
-                        <p class="price">660 т</p>
-                        <p>Наполеон</p>
-                        <button class="add" onclick="addToBasketMain(98, 'Наполеон', '', 660, 'URBO', 'MENU', '../../img/accate/bak3.png')">
-                            + Add
-                        </button>
-                    </div>
-                </div>
-                <div class="first">
-                    <div class="pro">
-                        <img src="../../img/accate/bak4.png" alt="">
-                        <p class="price">400 т</p>
-                        <p>Пирог</p>
-                        <button class="add" onclick="addToBasketMain(99, 'Пирог', '', 400, 'URBO', 'MENU', '../../img/accate/bak4.png')">
-                            + Add
-                        </button>
-                    </div>
-                </div>
-            </div>
+    <section class="products">
+        <div class="pro">
         </div>
-    </div>
+    </section>
 
-    <div id="addToBasket" style="display: none;">
-        <p id="basket-id"></p>
-        <p id="basket-name"></p>
-        <p id="basket-description"></p>
-        <p id="basket-price"></p>
-        <p id="basket-type"></p>
-        <p id="basket-menu"></p>
-        <img src="" id="basket-image">
-    </div>
-
+    <script src="../../script/check.js"></script>
     <script src="../../script/product.js"></script>
     <script src="../../script/basket.js"></script>
-    <script src="script/accatering.js"></script>
+    <script src="../../script/shop.js"></script>
     
 </body>
 </html>

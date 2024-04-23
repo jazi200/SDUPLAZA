@@ -68,9 +68,10 @@ function displayBasketItems(basket) {
   const productDiv = document.createElement('div');
   productDiv.classList.add('product');
 
-  productDiv.innerHTML = `
+  if(item.image.indexOf('.png') === -1){
+    productDiv.innerHTML = `
     <div class="line">
-      <img src="${item.image}" alt="${item.name}">
+      <img src="../../img/${item.type}/${item.menu}/${item.image}.png" alt="${item.name}">
       <div class="txt">
         <p class="name">${item.name}</p>
         <p class="price">${item.price} т</p>
@@ -81,7 +82,25 @@ function displayBasketItems(basket) {
         <button class="increment" onclick="increment('${item.id}')">+</button>
       </div>
     </div>
+    <img src="../../img/line.png" alt="" class="separator">
   `;
+  }else{
+    productDiv.innerHTML = `
+    <div class="line">
+      <img src="../../img/${item.type}/${item.menu}/${item.image}" alt="${item.name}">
+      <div class="txt">
+        <p class="name">${item.name}</p>
+        <p class="price">${item.price} т</p>
+      </div>
+      <div class="counter">
+        <button class="decrement" onclick="decrement('${item.id}')">-</button>
+        <div class="value">${item.quantity}</div>
+        <button class="increment" onclick="increment('${item.id}')">+</button>
+      </div>
+    </div>
+    <img src="../../img/line.png" alt="" class="separator">
+  `;
+  }
 
   contentSection.appendChild(productDiv);
   });
@@ -144,12 +163,33 @@ function opeenModal() {
       let basket = new Basket();
       if (basketData) {
           basketData.items.forEach(itemData => {
-              let product = new Product(itemData.id, itemData.name, itemData.description, itemData.price, itemData.type, itemData.menu, itemData.image);
+              if(itemData.description == null) itemData.description = "empty";
+              console.log(itemData);
+              let product = new Pr(itemData.id, itemData.name, itemData.description, itemData.price, itemData.type, itemData.menu, itemData.image, itemData.quantity);
               basket.addProduct(product, itemData.quantity);
           });
       }
-
-      
+      console.log(basket);
+      fetch('http://localhost:9090/admin/add', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${token}`
+      },
+        body: JSON.stringify({
+          products: basket.items, // Ensure this matches the structure expected by PaymentProducts
+      })
+      })
+      .then(response => {
+          if(response.ok) return response.json();
+          else throw new Error('Error: Server responded with an error.');
+      })
+      .then(data => {
+          console.log(data);
+      })
+      .catch((error) => {
+          console.error(error.message);
+      });
 
       localStorage.clear();
     })  

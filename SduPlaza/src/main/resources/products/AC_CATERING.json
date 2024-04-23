@@ -1,0 +1,236 @@
+[
+  {
+    "id": 238,
+    "name": "Оливье с колбасой",
+    "description": " ",
+    "price": "530",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link1"
+  },
+  {
+    "id": 239,
+    "name": "Сельд под шубой",
+    "description": " ",
+    "price": "650",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link2"
+  },
+  {
+    "id": 240,
+    "name": "Цезарь",
+    "description": " ",
+    "price": "550",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link3"
+  },
+  {
+    "id": 241,
+    "name": "Винегрет",
+    "description": " ",
+    "price": "470",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link4"
+  },
+  {
+    "id": 242,
+    "name": "Морковный",
+    "description": " ",
+    "price": "350",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link5"
+  },
+  {
+    "id": 243,
+    "name": "Салат свежий",
+    "description": " ",
+    "price": "350",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link6"
+  },
+  {
+    "id": 244,
+    "name": "Солянка",
+    "description": " ",
+    "price": "700",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link1"
+  },
+  {
+    "id": 245,
+    "name": "Борщ",
+    "description": " ",
+    "price": "650",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link2"
+  },
+  {
+    "id": 246,
+    "name": "Суп чечевичный",
+    "description": " ",
+    "price": "550",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link3"
+  },
+  {
+    "id": 247,
+    "name": "Суп лапша из курицы",
+    "description": " ",
+    "price": "470",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link4"
+  },
+  {
+    "id": 248,
+    "name": "суп гороховый",
+    "description": " ",
+    "price": "350",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link5"
+  },
+  {
+    "id": 249,
+    "name": "Суп рассольник",
+    "description": " ",
+    "price": "350",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link6"
+  },
+  {
+    "id": 250,
+    "name": "Куриный рулет",
+    "description": " ",
+    "price": "1200",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link1"
+  },
+  {
+    "id": 251,
+    "name": "Манты с мясом",
+    "description": " ",
+    "price": "1850",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link2"
+  },
+  {
+    "id": 252,
+    "name": "Гуляш",
+    "description": " ",
+    "price": "1920",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link3"
+  },
+  {
+    "id": 253,
+    "name": "Курица запеченная",
+    "description": " ",
+    "price": "1560",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link4"
+  },
+  {
+    "id": 254,
+    "name": "Плов",
+    "description": " ",
+    "price": "1200",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link5"
+  },
+  {
+    "id": 255,
+    "name": "Мясо по-французский",
+    "description": " ",
+    "price": "1500",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link6"
+  },
+  {
+    "id": 256,
+    "name": "Гарнир рис",
+    "description": " ",
+    "price": "420",
+    "type": "AC_CATERING",
+    "menu": "SIDE_DISHES",
+    "image": "link1"
+  },
+  {
+    "id": 257,
+    "name": "Гарнир гречка",
+    "description": " ",
+    "price": "360",
+    "type": "AC_CATERING",
+    "menu": "SIDE_DISHES",
+    "image": "link2"
+  },
+  {
+    "id": 258,
+    "name": "Картофельнле пюре",
+    "description": " ",
+    "price": "420",
+    "type": "AC_CATERING",
+    "menu": "SIDE_DISHES",
+    "image": "link3"
+  },
+  {
+    "id": 259,
+    "name": "Макароны",
+    "description": " ",
+    "price": "420",
+    "type": "AC_CATERING",
+    "menu": "SIDE_DISHES",
+    "image": "link4"
+  },
+  {
+    "id": 260,
+    "name": "Чизкейк испанский",
+    "description": " ",
+    "price": "1020",
+    "type": "AC_CATERING",
+    "menu": "BAKING",
+    "image": "link1"
+  },
+  {
+    "id": 261,
+    "name": "Медовик",
+    "description": " ",
+    "price": "840",
+    "type": "AC_CATERING",
+    "menu": "BAKING",
+    "image": "link2"
+  },
+  {
+    "id": 262,
+    "name": "Наполеон",
+    "description": " ",
+    "price": "660",
+    "type": "AC_CATERING",
+    "menu": "BAKING",
+    "image": "link3"
+  },
+  {
+    "id": 263,
+    "name": "Пирог",
+    "description": " ",
+    "price": "400",
+    "type": "AC_CATERING",
+    "menu": "BAKING",
+    "image": "link4"
+  }
+]

@@ -1,0 +1,3825 @@
+[
+  {
+    "id": 1,
+    "name": "Экспрессо",
+    "description": "300 мл",
+    "price": "650",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link1.png"
+  },
+  {
+    "id": 2,
+    "name": "Американо",
+    "description": "300 мл",
+    "price": "590",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link2.png"
+  },
+  {
+    "id": 3,
+    "name": "Капучино",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link3.png"
+  },
+  {
+    "id": 4,
+    "name": "Капучино",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link4.png"
+  },
+  {
+    "id": 5,
+    "name": "Латте",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link5.png"
+  },
+  {
+    "id": 6,
+    "name": "Латте",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link6.png"
+  },
+  {
+    "id": 7,
+    "name": "Флэт Уайт",
+    "description": "200 мл",
+    "price": "790",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link7.png"
+  },
+  {
+    "id": 8,
+    "name": "Моккачино",
+    "description": "300 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link8.png"
+  },
+  {
+    "id": 9,
+    "name": "Моккачино",
+    "description": "400 мл",
+    "price": "1690",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link9.png"
+  },
+  {
+    "id": 10,
+    "name": "Матча чай зеленый",
+    "description": "300 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link10.png"
+  },
+  {
+    "id": 11,
+    "name": "Горячий шоколад",
+    "description": "200 мл",
+    "price": "790",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link11.png"
+  },
+  {
+    "id": 12,
+    "name": "Какао",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link12.png"
+  },
+  {
+    "id": 13,
+    "name": "Какао",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link13.png"
+  },
+  {
+    "id": 14,
+    "name": "Раф Классический",
+    "description": "25 мл",
+    "price": "300",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link14.png"
+  },
+  {
+    "id": 15,
+    "name": "Раф Классический",
+    "description": "400 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link15.png"
+  },
+  {
+    "id": 16,
+    "name": "Раф сникерс",
+    "description": "400 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link16.png"
+  },
+  {
+    "id": 17,
+    "name": "Раф сникерс",
+    "description": "300 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link17.png"
+  },
+  {
+    "id": 18,
+    "name": "Имбирниый чай",
+    "description": "400 мл",
+    "price": "1390",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link18.png"
+  },
+  {
+    "id": 19,
+    "name": "Облепиховый чай",
+    "description": "400 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link19.png"
+  },
+  {
+    "id": 20,
+    "name": "Морокканский чай",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link20.png"
+  },
+  {
+    "id": 21,
+    "name": "Ташкентский чай",
+    "description": "400 мл",
+    "price": "790",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link21.png"
+  },
+  {
+    "id": 22,
+    "name": "Черный чай",
+    "description": "400 мл",
+    "price": "490",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link22.png"
+  },
+  {
+    "id": 23,
+    "name": "Зеленый чай",
+    "description": "400 мл",
+    "price": "490",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link23.png"
+  },
+  {
+    "id": 24,
+    "name": "Молочный улун",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link24.png"
+  },
+  {
+    "id": 25,
+    "name": "Черника с вишней",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link25.png"
+  },
+  {
+    "id": 26,
+    "name": "Горный луг",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link26.png"
+  },
+  {
+    "id": 27,
+    "name": "Ягодный",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link27.png"
+  },
+  {
+    "id": 28,
+    "name": "Земляника со сливками",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link28.png"
+  },
+  {
+    "id": 29,
+    "name": "Ройбуш",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link29.png"
+  },
+  {
+    "id": 30,
+    "name": "Тегуанинь",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link30.png"
+  },
+  {
+    "id": 31,
+    "name": "Экспрессо",
+    "description": "300 мл",
+    "price": "650",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link1.png"
+  },
+  {
+    "id": 32,
+    "name": "Американо",
+    "description": "300 мл",
+    "price": "590",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link2.png"
+  },
+  {
+    "id": 33,
+    "name": "Капучино",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link3.png"
+  },
+  {
+    "id": 34,
+    "name": "Капучино",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link4.png"
+  },
+  {
+    "id": 35,
+    "name": "Латте",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link5.png"
+  },
+  {
+    "id": 36,
+    "name": "Латте",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link6.png"
+  },
+  {
+    "id": 37,
+    "name": "Латте",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link7.png"
+  },
+  {
+    "id": 38,
+    "name": "Моккачино",
+    "description": "300 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link8.png"
+  },
+  {
+    "id": 39,
+    "name": "Моккачино",
+    "description": "400 мл",
+    "price": "1690",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link9.png"
+  },
+  {
+    "id": 40,
+    "name": "Раф Классический",
+    "description": "300 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link10.png"
+  },
+  {
+    "id": 41,
+    "name": "Раф Классический",
+    "description": "400 мл",
+    "price": "790",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link11.png"
+  },
+  {
+    "id": 42,
+    "name": "Раф сникерс",
+    "description": "300 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link12.png"
+  },
+  {
+    "id": 43,
+    "name": "Раф сникерс",
+    "description": "400 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link13.png"
+  },
+  {
+    "id": 44,
+    "name": "Раф Цитрусовый",
+    "description": "300 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link14.png"
+  },
+  {
+    "id": 45,
+    "name": "Раф Цитрусовый",
+    "description": "400 мл",
+    "price": "1690",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link15.png"
+  },
+  {
+    "id": 46,
+    "name": "Матча чай зеленый",
+    "description": "300 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link1.png"
+  },
+  {
+    "id": 47,
+    "name": "Чай",
+    "description": "300 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link2.png"
+  },
+  {
+    "id": 48,
+    "name": "Имбирниый чай",
+    "description": "400 мл",
+    "price": "1390",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link3.png"
+  },
+  {
+    "id": 49,
+    "name": "Облепиховый чай",
+    "description": "400 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link4.png"
+  },
+  {
+    "id": 50,
+    "name": "Морокканский чай",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link5.png"
+  },
+  {
+    "id": 51,
+    "name": "Ташкентский чай",
+    "description": "400 мл",
+    "price": "790",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link6.png"
+  },
+  {
+    "id": 52,
+    "name": "Черный чай",
+    "description": "400 мл",
+    "price": "490",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link7.png"
+  },
+  {
+    "id": 53,
+    "name": "Зеленый чай",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link8.png"
+  },
+  {
+    "id": 54,
+    "name": "Молочный улун",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link9.png"
+  },
+  {
+    "id": 55,
+    "name": "Черника с вишней",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link10.png"
+  },
+  {
+    "id": 56,
+    "name": "Горный луг",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link11.png"
+  },
+  {
+    "id": 57,
+    "name": "Ягодный",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link12.png"
+  },
+  {
+    "id": 58,
+    "name": "Земляника со сливками",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link13.png"
+  },
+  {
+    "id": 59,
+    "name": "Ройбуш",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link14.png"
+  },
+  {
+    "id": 60,
+    "name": "Тегуанинь",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link15.png"
+  },
+  {
+    "id": 61,
+    "name": "Классик bubble tea",
+    "description": "400 мл",
+    "price": "1990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link1.png"
+  },
+  {
+    "id": 62,
+    "name": "Матча bubble tea",
+    "description": "400 мл",
+    "price": "1990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link2.png"
+  },
+  {
+    "id": 63,
+    "name": "Малиново- ванильный Алматино",
+    "description": "400 мл",
+    "price": "1190",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link3.png"
+  },
+  {
+    "id": 64,
+    "name": "Орео Алматино",
+    "description": "400 мл",
+    "price": "1790",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link4.png"
+  },
+  {
+    "id": 65,
+    "name": "Классик Содовая",
+    "description": "300 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link5.png"
+  },
+  {
+    "id": 66,
+    "name": "Анчан Содовая",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link6.png"
+  },
+  {
+    "id": 67,
+    "name": "Blue curacao Содовая",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link7.png"
+  },
+  {
+    "id": 68,
+    "name": "Малина Спрайт",
+    "description": "300 мл",
+    "price": "1190",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link8.png"
+  },
+  {
+    "id": 69,
+    "name": "Вишня-банан Смузи",
+    "description": "400 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link9.png"
+  },
+  {
+    "id": 70,
+    "name": "Киви Смузи",
+    "description": "400 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link10.png"
+  },
+  {
+    "id": 71,
+    "name": "Манго Смузи",
+    "description": "300 мл",
+    "price": "1990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link11.png"
+  },
+  {
+    "id": 72,
+    "name": "Манго-маракуйя Лимонад",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link12.png"
+  },
+  {
+    "id": 73,
+    "name": "Киви-лайм лимонад",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link13.png"
+  },
+  {
+    "id": 74,
+    "name": "Ягодный микс лимонад",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link14.png"
+  },
+  {
+    "id": 75,
+    "name": "Мохито лимонад",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link15.png"
+  },
+  {
+    "id": 76,
+    "name": "Экспрессо",
+    "description": "300 мл",
+    "price": "390",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link1"
+  },
+  {
+    "id": 77,
+    "name": "Американо",
+    "description": "300 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link2"
+  },
+  {
+    "id": 78,
+    "name": "Капучино",
+    "description": "300 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link3"
+  },
+  {
+    "id": 79,
+    "name": "Капучино",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link4"
+  },
+  {
+    "id": 80,
+    "name": "Латте",
+    "description": "300 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link5"
+  },
+  {
+    "id": 81,
+    "name": "Латте",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link6"
+  },
+  {
+    "id": 82,
+    "name": "Раф",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link7"
+  },
+  {
+    "id": 83,
+    "name": "Раф",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link8"
+  },
+  {
+    "id": 84,
+    "name": "Мокко",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link9"
+  },
+  {
+    "id": 85,
+    "name": "Мокко",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link10"
+  },
+  {
+    "id": 86,
+    "name": "Шоколад",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link11"
+  },
+  {
+    "id": 87,
+    "name": "Шоколад",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link12"
+  },
+  {
+    "id": 88,
+    "name": "Ванильный милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link13"
+  },
+  {
+    "id": 89,
+    "name": "Клубничный милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link14"
+  },
+  {
+    "id": 90,
+    "name": "Банановый милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link15"
+  },
+  {
+    "id": 91,
+    "name": "ICE Латте",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link16"
+  },
+  {
+    "id": 92,
+    "name": "ICE Американо",
+    "description": "400 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link17"
+  },
+  {
+    "id": 93,
+    "name": "ICE Шоколад",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link18"
+  },
+  {
+    "id": 94,
+    "name": "Облепиховый чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link19"
+  },
+  {
+    "id": 95,
+    "name": "Морокканский чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link20"
+  },
+  {
+    "id": 96,
+    "name": "Ташкентский чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link21"
+  },
+  {
+    "id": 97,
+    "name": "Фраппучино",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link22"
+  },
+  {
+    "id": 98,
+    "name": "Гляссе",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link23"
+  },
+  {
+    "id": 99,
+    "name": "Черный чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link24"
+  },
+  {
+    "id": 100,
+    "name": "Зеленый чай",
+    "description": "400 мл",
+    "price": "390",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link25"
+  },
+  {
+    "id": 101,
+    "name": "Ягодный чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link26"
+  },
+  {
+    "id": 102,
+    "name": "Ягодный чай",
+    "description": "300 мл",
+    "price": "490",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link27"
+  },
+  {
+    "id": 103,
+    "name": "Сникерс милкшейк",
+    "description": "400 мл",
+    "price": "1190",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link28"
+  },
+  {
+    "id": 104,
+    "name": "Орео милкшейк",
+    "description": "400 мл",
+    "price": "1190",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link29"
+  },
+  {
+    "id": 105,
+    "name": "Имбирниый чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link30"
+  },
+  {
+    "id": 106,
+    "name": "Классический лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link31"
+  },
+  {
+    "id": 107,
+    "name": "Клубничный лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link32"
+  },
+  {
+    "id": 108,
+    "name": "Манго-маракуйя",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link33"
+  },
+  {
+    "id": 109,
+    "name": "Мохито",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link34"
+  },
+  {
+    "id": 110,
+    "name": "Ягодный лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link35"
+  },
+  {
+    "id": 111,
+    "name": "Киви лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "MENU",
+    "image": "link36"
+  },
+  {
+    "id": 112,
+    "name": "Экспрессо",
+    "description": "300 мл",
+    "price": "390",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link1"
+  },
+  {
+    "id": 113,
+    "name": "Американо",
+    "description": "300 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link2"
+  },
+  {
+    "id": 114,
+    "name": "Капучино",
+    "description": "300 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link3"
+  },
+  {
+    "id": 115,
+    "name": "Капучино",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link4"
+  },
+  {
+    "id": 116,
+    "name": "Латте",
+    "description": "300 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link5"
+  },
+  {
+    "id": 117,
+    "name": "Латте",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link6"
+  },
+  {
+    "id": 118,
+    "name": "Раф",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link7"
+  },
+  {
+    "id": 119,
+    "name": "Раф",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link8"
+  },
+  {
+    "id": 120,
+    "name": "Мокко",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link9"
+  },
+  {
+    "id": 121,
+    "name": "Мокко",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link10"
+  },
+  {
+    "id": 122,
+    "name": "Шоколад",
+    "description": "300 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link11"
+  },
+  {
+    "id": 123,
+    "name": "Шоколад",
+    "description": "400 мл",
+    "price": "890",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link12"
+  },
+  {
+    "id": 124,
+    "name": "Фраппучино",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link13"
+  },
+  {
+    "id": 125,
+    "name": "Гляссе",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link14"
+  },
+  {
+    "id": 126,
+    "name": "ICE Шоколад",
+    "description": "400 мл",
+    "price": "1690",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link15"
+  },
+  {
+    "id": 127,
+    "name": "ICE Латте",
+    "description": "400 мл",
+    "price": "790",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link16"
+  },
+  {
+    "id": 128,
+    "name": "ICE Американо",
+    "description": "400 мл",
+    "price": "690",
+    "type": "RED_COFFEE",
+    "menu": "COFFEE",
+    "image": "link17"
+  },
+  {
+    "id": 129,
+    "name": "Облепиховый чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link1"
+  },
+  {
+    "id": 130,
+    "name": "Морокканский чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link2"
+  },
+  {
+    "id": 131,
+    "name": "Ташкентский чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link3"
+  },
+  {
+    "id": 132,
+    "name": "Зеленый чай",
+    "description": "400 мл",
+    "price": "390",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link4"
+  },
+  {
+    "id": 133,
+    "name": "Ягодный чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link5"
+  },
+  {
+    "id": 134,
+    "name": "Черный чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link6"
+  },
+  {
+    "id": 135,
+    "name": "Имбирниый чай",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link7"
+  },
+  {
+    "id": 136,
+    "name": "Ягодный чай",
+    "description": "300 мл",
+    "price": "490",
+    "type": "RED_COFFEE",
+    "menu": "TEA",
+    "image": "link8"
+  },
+  {
+    "id": 137,
+    "name": "Классический лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link1"
+  },
+  {
+    "id": 138,
+    "name": "Клубничный лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link2"
+  },
+  {
+    "id": 139,
+    "name": "Манго-маракуйя",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link3"
+  },
+  {
+    "id": 140,
+    "name": "Мохито",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link4"
+  },
+  {
+    "id": 141,
+    "name": "Ягодный лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link5"
+  },
+  {
+    "id": 142,
+    "name": "Киви лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link6"
+  },
+  {
+    "id": 143,
+    "name": "Лайм лимонад",
+    "description": "400 мл",
+    "price": "590",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link7"
+  },
+  {
+    "id": 144,
+    "name": "Сникерс милкшейк",
+    "description": "400 мл",
+    "price": "1190",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link8"
+  },
+  {
+    "id": 145,
+    "name": "Орео милкшейк",
+    "description": "400 мл",
+    "price": "1190",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link9"
+  },
+  {
+    "id": 146,
+    "name": "Ванильный милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link10"
+  },
+  {
+    "id": 147,
+    "name": "Клубничный милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link11"
+  },
+  {
+    "id": 148,
+    "name": "Банановый милкшейк",
+    "description": "400 мл",
+    "price": "1090",
+    "type": "RED_COFFEE",
+    "menu": "COLD_DRINK",
+    "image": "link12"
+  },{
+  "id": 149,
+  "name": "Хот дог",
+  "description": null,
+  "price": "600",
+  "type": "RED_CANTEEN",
+  "menu": "MENU",
+  "image": "link1"
+},
+  {
+    "id": 150,
+    "name": "Француз булочка",
+    "description": null,
+    "price": "280",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link2"
+  },
+  {
+    "id": 151,
+    "name": "Пиде",
+    "description": null,
+    "price": "290",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link3"
+  },
+  {
+    "id": 152,
+    "name": "Самса с сыром",
+    "description": null,
+    "price": "320",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link4"
+  },
+  {
+    "id": 153,
+    "name": "Самса с курицей",
+    "description": null,
+    "price": "320",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link5"
+  },
+  {
+    "id": 154,
+    "name": "Самса с мясом",
+    "description": null,
+    "price": "320",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link6"
+  },
+  {
+    "id": 155,
+    "name": "Корверт колбаса",
+    "description": null,
+    "price": "280",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link7"
+  },
+  {
+    "id": 156,
+    "name": "Слойка с яблока",
+    "description": null,
+    "price": "280",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link8"
+  },
+  {
+    "id": 157,
+    "name": "Сэндвич куриный",
+    "description": null,
+    "price": "470",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link9"
+  },
+  {
+    "id": 158,
+    "name": "Поча с картошкой",
+    "description": null,
+    "price": "220",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link10"
+  },
+  {
+    "id": 159,
+    "name": "Поча с сыром",
+    "description": null,
+    "price": "220",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link11"
+  },
+  {
+    "id": 160,
+    "name": "Пастич",
+    "description": null,
+    "price": "260",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link12"
+  },
+  {
+    "id": 161,
+    "name": "Уйгурская самса с мясом",
+    "description": null,
+    "price": "269",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link13"
+  },
+  {
+    "id": 162,
+    "name": "Сосиска в тесте слоеном",
+    "description": null,
+    "price": "220",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link14"
+  },
+  {
+    "id": 163,
+    "name": "Сосиска в тесте жареная",
+    "description": null,
+    "price": "260",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link15"
+  },
+  {
+    "id": 164,
+    "name": "Вартушка",
+    "description": null,
+    "price": "250",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link16"
+  },
+  {
+    "id": 165,
+    "name": "Лакомка",
+    "description": null,
+    "price": "250",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link17"
+  },
+  {
+    "id": 166,
+    "name": "Курассан шокалад",
+    "description": null,
+    "price": "350",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link18"
+  },
+  {
+    "id": 167,
+    "name": "Лаваш мясом",
+    "description": null,
+    "price": "450",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link19"
+  },
+  {
+    "id": 168,
+    "name": "Ачма шоколад",
+    "description": null,
+    "price": "270",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link20"
+  },
+  {
+    "id": 169,
+    "name": "Слойка творогом",
+    "description": null,
+    "price": "280",
+    "type": "RED_CANTEEN",
+    "menu": "MENU",
+    "image": "link21"
+  },
+  {
+    "id": 170,
+    "name": "Сладкий картошка",
+    "description": null,
+    "price": "200",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link1"
+  },
+  {
+    "id": 171,
+    "name": "Молочная девочка",
+    "description": null,
+    "price": "500",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link2"
+  },
+  {
+    "id": 172,
+    "name": "Пахлава",
+    "description": null,
+    "price": "300",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link3"
+  },
+  {
+    "id": 173,
+    "name": "Фисташковы пирог",
+    "description": null,
+    "price": "700",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link4"
+  },
+  {
+    "id": 174,
+    "name": "Напалеон",
+    "description": null,
+    "price": "500",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link5"
+  },
+  {
+    "id": 175,
+    "name": "Рулет",
+    "description": null,
+    "price": "450",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link6"
+  },
+  {
+    "id": 176,
+    "name": "Медовый",
+    "description": null,
+    "price": "450",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link7"
+  },
+  {
+    "id": 177,
+    "name": "Пончик",
+    "description": null,
+    "price": "160",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link8"
+  },
+  {
+    "id": 178,
+    "name": "Блины",
+    "description": null,
+    "price": "120",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link9"
+  },
+  {
+    "id": 179,
+    "name": "Вупипай",
+    "description": null,
+    "price": "600",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link10"
+  },
+  {
+    "id": 180,
+    "name": "Испанский чизкейк",
+    "description": null,
+    "price": "900",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link11"
+  },
+  {
+    "id": 181,
+    "name": "Тварожный чизкейк",
+    "description": null,
+    "price": "600",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link12"
+  },
+  {
+    "id": 182,
+    "name": "Сеикерс",
+    "description": null,
+    "price": "600",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link13"
+  },
+  {
+    "id": 183,
+    "name": "Прага",
+    "description": null,
+    "price": "500",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link14"
+  },
+  {
+    "id": 184,
+    "name": "Карамель",
+    "description": null,
+    "price": "400",
+    "type": "RED_CANTEEN",
+    "menu": "SWEET",
+    "image": "link15"
+  },{
+  "id": 185,
+  "name": "Маргарита",
+  "description": " ",
+  "price": "2190, 2290",
+  "type": "BELKA_FOOD",
+  "menu": "PIZZA_MENU",
+  "image": "link1"
+},
+  {
+    "id": 186,
+    "name": "Пепперони",
+    "description": " ",
+    "price": "2390, 2690",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 187,
+    "name": "Сырная",
+    "description": " ",
+    "price": "2090, 2390",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 188,
+    "name": "Грибная",
+    "description": " ",
+    "price": "2450, 2890",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 189,
+    "name": "Прошутто",
+    "description": " ",
+    "price": "2450, 2890",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 190,
+    "name": "4 сезона",
+    "description": " ",
+    "price": "2690, 3090",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 191,
+    "name": "Изабелла",
+    "description": " ",
+    "price": "2750, 3290",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 192,
+    "name": "Мексика",
+    "description": " ",
+    "price": "2750, 3090",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 193,
+    "name": "Пепперони(2х)",
+    "description": " ",
+    "price": "2590, 3150",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 194,
+    "name": "Цезарь",
+    "description": " ",
+    "price": "2750, 3090",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 195,
+    "name": "Мясная",
+    "description": " ",
+    "price": "2890, 3090",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 196,
+    "name": "Белка",
+    "description": " ",
+    "price": "3190, 3590",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 197,
+    "name": "Hawaii",
+    "description": " ",
+    "price": "3350, 3590",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link13"
+  },
+  {
+    "id": 198,
+    "name": "Салями",
+    "description": " ",
+    "price": "2450, 2890",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link14"
+  },
+  {
+    "id": 199,
+    "name": "Болоньезе",
+    "description": " ",
+    "price": "2750, 3090",
+    "type": "BELKA_FOOD",
+    "menu": "PIZZA_MENU",
+    "image": "link15"
+  },
+  {
+    "id": 200,
+    "name": "Куриный в лаваше",
+    "description": " ",
+    "price": "1290",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 201,
+    "name": "Говяжий в лаваше",
+    "description": " ",
+    "price": "1390",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 202,
+    "name": "Ассорти в лаваше",
+    "description": " ",
+    "price": "1390",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 203,
+    "name": "Куриный в батоне",
+    "description": " ",
+    "price": "1390",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 204,
+    "name": "Говяжий в батоне",
+    "description": " ",
+    "price": "1490",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 205,
+    "name": "Ассорти в батоне",
+    "description": " ",
+    "price": "1490",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 206,
+    "name": "Донер куриный на тарелке",
+    "description": " ",
+    "price": "1900",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 207,
+    "name": "Донер говяжий на тарелке",
+    "description": " ",
+    "price": "2100",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 208,
+    "name": "Донер ассорти на тарелке",
+    "description": " ",
+    "price": "2200",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 209,
+    "name": "Чизбургер куриный",
+    "description": " ",
+    "price": "990",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 210,
+    "name": "Чизбургер говяжий",
+    "description": " ",
+    "price": "1050",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 211,
+    "name": "Чизбургер наггетсы",
+    "description": " ",
+    "price": "1050",
+    "type": "BELKA_FOOD",
+    "menu": "DONER_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 212,
+    "name": "Куриный комбо(донер+суп+айран)",
+    "description": " ",
+    "price": "1590",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link1"
+  },
+  {
+    "id": 213,
+    "name": "Говяжий комбо(донер+суп+айран)",
+    "description": " ",
+    "price": "1690",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link2"
+  },
+  {
+    "id": 214,
+    "name": "Ассорти комбо(донер+суп+айран)",
+    "description": " ",
+    "price": "1790",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link3"
+  },
+  {
+    "id": 215,
+    "name": "Комбо бургер(FRIENDS)",
+    "description": " ",
+    "price": "2990",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link4"
+  },
+  {
+    "id": 216,
+    "name": "Пицца комбо(EL CLASSICO)",
+    "description": " ",
+    "price": "3990",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link5"
+  },
+  {
+    "id": 217,
+    "name": "Пицца комбо(OHANA)",
+    "description": " ",
+    "price": "4490",
+    "type": "BELKA_FOOD",
+    "menu": "KOMBO",
+    "image": "link6"
+  },
+  {
+    "id": 218,
+    "name": "Завтрак домашний",
+    "description": " ",
+    "price": "590",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 219,
+    "name": "Завтрак англиский",
+    "description": " ",
+    "price": "590",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 220,
+    "name": "Завтрак классический",
+    "description": " ",
+    "price": "590",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 221,
+    "name": "Завтрак американский",
+    "description": " ",
+    "price": "790",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 222,
+    "name": "Фри",
+    "description": " ",
+    "price": "650",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 223,
+    "name": "Хычины",
+    "description": " ",
+    "price": "1250",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 224,
+    "name": "Наггетсы 5 шт",
+    "description": " ",
+    "price": "1390",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 225,
+    "name": "Тако с фри",
+    "description": " ",
+    "price": "1150",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 226,
+    "name": "Фруктовая нарезка",
+    "description": " ",
+    "price": "450",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 227,
+    "name": "Сырные палочки",
+    "description": " ",
+    "price": "1390",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 228,
+    "name": "Тост с колбасой",
+    "description": " ",
+    "price": "490",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 229,
+    "name": "Тост с сыром",
+    "description": " ",
+    "price": "490",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 230,
+    "name": "Тост ассорти",
+    "description": " ",
+    "price": "690",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link13"
+  },
+  {
+    "id": 231,
+    "name": "Пиде с сыром",
+    "description": " ",
+    "price": "990",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link14"
+  },
+  {
+    "id": 232,
+    "name": "Пиде с яйцом",
+    "description": " ",
+    "price": "990",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link15"
+  },
+  {
+    "id": 233,
+    "name": "Пиде с колбасой",
+    "description": " ",
+    "price": "1090",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link16"
+  },
+  {
+    "id": 234,
+    "name": "Пиде с курицей",
+    "description": " ",
+    "price": "1090",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link17"
+  },
+  {
+    "id": 235,
+    "name": "Пиде с мясом",
+    "description": " ",
+    "price": "1190",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link18"
+  },
+  {
+    "id": 236,
+    "name": "Пиде с фаршем",
+    "description": " ",
+    "price": "1150",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link19"
+  },
+  {
+    "id": 237,
+    "name": "Чечевичный суп",
+    "description": " ",
+    "price": "650",
+    "type": "BELKA_FOOD",
+    "menu": "FOOD_MENU",
+    "image": "link20"
+  },
+  {
+    "id": 238,
+    "name": "Оливье с колбасой",
+    "description": " ",
+    "price": "530",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link1"
+  },
+  {
+    "id": 239,
+    "name": "Сельд под шубой",
+    "description": " ",
+    "price": "650",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link2"
+  },
+  {
+    "id": 240,
+    "name": "Цезарь",
+    "description": " ",
+    "price": "550",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link3"
+  },
+  {
+    "id": 241,
+    "name": "Винегрет",
+    "description": " ",
+    "price": "470",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link4"
+  },
+  {
+    "id": 242,
+    "name": "Морковный",
+    "description": " ",
+    "price": "350",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link5"
+  },
+  {
+    "id": 243,
+    "name": "Салат свежий",
+    "description": " ",
+    "price": "350",
+    "type": "AC_CATERING",
+    "menu": "SALADS",
+    "image": "link6"
+  },
+  {
+    "id": 244,
+    "name": "Солянка",
+    "description": " ",
+    "price": "700",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link1"
+  },
+  {
+    "id": 245,
+    "name": "Борщ",
+    "description": " ",
+    "price": "650",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link2"
+  },
+  {
+    "id": 246,
+    "name": "Суп чечевичный",
+    "description": " ",
+    "price": "550",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link3"
+  },
+  {
+    "id": 247,
+    "name": "Суп лапша из курицы",
+    "description": " ",
+    "price": "470",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link4"
+  },
+  {
+    "id": 248,
+    "name": "суп гороховый",
+    "description": " ",
+    "price": "350",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link5"
+  },
+  {
+    "id": 249,
+    "name": "Суп рассольник",
+    "description": " ",
+    "price": "350",
+    "type": "AC_CATERING",
+    "menu": "SOUP",
+    "image": "link6"
+  },
+  {
+    "id": 250,
+    "name": "Куриный рулет",
+    "description": " ",
+    "price": "1200",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link1"
+  },
+  {
+    "id": 251,
+    "name": "Манты с мясом",
+    "description": " ",
+    "price": "1850",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link2"
+  },
+  {
+    "id": 252,
+    "name": "Гуляш",
+    "description": " ",
+    "price": "1920",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link3"
+  },
+  {
+    "id": 253,
+    "name": "Курица запеченная",
+    "description": " ",
+    "price": "1560",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link4"
+  },
+  {
+    "id": 254,
+    "name": "Плов",
+    "description": " ",
+    "price": "1200",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link5"
+  },
+  {
+    "id": 255,
+    "name": "Мясо по-французский",
+    "description": " ",
+    "price": "1500",
+    "type": "AC_CATERING",
+    "menu": "HOT_DISHES",
+    "image": "link6"
+  },
+  {
+    "id": 256,
+    "name": "Гарнир рис",
+    "description": " ",
+    "price": "420",
+    "type": "AC_CATERING",
+    "menu": "SIDE_DISHES",
+    "image": "link1"
+  },
+  {
+    "id": 257,
+    "name": "Гарнир гречка",
+    "description": " ",
+    "price": "360",
+    "type": "AC_CATERING",
+    "menu": "SIDE_DISHES",
+    "image": "link2"
+  },
+  {
+    "id": 258,
+    "name": "Картофельнле пюре",
+    "description": " ",
+    "price": "420",
+    "type": "AC_CATERING",
+    "menu": "SIDE_DISHES",
+    "image": "link3"
+  },
+  {
+    "id": 259,
+    "name": "Макароны",
+    "description": " ",
+    "price": "420",
+    "type": "AC_CATERING",
+    "menu": "SIDE_DISHES",
+    "image": "link4"
+  },
+  {
+    "id": 260,
+    "name": "Чизкейк испанский",
+    "description": " ",
+    "price": "1020",
+    "type": "AC_CATERING",
+    "menu": "BAKING",
+    "image": "link1"
+  },
+  {
+    "id": 261,
+    "name": "Медовик",
+    "description": " ",
+    "price": "840",
+    "type": "AC_CATERING",
+    "menu": "BAKING",
+    "image": "link2"
+  },
+  {
+    "id": 262,
+    "name": "Наполеон",
+    "description": " ",
+    "price": "660",
+    "type": "AC_CATERING",
+    "menu": "BAKING",
+    "image": "link3"
+  },
+  {
+    "id": 263,
+    "name": "Пирог",
+    "description": " ",
+    "price": "400",
+    "type": "AC_CATERING",
+    "menu": "BAKING",
+    "image": "link4"
+  },
+  {
+    "id": 264,
+    "name": "Маргарита",
+    "description": "25 см, 30см",
+    "price": "2190, 2290",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 265,
+    "name": "Пепперони",
+    "description": "25 см, 30см",
+    "price": "2390, 2690",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 266,
+    "name": "Сырная",
+    "description": "25 см, 30см",
+    "price": "2090, 2390",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 267,
+    "name": "Грибная",
+    "description": "25 см, 30см",
+    "price": "2450, 2890",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 268,
+    "name": "Прошутто",
+    "description": "25 см, 30см",
+    "price": "2450, 2890",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 269,
+    "name": "4 сезона",
+    "description": "25 см, 30см",
+    "price": "2690, 3090",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 270,
+    "name": "Изабелла",
+    "description": "25 см, 30см",
+    "price": "2750, 3290",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 271,
+    "name": "Мексика",
+    "description": "25 см, 30см",
+    "price": "2750, 3090",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 272,
+    "name": "Пепперони(2х)",
+    "description": "25 см, 30см",
+    "price": "2590, 3150",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 273,
+    "name": "Цезарь",
+    "description": "25 см, 30см",
+    "price": "2750, 3090",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 274,
+    "name": "Мясная",
+    "description": "25 см, 30см",
+    "price": "2890, 3090",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 275,
+    "name": "Белка",
+    "description": "25 см, 30см",
+    "price": "3190, 3590",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 276,
+    "name": "Hawaii",
+    "description": "25 см, 30см",
+    "price": "3350, 3590",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link13"
+  },
+  {
+    "id": 277,
+    "name": "Салями",
+    "description": "25 см, 30см",
+    "price": "2450, 2890",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link14"
+  },
+  {
+    "id": 278,
+    "name": "Болоньезе",
+    "description": "25 см, 30см",
+    "price": "2750, 3090",
+    "type": "DONER_HOUSE",
+    "menu": "PIZZA_MENU",
+    "image": "link15"
+  },
+  {
+    "id": 279,
+    "name": "Куриный в лаваше",
+    "description": null,
+    "price": "1290",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 280,
+    "name": "Говяжий в лаваше",
+    "description": null,
+    "price": "1390",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 281,
+    "name": "Ассорти в лаваше",
+    "description": null,
+    "price": "1390",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 282,
+    "name": "Куриный в батоне",
+    "description": null,
+    "price": "1390",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 283,
+    "name": "Говяжий в батоне",
+    "description": null,
+    "price": "1490",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 284,
+    "name": "Ассорти в батоне",
+    "description": null,
+    "price": "1490",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 285,
+    "name": "Донер куриный на тарелке",
+    "description": null,
+    "price": "1900",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 286,
+    "name": "Донер говяжий на тарелке",
+    "description": null,
+    "price": "2100",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 287,
+    "name": "Донер ассорти на тарелке",
+    "description": null,
+    "price": "2200",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 288,
+    "name": "Чизбургер куриный",
+    "description": null,
+    "price": "990",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 289,
+    "name": "Чизбургер говяжий",
+    "description": null,
+    "price": "1050",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 290,
+    "name": "Чизбургер наггетсы",
+    "description": null,
+    "price": "1050",
+    "type": "DONER_HOUSE",
+    "menu": "DONER_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 291,
+    "name": "Куриный комбо(донер+суп+айран)",
+    "description": null,
+    "price": "1590",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link1"
+  },
+  {
+    "id": 292,
+    "name": "Говяжий комбо(донер+суп+айран)",
+    "description": null,
+    "price": "1690",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link2"
+  },
+  {
+    "id": 293,
+    "name": "Ассорти комбо(донер+суп+айран)",
+    "description": null,
+    "price": "1790",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link3"
+  },
+  {
+    "id": 294,
+    "name": "Комбо бургер(FRIENDS)",
+    "description": null,
+    "price": "2990",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link4"
+  },
+  {
+    "id": 295,
+    "name": "Пицца комбо(EL CLASSICO)",
+    "description": null,
+    "price": "3990",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link5"
+  },
+  {
+    "id": 296,
+    "name": "Пицца комбо(OHANA)",
+    "description": null,
+    "price": "4490",
+    "type": "DONER_HOUSE",
+    "menu": "KOMBO",
+    "image": "link6"
+  },
+  {
+    "id": 297,
+    "name": "Хот дог",
+    "description": null,
+    "price": "600",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link1"
+  },
+  {
+    "id": 298,
+    "name": "Француз булочка",
+    "description": null,
+    "price": "280",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link2"
+  },
+  {
+    "id": 299,
+    "name": "Пиде",
+    "description": null,
+    "price": "290",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link3"
+  },
+  {
+    "id": 300,
+    "name": "Самса с сыром",
+    "description": null,
+    "price": "320",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link4"
+  },
+  {
+    "id": 301,
+    "name": "Самса с курицей",
+    "description": null,
+    "price": "320",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link5"
+  },
+  {
+    "id": 302,
+    "name": "Самса с мясом",
+    "description": null,
+    "price": "320",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link6"
+  },
+  {
+    "id": 303,
+    "name": "Корверт колбаса",
+    "description": null,
+    "price": "280",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link7"
+  },
+  {
+    "id": 304,
+    "name": "Слойка с яблока",
+    "description": null,
+    "price": "280",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link8"
+  },
+  {
+    "id": 305,
+    "name": "Сэндвич куриный",
+    "description": null,
+    "price": "470",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link9"
+  },
+  {
+    "id": 306,
+    "name": "Поча с картошкой",
+    "description": null,
+    "price": "220",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link10"
+  },
+  {
+    "id": 307,
+    "name": "Поча с сыром",
+    "description": null,
+    "price": "220",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link11"
+  },
+  {
+    "id": 308,
+    "name": "Пастич",
+    "description": null,
+    "price": "260",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link12"
+  },
+  {
+    "id": 309,
+    "name": "Уйгурская самса с мясом",
+    "description": null,
+    "price": "269",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link13"
+  },
+  {
+    "id": 310,
+    "name": "Сосиска в тесте слоеном",
+    "description": null,
+    "price": "220",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link14"
+  },
+  {
+    "id": 311,
+    "name": "Сосиска в тесте жареная",
+    "description": null,
+    "price": "260",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link15"
+  },
+  {
+    "id": 312,
+    "name": "Вартушка",
+    "description": null,
+    "price": "250",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link16"
+  },
+  {
+    "id": 313,
+    "name": "Лакомка",
+    "description": null,
+    "price": "250",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link17"
+  },
+  {
+    "id": 314,
+    "name": "Курассан шокалад",
+    "description": null,
+    "price": "350",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link18"
+  },
+  {
+    "id": 315,
+    "name": "Лаваш мясом",
+    "description": null,
+    "price": "450",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link19"
+  },
+  {
+    "id": 316,
+    "name": "Ачма шоколад",
+    "description": null,
+    "price": "270",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link20"
+  },
+  {
+    "id": 317,
+    "name": "Слойка творогом",
+    "description": null,
+    "price": "280",
+    "type": "DONER_HOUSE",
+    "menu": "FOOD_MENU",
+    "image": "link21"
+  },
+  {
+    "id": 318,
+    "name": "Хот дог",
+    "description": null,
+    "price": "600",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link1"
+  },
+  {
+    "id": 319,
+    "name": "Француз булочка",
+    "description": null,
+    "price": "280",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link2"
+  },
+  {
+    "id": 320,
+    "name": "Пиде",
+    "description": null,
+    "price": "290",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link3"
+  },
+  {
+    "id": 321,
+    "name": "Самса с сыром",
+    "description": null,
+    "price": "320",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link4"
+  },
+  {
+    "id": 322,
+    "name": "Самса с курицей",
+    "description": null,
+    "price": "320",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link5"
+  },
+  {
+    "id": 323,
+    "name": "Самса с мясом",
+    "description": null,
+    "price": "320",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link6"
+  },
+  {
+    "id": 324,
+    "name": "Корверт колбаса",
+    "description": null,
+    "price": "280",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link7"
+  },
+  {
+    "id": 325,
+    "name": "Слойка с яблока",
+    "description": null,
+    "price": "280",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link8"
+  },
+  {
+    "id": 326,
+    "name": "Сэндвич куриный",
+    "description": null,
+    "price": "470",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link9"
+  },
+  {
+    "id": 327,
+    "name": "Поча с картошкой",
+    "description": null,
+    "price": "220",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link10"
+  },
+  {
+    "id": 328,
+    "name": "Поча с сыром",
+    "description": null,
+    "price": "220",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link11"
+  },
+  {
+    "id": 329,
+    "name": "Пастич",
+    "description": null,
+    "price": "260",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link12"
+  },
+  {
+    "id": 330,
+    "name": "Уйгурская самса с мясом",
+    "description": null,
+    "price": "269",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link13"
+  },
+  {
+    "id": 331,
+    "name": "Сосиска в тесте слоеном",
+    "description": null,
+    "price": "220",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link14"
+  },
+  {
+    "id": 332,
+    "name": "Сосиска в тесте жареная",
+    "description": null,
+    "price": "260",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link15"
+  },
+  {
+    "id": 333,
+    "name": "Вартушка",
+    "description": null,
+    "price": "250",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link16"
+  },
+  {
+    "id": 334,
+    "name": "Лакомка",
+    "description": null,
+    "price": "250",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link17"
+  },
+  {
+    "id": 335,
+    "name": "Курассан шокалад",
+    "description": null,
+    "price": "350",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link18"
+  },
+  {
+    "id": 336,
+    "name": "Лаваш мясом",
+    "description": null,
+    "price": "450",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link19"
+  },
+  {
+    "id": 337,
+    "name": "Ачма шоколад",
+    "description": null,
+    "price": "270",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link20"
+  },
+  {
+    "id": 338,
+    "name": "Слойка творогом",
+    "description": null,
+    "price": "280",
+    "type": "GREEN_CANTEEN",
+    "menu": "MENU",
+    "image": "link21"
+  },
+  {
+    "id": 339,
+    "name": "Сладкий картошка",
+    "description": null,
+    "price": "200",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link1"
+  },
+  {
+    "id": 340,
+    "name": "Молочная девочка",
+    "description": null,
+    "price": "500",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link2"
+  },
+  {
+    "id": 341,
+    "name": "Пахлава",
+    "description": null,
+    "price": "300",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link3"
+  },
+  {
+    "id": 342,
+    "name": "Фисташковы пирог",
+    "description": null,
+    "price": "700",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link4"
+  },
+  {
+    "id": 343,
+    "name": "Напалеон",
+    "description": null,
+    "price": "500",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link5"
+  },
+  {
+    "id": 344,
+    "name": "Рулет",
+    "description": null,
+    "price": "450",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link6"
+  },
+  {
+    "id": 345,
+    "name": "Медовый",
+    "description": null,
+    "price": "450",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link7"
+  },
+  {
+    "id": 346,
+    "name": "Пончик",
+    "description": null,
+    "price": "160",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link8"
+  },
+  {
+    "id": 347,
+    "name": "Блины",
+    "description": null,
+    "price": "120",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link9"
+  },
+  {
+    "id": 348,
+    "name": "Вупипай",
+    "description": null,
+    "price": "600",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link10"
+  },
+  {
+    "id": 349,
+    "name": "Испанский чизкейк",
+    "description": null,
+    "price": "900",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link11"
+  },
+  {
+    "id": 350,
+    "name": "Тварожный чизкейк",
+    "description": null,
+    "price": "600",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link12"
+  },
+  {
+    "id": 351,
+    "name": "Сеикерс",
+    "description": null,
+    "price": "600",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link13"
+  },
+  {
+    "id": 352,
+    "name": "Прага",
+    "description": null,
+    "price": "500",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link14"
+  },
+  {
+    "id": 353,
+    "name": "Карамель",
+    "description": null,
+    "price": "400",
+    "type": "GREEN_CANTEEN",
+    "menu": "SWEET",
+    "image": "link15"
+  },
+  {
+    "id": 354,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link1"
+  },
+  {
+    "id": 355,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link2"
+  },
+  {
+    "id": 356,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link3"
+  },
+  {
+    "id": 357,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link4"
+  },
+  {
+    "id": 358,
+    "name": "Buiyrtsa",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link5"
+  },
+  {
+    "id": 359,
+    "name": "TAMAM",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link6"
+  },
+  {
+    "id": 360,
+    "name": "Buiyrtsa",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link7"
+  },
+  {
+    "id": 361,
+    "name": "ALUMNI SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link8"
+  },
+  {
+    "id": 362,
+    "name": "ALUMNI SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link9"
+  },
+  {
+    "id": 363,
+    "name": "ALUMNI SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link10"
+  },
+  {
+    "id": 364,
+    "name": "ALUMNI SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link11"
+  },
+  {
+    "id": 365,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link12"
+  },
+  {
+    "id": 366,
+    "name": "SDU EST.1996",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link13"
+  },
+  {
+    "id": 367,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link14"
+  },
+  {
+    "id": 368,
+    "name": "SDU",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link15"
+  },
+  {
+    "id": 369,
+    "name": "HAYIRLISI",
+    "description": "T-Shirt oversize(L/M/S)",
+    "price": "9000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link16"
+  },
+  {
+    "id": 370,
+    "name": "ARKADAS",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link17"
+  },
+  {
+    "id": 371,
+    "name": "ALUMNI SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link18"
+  },
+  {
+    "id": 372,
+    "name": "ALUMNI SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link19"
+  },
+  {
+    "id": 373,
+    "name": "ALUMNI SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link20"
+  },
+  {
+    "id": 374,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link21"
+  },
+  {
+    "id": 375,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link22"
+  },
+  {
+    "id": 376,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link23"
+  },
+  {
+    "id": 377,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link24"
+  },
+  {
+    "id": 378,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link25"
+  },
+  {
+    "id": 379,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link26"
+  },
+  {
+    "id": 380,
+    "name": "ENGINEERING AND NATURAL SCIENCES",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link27"
+  },
+  {
+    "id": 381,
+    "name": "SDU (BUSINESS SCHOOL)",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link28"
+  },
+  {
+    "id": 382,
+    "name": "LAW AND SOCIAL SCIENCES",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link29"
+  },
+  {
+    "id": 383,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link30"
+  },
+  {
+    "id": 384,
+    "name": "EDUCATION AND HUMANITIES",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link31"
+  },
+  {
+    "id": 385,
+    "name": "ALUMNI SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "16000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link32"
+  },
+  {
+    "id": 386,
+    "name": "SDU",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link33"
+  },
+  {
+    "id": 387,
+    "name": "SDU",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link34"
+  },
+  {
+    "id": 388,
+    "name": "HAYIRLISI",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link35"
+  },
+  {
+    "id": 389,
+    "name": "Buiyrtsa",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link36"
+  },
+  {
+    "id": 390,
+    "name": "SDU",
+    "description": "SweatShirt oversize(L/M/S)",
+    "price": "27000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link37"
+  },
+  {
+    "id": 391,
+    "name": "SDU",
+    "description": "Shirt oversize(L/M/S)",
+    "price": "27000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link38"
+  },
+  {
+    "id": 392,
+    "name": "ALUMNI SDU",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link39"
+  },
+  {
+    "id": 393,
+    "name": "SDU",
+    "description": "Shirt oversize(L/M/S)",
+    "price": "27000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link40"
+  },
+  {
+    "id": 394,
+    "name": "SDU",
+    "description": "Shirt oversize(L/M/S)",
+    "price": "27000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link41"
+  },
+  {
+    "id": 395,
+    "name": "SDU",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link42"
+  },
+  {
+    "id": 396,
+    "name": "ALUMNI SDU",
+    "description": "Hoodie oversize(L/M/S)",
+    "price": "24000",
+    "type": "SDU_STORE",
+    "menu": "TOP",
+    "image": "link43"
+  },
+  {
+    "id": 397,
+    "name": "Raise",
+    "description": "Bottle glass | 520 ml",
+    "price": "4000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link1"
+  },
+  {
+    "id": 398,
+    "name": "SDU Bottle",
+    "description": "Aluminium Bottle | 500 ml",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link2"
+  },
+  {
+    "id": 399,
+    "name": "OKA",
+    "description": "Cup | 20 ml",
+    "price": "2000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link3"
+  },
+  {
+    "id": 400,
+    "name": "ODIM",
+    "description": "Stainless steel | 550 ml",
+    "price": "6000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link4"
+  },
+  {
+    "id": 401,
+    "name": "SDU",
+    "description": "Mugs ceramics | 250 ml",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link5"
+  },
+  {
+    "id": 402,
+    "name": "SDU",
+    "description": "Mugs ceramics | 250 ml",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link6"
+  },
+  {
+    "id": 403,
+    "name": "SDU Bottle",
+    "description": "Aluminium Bottle",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link7"
+  },
+  {
+    "id": 404,
+    "name": "EDUCATION AND HUMANITIES",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link8"
+  },
+  {
+    "id": 405,
+    "name": "SDU",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link9"
+  },
+  {
+    "id": 406,
+    "name": "BUSINESS SCHOOL",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link10"
+  },
+  {
+    "id": 407,
+    "name": "LAW AND SOCIAL SCIENCES",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link11"
+  },
+  {
+    "id": 408,
+    "name": "SDU",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link12"
+  },
+  {
+    "id": 409,
+    "name": "ENGINEERING AND NATURAL SCIENCES",
+    "description": "Notebook",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "BOTTLE",
+    "image": "link13"
+  },
+  {
+    "id": 410,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19000",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link1"
+  },
+  {
+    "id": 411,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link2"
+  },
+  {
+    "id": 412,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link3"
+  },
+  {
+    "id": 413,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link4"
+  },
+  {
+    "id": 414,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link5"
+  },
+  {
+    "id": 415,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link6"
+  },
+  {
+    "id": 416,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link7"
+  },
+  {
+    "id": 417,
+    "name": "SDU",
+    "description": "Shopper bag | standard",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link8"
+  },
+  {
+    "id": 418,
+    "name": "SDU",
+    "description": "Panama",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link9"
+  },
+  {
+    "id": 419,
+    "name": "SDU",
+    "description": "Panama",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link10"
+  },
+  {
+    "id": 420,
+    "name": "SDU",
+    "description": "Cap",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link11"
+  },
+  {
+    "id": 421,
+    "name": "SDU",
+    "description": "Cap",
+    "price": "5000",
+    "type": "SDU_STORE",
+    "menu": "ACCESSORY",
+    "image": "link12"
+  },
+  {
+    "id": 422,
+    "name": "SDU",
+    "description": "T-Shirt+Cup+Shopper",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "BOX",
+    "image": "link1"
+  },
+  {
+    "id": 423,
+    "name": "SDU",
+    "description": "T-Shirt+Cup+Shopper",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "BOX",
+    "image": "link2"
+  },
+  {
+    "id": 424,
+    "name": "SDU",
+    "description": "T-Shirt+Cup+Shopper",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "BOX",
+    "image": "link3"
+  },
+  {
+    "id": 425,
+    "name": "SDU",
+    "description": "T-Shirt+Cup+Shopper",
+    "price": "19900",
+    "type": "SDU_STORE",
+    "menu": "BOX",
+    "image": "link4"
+  }
+]

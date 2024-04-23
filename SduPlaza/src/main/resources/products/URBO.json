@@ -1,535 +1,677 @@
-{
-    "MENU": [
-        {
-            "id": 1,
-            "name": "Экспрессо",
-            "price": 650,
-            "description": "300 мл",
-            "image": "link1.png"
-        },
-        {
-            "id": 2,
-            "name": "Американо",
-            "price": 590,
-            "description": "300 мл",
-            "image": "link2.png"
-        },
-        {
-            "id": 3,
-            "name": "Капучино",
-            "price": 890,
-            "description": "300 мл",
-            "image": "link3.png"
-        },
-        {
-            "id": 4,
-            "name": "Капучино",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link4.png"
-        },
-        {
-            "id": 5,
-            "name": "Латте",
-            "price": 890,
-            "description": "300 мл",
-            "image": "link5.png"
-        },
-        {
-            "id": 6,
-            "name": "Латте",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link6.png"
-        },
-        {
-            "id": 7,
-            "name": "Флэт Уайт",
-            "price": 790,
-            "description": "200 мл",
-            "image": "link7.png"
-        },
-        {
-            "id": 8,
-            "name": "Моккачино",
-            "price": 1590,
-            "description": "300 мл",
-            "image": "link8.png"
-        },
-        {
-            "id": 9,
-            "name": "Моккачино",
-            "price": 1690,
-            "description": "400 мл",
-            "image": "link9.png"
-        },
-        {
-            "id": 10,
-            "name": "Матча чай зеленый",
-            "price": 1490,
-            "description": "300 мл",
-            "image": "link10.png"
-        },
-        {
-            "id": 11,
-            "name": "Горячий шоколад",
-            "price": 790,
-            "description": "200 мл",
-            "image": "link11.png"
-        },
-        {
-            "id": 12,
-            "name": "Какао",
-            "price": 890,
-            "description": "300 мл",
-            "image": "link12.png"
-        },
-        {
-            "id": 13,
-            "name": "Какао",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link13.png"
-        },
-        {
-            "id": 14,
-            "name": "Раф Классический",
-            "price": 300,
-            "description": "25 мл",
-            "image": "link14.png"
-        },
-        {
-            "id": 15,
-            "name": "Раф Классический",
-            "price": 1590,
-            "description": "400 мл",
-            "image": "link15.png"
-        },
-        {
-            "id": 16,
-            "name": "Раф сникерс",
-            "price": 1590,
-            "description": "400 мл",
-            "image": "link16.png"
-        },
-        {
-            "id": 17,
-            "name": "Раф сникерс",
-            "price": 1490,
-            "description": "300 мл",
-            "image": "link17.png"
-        },
-        {
-            "id": 18,
-            "name": "Имбирниый чай",
-            "price": 1390,
-            "description": "400 мл",
-            "image": "link18.png"
-        },
-        {
-            "id": 19,
-            "name": "Облепиховый чай",
-            "price": 890,
-            "description": "400 мл",
-            "image": "link19.png"
-        },
-        {
-            "id": 20,
-            "name": "Морокканский чай",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link20.png"
-        },
-        {
-            "id": 21,
-            "name": "Ташкентский чай",
-            "price": 790,
-            "description": "400 мл",
-            "image": "link21.png"
-        },
-        {
-            "id": 22,
-            "name": "Черный чай",
-            "price": 490,
-            "description": "400 мл",
-            "image": "link22.png"
-        },
-        {
-            "id": 23,
-            "name": "Зеленый чай",
-            "price": 490,
-            "description": "400 мл",
-            "image": "link23.png"
-        },
-        {
-            "id": 24,
-            "name": "Молочный улун",
-            "price": 690,
-            "description": "400 мл",
-            "image": "link24.png"
-        },
-        {
-            "id": 25,
-            "name": "Черника с вишней",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link25.png"
-        },
-        {
-            "id": 26,
-            "name": "Горный луг",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link26.png"
-        },
-        {
-            "id": 27,
-            "name": "Ягодный",
-            "price": 690,
-            "description": "400 мл",
-            "image": "link27.png"
-        },
-        {
-            "id": 28,
-            "name": "Земляника со сливками",
-            "price": 690,
-            "description": "400 мл",
-            "image": "link28.png"
-        },
-        {
-            "id": 29,
-            "name": "Ройбуш",
-            "price": 690,
-            "description": "400 мл",
-            "image": "link29.png"
-        },
-        {
-            "id": 30,
-            "name": "Тегуанинь",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link30.png"
-        }
-    ],
-    "COFFEE": [
-        {
-            "id": 31,
-            "name": "Экспрессо",
-            "price": 650,
-            "description": "300 мл",
-            "image": "link1.png"
-        },
-        {
-            "id": 32,
-            "name": "Американо",
-            "price": 590,
-            "description": "300 мл",
-            "image": "link2.png"
-        },
-        {
-            "id": 33,
-            "name": "Капучино",
-            "price": 890,
-            "description": "300 мл",
-            "image": "link3.png"
-        },
-        {
-            "id": 34,
-            "name": "Капучино",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link4.png"
-        },
-        {
-            "id": 35,
-            "name": "Латте",
-            "price": 890,
-            "description": "300 мл",
-            "image": "link5.png"
-        },
-        {
-            "id": 36,
-            "name": "Латте",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link6.png"
-        },
-        {
-            "id": 37,
-            "name": "Латте",
-            "price": 890,
-            "description": "300 мл",
-            "image": "link7.png"
-        },
-        {
-            "id": 38,
-            "name": "Моккачино",
-            "price": 1590,
-            "description": "300 мл",
-            "image": "link8.png"
-        },
-        {
-            "id": 39,
-            "name": "Моккачино",
-            "price": 1690,
-            "description": "400 мл",
-            "image": "link9.png"
-        },
-        {
-            "id": 40,
-            "name": "Раф Классический",
-            "price": 1490,
-            "description": "300 мл",
-            "image": "link10.png"
-        },
-        {
-            "id": 41,
-            "name": "Раф Классический",
-            "price": 790,
-            "description": "400 мл",
-            "image": "link11.png"
-        },
-        {
-            "id": 42,
-            "name": "Раф сникерс",
-            "price": 1490,
-            "description": "300 мл",
-            "image": "link12.png"
-        },
-        {
-            "id": 43,
-            "name": "Раф сникерс",
-            "price": 1590,
-            "description": "400 мл",
-            "image": "link13.png"
-        },
-        {
-            "id": 44,
-            "name": "Раф Цитрусовый",
-            "price": 1590,
-            "description": "300 мл",
-            "image": "link14.png"
-        },
-        {
-            "id": 45,
-            "name": "Раф Цитрусовый",
-            "price": 1690,
-            "description": "400 мл",
-            "image": "link15.png"
-        }
-    ],
-    "TEA": [
-        {
-            "id": 46,
-            "name": "Матча чай зеленый",
-            "price": 1490,
-            "description": "300 мл",
-            "image": "link1.png"
-        },
-        {
-            "id": 47,
-            "name": "Чай",
-            "price": 990,
-            "description": "300 мл",
-            "image": "link2.png"
-        },
-        {
-            "id": 48,
-            "name": "Имбирниый чай",
-            "price": 1390,
-            "description": "400 мл",
-            "image": "link3.png"
-        },
-        {
-            "id": 49,
-            "name": "Облепиховый чай",
-            "price": 890,
-            "description": "400 мл",
-            "image": "link4.png"
-        },
-        {
-            "id": 50,
-            "name": "Морокканский чай",
-            "price": 890,
-            "description": "300 мл",
-            "image": "link5.png"
-        },
-        {
-            "id": 51,
-            "name": "Ташкентский чай",
-            "price": 790,
-            "description": "400 мл",
-            "image": "link6.png"
-        },
-        {
-            "id": 52,
-            "name": "Черный чай",
-            "price": 490,
-            "description": "400 мл",
-            "image": "link7.png"
-        },
-        {
-            "id": 53,
-            "name": "Зеленый чай",
-            "price": 890,
-            "description": "300 мл",
-            "image": "link8.png"
-        },
-        {
-            "id": 54,
-            "name": "Молочный улун",
-            "price": 690,
-            "description": "400 мл",
-            "image": "link9.png"
-        },
-        {
-            "id": 55,
-            "name": "Черника с вишней",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link10.png"
-        },
-        {
-            "id": 56,
-            "name": "Горный луг",
-            "price": 890,
-            "description": "300 мл",
-            "image": "link11.png"
-        },
-        {
-            "id": 57,
-            "name": "Ягодный",
-            "price": 690,
-            "description": "400 мл",
-            "image": "link12.png"
-        },
-        {
-            "id": 58,
-            "name": "Земляника со сливками",
-            "price": 690,
-            "description": "400 мл",
-            "image": "link13.png"
-        },
-        {
-            "id": 59,
-            "name": "Ройбуш",
-            "price": 690,
-            "description": "400 мл",
-            "image": "link14.png"
-        },
-        {
-            "id": 60,
-            "name": "Тегуанинь",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link15.png"
-        }
-    ],
-    "COLD_DRINK": [
-        {
-            "id": 61,
-            "name": "Классик bubble tea",
-            "price": 1990,
-            "description": "400 мл",
-            "image": "link1.png"
-        },
-        {
-            "id": 62,
-            "name": "Матча bubble tea",
-            "price": 1990,
-            "description": "400 мл",
-            "image": "link2.png"
-        },
-        {
-            "id": 63,
-            "name": "Малиново- ванильный Алматино",
-            "price": 1190,
-            "description": "400 мл",
-            "image": "link3.png"
-        },
-        {
-            "id": 64,
-            "name": "Орео Алматино",
-            "price": 1790,
-            "description": "400 мл",
-            "image": "link4.png"
-        },
-        {
-            "id": 64,
-            "name": "Классик Содовая",
-            "price": 990,
-            "description": "300 мл",
-            "image": "link5.png"
-        },
-        {
-            "id": 66,
-            "name": "Анчан Содовая",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link6.png"
-        },
-        {
-            "id": 67,
-            "name": "Bllue curacao Содовая",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link7.png"
-        },
-        {
-            "id": 68,
-            "name": "Малина Спрайт",
-            "price": 1190,
-            "description": "300 мл",
-            "image": "link8.png"
-        },
-        {
-            "id": 69,
-            "name": "Вишня-банан Смузи",
-            "price": 1490,
-            "description": "400 мл",
-            "image": "link9.png"
-        },
-        {
-            "id": 70,
-            "name": "Киви Смузи",
-            "price": 1490,
-            "description": "400 мл",
-            "image": "link10.png"
-        },
-        {
-            "id": 71,
-            "name": "Манго Смузи",
-            "price": 1990,
-            "description": "300 мл",
-            "image": "link11.png"
-        },
-        {
-            "id": 72,
-            "name": "Манго-маракуйя Лимонад",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link12.png"
-        },
-        {
-            "id": 73,
-            "name": "Киви-лайм лимонад",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link13.png"
-        },
-        {
-            "id": 74,
-            "name": "Ягодный микс лимонад",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link14.png"
-        },
-        {
-            "id": 75,
-            "name": "Мохито лимонад",
-            "price": 990,
-            "description": "400 мл",
-            "image": "link15.png"
-        }
-    ]
-}
+[
+  {
+    "id": 1,
+    "name": "Экспрессо",
+    "description": "300 мл",
+    "price": "650",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link1.png"
+  },
+  {
+    "id": 2,
+    "name": "Американо",
+    "description": "300 мл",
+    "price": "590",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link2.png"
+  },
+  {
+    "id": 3,
+    "name": "Капучино",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link3.png"
+  },
+  {
+    "id": 4,
+    "name": "Капучино",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link4.png"
+  },
+  {
+    "id": 5,
+    "name": "Латте",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link5.png"
+  },
+  {
+    "id": 6,
+    "name": "Латте",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link6.png"
+  },
+  {
+    "id": 7,
+    "name": "Флэт Уайт",
+    "description": "200 мл",
+    "price": "790",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link7.png"
+  },
+  {
+    "id": 8,
+    "name": "Моккачино",
+    "description": "300 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link8.png"
+  },
+  {
+    "id": 9,
+    "name": "Моккачино",
+    "description": "400 мл",
+    "price": "1690",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link9.png"
+  },
+  {
+    "id": 10,
+    "name": "Матча чай зеленый",
+    "description": "300 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link10.png"
+  },
+  {
+    "id": 11,
+    "name": "Горячий шоколад",
+    "description": "200 мл",
+    "price": "790",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link11.png"
+  },
+  {
+    "id": 12,
+    "name": "Какао",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link12.png"
+  },
+  {
+    "id": 13,
+    "name": "Какао",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link13.png"
+  },
+  {
+    "id": 14,
+    "name": "Раф Классический",
+    "description": "25 мл",
+    "price": "300",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link14.png"
+  },
+  {
+    "id": 15,
+    "name": "Раф Классический",
+    "description": "400 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link15.png"
+  },
+  {
+    "id": 16,
+    "name": "Раф сникерс",
+    "description": "400 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link16.png"
+  },
+  {
+    "id": 17,
+    "name": "Раф сникерс",
+    "description": "300 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link17.png"
+  },
+  {
+    "id": 18,
+    "name": "Имбирниый чай",
+    "description": "400 мл",
+    "price": "1390",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link18.png"
+  },
+  {
+    "id": 19,
+    "name": "Облепиховый чай",
+    "description": "400 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link19.png"
+  },
+  {
+    "id": 20,
+    "name": "Морокканский чай",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link20.png"
+  },
+  {
+    "id": 21,
+    "name": "Ташкентский чай",
+    "description": "400 мл",
+    "price": "790",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link21.png"
+  },
+  {
+    "id": 22,
+    "name": "Черный чай",
+    "description": "400 мл",
+    "price": "490",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link22.png"
+  },
+  {
+    "id": 23,
+    "name": "Зеленый чай",
+    "description": "400 мл",
+    "price": "490",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link23.png"
+  },
+  {
+    "id": 24,
+    "name": "Молочный улун",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link24.png"
+  },
+  {
+    "id": 25,
+    "name": "Черника с вишней",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link25.png"
+  },
+  {
+    "id": 26,
+    "name": "Горный луг",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link26.png"
+  },
+  {
+    "id": 27,
+    "name": "Ягодный",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link27.png"
+  },
+  {
+    "id": 28,
+    "name": "Земляника со сливками",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link28.png"
+  },
+  {
+    "id": 29,
+    "name": "Ройбуш",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link29.png"
+  },
+  {
+    "id": 30,
+    "name": "Тегуанинь",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "MENU",
+    "image": "link30.png"
+  },
+  {
+    "id": 31,
+    "name": "Экспрессо",
+    "description": "300 мл",
+    "price": "650",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link1.png"
+  },
+  {
+    "id": 32,
+    "name": "Американо",
+    "description": "300 мл",
+    "price": "590",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link2.png"
+  },
+  {
+    "id": 33,
+    "name": "Капучино",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link3.png"
+  },
+  {
+    "id": 34,
+    "name": "Капучино",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link4.png"
+  },
+  {
+    "id": 35,
+    "name": "Латте",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link5.png"
+  },
+  {
+    "id": 36,
+    "name": "Латте",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link6.png"
+  },
+  {
+    "id": 37,
+    "name": "Латте",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link7.png"
+  },
+  {
+    "id": 38,
+    "name": "Моккачино",
+    "description": "300 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link8.png"
+  },
+  {
+    "id": 39,
+    "name": "Моккачино",
+    "description": "400 мл",
+    "price": "1690",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link9.png"
+  },
+  {
+    "id": 40,
+    "name": "Раф Классический",
+    "description": "300 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link10.png"
+  },
+  {
+    "id": 41,
+    "name": "Раф Классический",
+    "description": "400 мл",
+    "price": "790",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link11.png"
+  },
+  {
+    "id": 42,
+    "name": "Раф сникерс",
+    "description": "300 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link12.png"
+  },
+  {
+    "id": 43,
+    "name": "Раф сникерс",
+    "description": "400 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link13.png"
+  },
+  {
+    "id": 44,
+    "name": "Раф Цитрусовый",
+    "description": "300 мл",
+    "price": "1590",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link14.png"
+  },
+  {
+    "id": 45,
+    "name": "Раф Цитрусовый",
+    "description": "400 мл",
+    "price": "1690",
+    "type": "URBO",
+    "menu": "COFFEE",
+    "image": "link15.png"
+  },
+  {
+    "id": 46,
+    "name": "Матча чай зеленый",
+    "description": "300 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link1.png"
+  },
+  {
+    "id": 47,
+    "name": "Чай",
+    "description": "300 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link2.png"
+  },
+  {
+    "id": 48,
+    "name": "Имбирниый чай",
+    "description": "400 мл",
+    "price": "1390",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link3.png"
+  },
+  {
+    "id": 49,
+    "name": "Облепиховый чай",
+    "description": "400 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link4.png"
+  },
+  {
+    "id": 50,
+    "name": "Морокканский чай",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link5.png"
+  },
+  {
+    "id": 51,
+    "name": "Ташкентский чай",
+    "description": "400 мл",
+    "price": "790",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link6.png"
+  },
+  {
+    "id": 52,
+    "name": "Черный чай",
+    "description": "400 мл",
+    "price": "490",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link7.png"
+  },
+  {
+    "id": 53,
+    "name": "Зеленый чай",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link8.png"
+  },
+  {
+    "id": 54,
+    "name": "Молочный улун",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link9.png"
+  },
+  {
+    "id": 55,
+    "name": "Черника с вишней",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link10.png"
+  },
+  {
+    "id": 56,
+    "name": "Горный луг",
+    "description": "300 мл",
+    "price": "890",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link11.png"
+  },
+  {
+    "id": 57,
+    "name": "Ягодный",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link12.png"
+  },
+  {
+    "id": 58,
+    "name": "Земляника со сливками",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link13.png"
+  },
+  {
+    "id": 59,
+    "name": "Ройбуш",
+    "description": "400 мл",
+    "price": "690",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link14.png"
+  },
+  {
+    "id": 60,
+    "name": "Тегуанинь",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "TEA",
+    "image": "link15.png"
+  },
+  {
+    "id": 61,
+    "name": "Классик bubble tea",
+    "description": "400 мл",
+    "price": "1990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link1.png"
+  },
+  {
+    "id": 62,
+    "name": "Матча bubble tea",
+    "description": "400 мл",
+    "price": "1990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link2.png"
+  },
+  {
+    "id": 63,
+    "name": "Малиново- ванильный Алматино",
+    "description": "400 мл",
+    "price": "1190",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link3.png"
+  },
+  {
+    "id": 64,
+    "name": "Орео Алматино",
+    "description": "400 мл",
+    "price": "1790",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link4.png"
+  },
+  {
+    "id": 65,
+    "name": "Классик Содовая",
+    "description": "300 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link5.png"
+  },
+  {
+    "id": 66,
+    "name": "Анчан Содовая",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link6.png"
+  },
+  {
+    "id": 67,
+    "name": "Bllue curacao Содовая",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link7.png"
+  },
+  {
+    "id": 68,
+    "name": "Малина Спрайт",
+    "description": "300 мл",
+    "price": "1190",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link8.png"
+  },
+  {
+    "id": 69,
+    "name": "Вишня-банан Смузи",
+    "description": "400 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link9.png"
+  },
+  {
+    "id": 70,
+    "name": "Киви Смузи",
+    "description": "400 мл",
+    "price": "1490",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link10.png"
+  },
+  {
+    "id": 71,
+    "name": "Манго Смузи",
+    "description": "300 мл",
+    "price": "1990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link11.png"
+  },
+  {
+    "id": 72,
+    "name": "Манго-маракуйя Лимонад",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link12.png"
+  },
+  {
+    "id": 73,
+    "name": "Киви-лайм лимонад",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link13.png"
+  },
+  {
+    "id": 74,
+    "name": "Ягодный микс лимонад",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link14.png"
+  },
+  {
+    "id": 75,
+    "name": "Мохито лимонад",
+    "description": "400 мл",
+    "price": "990",
+    "type": "URBO",
+    "menu": "COLD_DRINK",
+    "image": "link15.png"
+  }
+]
