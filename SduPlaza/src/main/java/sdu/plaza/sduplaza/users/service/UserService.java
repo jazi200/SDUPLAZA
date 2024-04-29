@@ -5,6 +5,7 @@ import sdu.plaza.sduplaza.users.dto.request.*;
 import sdu.plaza.sduplaza.users.dto.response.UserResetCodeResponse;
 import sdu.plaza.sduplaza.users.dto.response.UserResetResponse;
 import sdu.plaza.sduplaza.users.dto.response.UserResponse;
+import sdu.plaza.sduplaza.users.dto.response.UserRoleResponse;
 
 import java.util.List;
 

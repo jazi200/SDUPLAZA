@@ -1,0 +1,163 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 1440px;
+    /* height: 1024px; */
+    height: 100%;
+    margin: 0 auto;
+    background-color: #212153;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    cursor: pointer;
+  }
+
+.logo{
+    margin-top: 247px;
+    margin-left: 156px;
+    margin-right: 156px;
+    width: 400px;
+    height: 506px;
+}
+
+.login{
+    height: 1024px;
+    width: 720px;
+    background-color: #fff;
+}
+
+.content{
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+p{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+form .form-group input{
+    padding-left: 8px;
+    width: 500px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    margin-bottom: 48px;
+    border-bottom: 2px solid black;
+}
+
+form .password input{
+    padding-left: 8px;
+    width: 500px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    margin-bottom: 48px;
+    border-bottom: 2px solid black;
+}
+
+.password{
+    display: inline-block;
+    position: relative;
+}
+
+.pass-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+
+.remfor{
+    display: flex;
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    font-weight: 500;
+
+}
+
+input[type="checkbox"]:checked {
+    background-color: #212153; /* Updated background color */
+  }
+
+.remfor a{
+    margin-left: 155px;
+    text-decoration: none;
+    color: #212153;
+    font-weight: 500;
+}
+
+input[type="submit"] {
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    background-color: #212153;
+    margin-top: 65px;
+    font-weight: 600;
+}
+
+.noaccount{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.noaccount p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.noaccount a{
+    margin-top: 22px;
+    text-decoration: none;
+    color: #212153;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+
+
+.orsignup p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #7D7474;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.orsignup{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.line {
+    width: 150px;
+    height: 1px;
+    background-color: #CACACA;
+    margin-top: 40px;
+}
+
+.others{
+    text-align: center;
+}

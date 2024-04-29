@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import sdu.plaza.sduplaza.users.dto.UserView;
+import sdu.plaza.sduplaza.users.dto.response.UserRoleResponse;
 import sdu.plaza.sduplaza.users.service.UserService;
 
 @RestController

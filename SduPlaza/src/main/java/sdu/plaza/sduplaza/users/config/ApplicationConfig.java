@@ -11,6 +11,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import sdu.plaza.sduplaza.users.repository.UserRepository;
+import sdu.plaza.sduplaza.web.exceptions.UserNotFoundException;
 
 @Configuration
 @RequiredArgsConstructor
@@ -21,7 +22,7 @@ public class ApplicationConfig {
     @Bean
     public UserDetailsService userDetailsService(){
         return userId -> repository.findByUserId(userId)
-                .orElseThrow(() -> new RuntimeException("User ID not found"));
+                .orElseThrow(() -> new UserNotFoundException("User not found",461));
     }
 
     @Bean

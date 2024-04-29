@@ -19,10 +19,11 @@ import sdu.plaza.sduplaza.users.repository.UserRepository;
 import sdu.plaza.sduplaza.users.service.UserService;
 import sdu.plaza.sduplaza.users.util.CodeSender;
 import sdu.plaza.sduplaza.users.util.Decoder;
+import sdu.plaza.sduplaza.web.exceptions.BadRequestException;
+import sdu.plaza.sduplaza.web.exceptions.UserNotFoundException;
 import sdu.plaza.sduplaza.web.service.PasswordResetCodeService;
 import sdu.plaza.sduplaza.web.service.TokenService;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Objects;
 
@@ -49,16 +50,16 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserResponse register(UserRegisterRequest request) {
         if(request.getUserId() == null || request.getUserId().length() != 9)
-            throw new RuntimeException("User ID must have 9 characters");
+            throw new BadRequestException("User ID must have 9 characters", 441);
 
         if(request.getName() == null || request.getName().isEmpty())
-            throw new RuntimeException("User name cannot be empty");
+            throw new BadRequestException("User name cannot be empty", 442);
 
         if(request.getEmail() == null || request.getEmail().isEmpty() || !request.getEmail().contains("sdu.edu.kz"))
-            throw new RuntimeException("Use University email");
+            throw new BadRequestException("Use University email", 443);
 
         if(request.getPassword() == null || request.getPassword().length() < 8 || request.getPassword().length() > 25)
-            throw new RuntimeException("Password must be 8-25 characters");
+            throw new BadRequestException("Password must be 8-25 characters", 444);
 
         UserEntity user = UserMapper.INSTANCE.userRequestToUserEntity(request);
 
@@ -75,6 +76,9 @@ public class UserServiceImpl implements UserService {
     @Transactional
     @Override
     public UserResponse login(UserLoginRequest request, Boolean remember) {
+        if(request.getUserId().length() != 9)
+            throw new BadRequestException("User ID must have 9 characters", 441);
+
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(
                         request.getUserId(),
@@ -82,7 +86,7 @@ public class UserServiceImpl implements UserService {
                 )
         );
         UserEntity user = repository.findByUserId(request.getUserId())
-                .orElseThrow(() -> new RuntimeException("User not found"));
+                .orElseThrow(() -> new UserNotFoundException("User not found",461));
         String token = tokenService.generateToken(user, remember);
         return UserResponse.builder()
                 .token(token)
@@ -93,7 +97,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserResetResponse reset(UserResetRequest request) {
         if(request.getEmail() == null || !request.getEmail().contains("sdu.edu.kz"))
-            throw new RuntimeException("Wrong email");
+            throw new BadRequestException("Wrong email", 431);
 
         String code = passwordResetCodeService.generateResetCode(request.getEmail());
         send.sendCode(request.getEmail(), code);
@@ -104,10 +108,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserResetCodeResponse resetCode(UserResetCodeRequest request) {
         if(request.getCode() == null || request.getCode().length() != 4)
-            throw new RuntimeException("Wrong code");
+            throw new BadRequestException("Wrong code", 432);
 
         if(request.getEmail() == null || !request.getEmail().contains("sdu.edu.kz"))
-            throw new RuntimeException("Wrong email");
+            throw new BadRequestException("Wrong email", 431);
 
         return UserResetCodeResponse.builder()
                 .correctCode(passwordResetCodeService.verifyResetCode(request.getEmail(), request.getCode()))
@@ -118,21 +122,21 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserResponse resetPassword(UserPasswordUpdateRequest request) {
         if(request.getCode() == null || request.getCode().length() != 4)
-            throw new RuntimeException("Wrong code");
+            throw new BadRequestException("Wrong code", 432);
 
         if(request.getEmail() == null || !request.getEmail().contains("sdu.edu.kz"))
-            throw new RuntimeException("Wrong email");
+            throw new BadRequestException("Wrong email", 431);
 
         if(!passwordResetCodeService.verifyResetCode(request.getEmail(), request.getCode()))
-            throw new RuntimeException("Invalid password reset");
+            throw new BadRequestException("Invalid password reset", 433);
 
         if(!Objects.equals(request.getPassword(), request.getRePassword()))
-            throw new RuntimeException("Password not same");
+            throw new BadRequestException("Password not same", 445);
 
         if(request.getRePassword() == null || request.getRePassword().length() < 8 || request.getRePassword().length() > 25)
-            throw new RuntimeException("Password must be 8-25 characters");
+            throw new BadRequestException("Password must be 8-25 characters", 444);
 
-        UserEntity entity = repository.findByEmail(request.getEmail()).orElseThrow(() -> new RuntimeException("User not found"));
+        UserEntity entity = repository.findByEmail(request.getEmail()).orElseThrow(() -> new UserNotFoundException("User not found",461));
 
         entity.setPassword(passwordEncoder.encode(request.getPassword()));
         entity = repository.save(entity);
@@ -147,10 +151,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserResponse update(String token, String username, String email, String id) {
         if(email != null && !email.isEmpty() && !email.contains("sdu.edu.kz"))
-            throw new RuntimeException("Invalid email");
+            throw new BadRequestException("Invalid email", 443 );
 
         if(id != null && !id.isEmpty() && id.length() != 9)
-            throw new RuntimeException("Invalid id");
+            throw new BadRequestException("Invalid id",441 );
 
         String data = decoder.decodeJwtPayload(token);
 
@@ -158,13 +162,13 @@ public class UserServiceImpl implements UserService {
         UserTokenRequest tokenRequest = gson.fromJson(data, UserTokenRequest.class);
 
         UserEntity entity = repository.findByUserId(tokenRequest.getSub())
-                .orElseThrow(() -> new RuntimeException("User not found"));
+                .orElseThrow(() -> new UserNotFoundException("User not found",461));
 
         if(!username.isEmpty()) entity.setName(username);
         if (email != null && !email.isEmpty()) entity.setEmail(email);
         if (id != null && !id.isEmpty()) entity.setUserId(id);
 
-        entity.setUpdatedAt(LocalDateTime.now());
+        entity.preUpdate();
 
         entity = repository.save(entity);
 
@@ -189,8 +193,8 @@ public class UserServiceImpl implements UserService {
         UserTokenRequest tokenRequest = gson.fromJson(data, UserTokenRequest.class);
 
         UserEntity entity = repository.findByUserId(tokenRequest.getSub())
-                .orElseThrow(()->new RuntimeException("User not found"));
-        entity.setRole(UserRole.Admin);
+                .orElseThrow(()->new UserNotFoundException("User not found",461));
+        entity.setRole(UserRole.ROLE_ADMIN);
 
         entity = repository.save(entity);
 
@@ -208,7 +212,7 @@ public class UserServiceImpl implements UserService {
         UserTokenRequest tokenRequest = gson.fromJson(data, UserTokenRequest.class);
 
         UserEntity entity = repository.findByUserId(tokenRequest.getSub())
-                .orElseThrow(() -> new RuntimeException("User not found"));
+                .orElseThrow(() -> new UserNotFoundException("User not found",461));
 
         return UserMapper.INSTANCE.userToView(entity);
     }

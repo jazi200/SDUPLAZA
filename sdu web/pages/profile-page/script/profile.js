@@ -31,6 +31,7 @@ if (token) {
         }
     })
     .then(data => {
+        console.log(data);
         document.getElementById('username').innerHTML = `<b>${data.name}</b>`;
         document.getElementById('email').innerHTML = `<b>${data.email}</b>`;
         document.getElementById('id').innerHTML = `<b>${data.userId}</b>`;

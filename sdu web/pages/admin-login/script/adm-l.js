@@ -54,12 +54,10 @@ document.getElementById("LoginBtn").addEventListener("click", function() {
         return response.json();
     })
     .then(data => {
-        console.log(data);
         if(data && data.token) {
             document.cookie = `token=${data.token}; path=/; max-age=3600`;
-            window.location.href = '../home-page/homepage.html';
+            window.location.href = '../admin-page/admin.html#';
         } else {
-            console.log(data);
             throw new Error('Login failed: Token is missing in the response.');
         }
     })

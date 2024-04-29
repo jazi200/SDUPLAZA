@@ -13,7 +13,7 @@ public interface UserMapper {
     UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
 
 
-    @Mapping(target = "role", expression = "java(sdu.plaza.sduplaza.users.enums.UserRole.Student)")
+    @Mapping(target = "role", expression = "java(sdu.plaza.sduplaza.users.enums.UserRole.ROLE_STUDENT)")
     UserEntity userRequestToUserEntity(UserRegisterRequest request);
 
     UserView userToView(UserEntity user);
