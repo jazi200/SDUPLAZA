@@ -244,6 +244,7 @@ const filterButtons = document.querySelectorAll('.filter-btn');
 
 filterButtons.forEach(button => {
     button.addEventListener('click', (event) => {
+        document.getElementById('moredetail').style.display = 'none';
         event.preventDefault();
         const category = button.getAttribute('data-category').toUpperCase();
         let products = document.querySelectorAll('.product');
