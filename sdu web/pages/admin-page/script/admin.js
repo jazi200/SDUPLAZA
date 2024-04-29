@@ -36,11 +36,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function changeShopName(clickedElement, name, defaultType) {
     document.getElementById('shop').innerHTML = name;
-    var previousSelected = document.querySelector('a[selected]');
-    if (previousSelected) {
-        previousSelected.removeAttribute('selected');
-        previousSelected.style.color = ''; // Reset color
-    }
+    document.querySelectorAll('#butList').forEach(btn =>{
+        btn.style.color = "#000000";
+    });
     clickedElement.style.color = '#212153';
     getElements(defaultType);
 }
