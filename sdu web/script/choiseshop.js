@@ -61,45 +61,23 @@ function getProducts(){
                 productDiv.classList.add(`${item.menu}`)
                 
                 if(item.menu === 'COFFEE'){
-                    if(item.image.indexOf('.png') === -1){
-                        productDiv.innerHTML = `
+                    productDiv.innerHTML = `
                         <img src="../../img/${item.type}/${item.menu}/${item.image}.png" alt="">
                         <p class="price">${item.price} т</p>
-                        <p>${item.name}</p>
-                        <button class="add" onclick="openModal(${item.id}, '${item.name}', '${item.description}', ${item.price}, '${item.type}', '${item.menu}', '${item.image}')">
-                            + Add
-                        </button>
-                        `;
-                    }else{
-                        productDiv.innerHTML = `
-                        <img src="../../img/${item.type}/${item.menu}/${item.image}" alt="">
-                        <p class="price">${item.price} т</p>
-                        <p>${item.name}</p>
+                        <p id="pr-name">${item.name}</p>
                         <button class="add" onclick="openModal(${item.id}, '${item.name}', '${item.description}', ${item.price}, '${item.type}', '${item.menu}', '${item.image}')">
                             + Add
                         </button>
                     `;
-                    }
                 }else{
-                    if(item.image.indexOf('.png') === -1){
-                        productDiv.innerHTML = `
-                        <img src="../../img/${item.type}/${item.menu}/${item.image}.png" alt="">
-                        <p class="price">${item.price} т</p>
-                        <p>${item.name}</p>
-                        <button class="add" onclick="addToBasketMain(${item.id}, '${item.name}', '${item.description}', ${item.price}, '${item.type}', '${item.menu}', '${item.image}')">
-                            + Add
-                        </button>
-                        `;
-                    }else{
-                        productDiv.innerHTML = `
-                        <img src="../../img/${item.type}/${item.menu}/${item.image}" alt="">
-                        <p class="price">${item.price} т</p>
-                        <p>${item.name}</p>
-                        <button class="add" onclick="addToBasketMain(${item.id}, '${item.name}', '${item.description}', ${item.price}, '${item.type}', '${item.menu}', '${item.image}')">
-                            + Add
-                        </button>
+                    productDiv.innerHTML = `
+                    <img src="../../img/${item.type}/${item.menu}/${item.image}.png" alt="">
+                    <p class="price">${item.price} т</p>
+                    <p id="pr-name">${item.name}</p>
+                    <button class="add" onclick="addToBasketMain(${item.id}, '${item.name}', '${item.description}', ${item.price}, '${item.type}', '${item.menu}', '${item.image}')">
+                        + Add
+                    </button>
                     `;
-                    }
                 }
                 contentSection.appendChild(productDiv);
             });
@@ -128,7 +106,6 @@ filterButtons.forEach(button => {
             }else{
                 product.style.display = "none";
             }
-            
         })
     });
 });
@@ -186,3 +163,32 @@ function addToCart() {
 
     closeModal();
 }
+
+function performSearch() {
+    const input = document.getElementById('search-input');
+
+    const products = document.querySelectorAll('.product');
+
+    products.forEach(product => {
+        console.log(product);
+        const productName = product.querySelector('#pr-name').textContent.toLowerCase();
+
+        if (productName.includes(input.value.toLowerCase())) {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+    });
+}
+
+
+const searchButton = document.getElementById('search-button');
+const searchInput = document.getElementById('search-input');
+
+searchButton.addEventListener('click', performSearch);
+
+searchInput.addEventListener('keypress', function(event) {
+    if (event.keyCode === 13) {
+        performSearch();
+    }
+});

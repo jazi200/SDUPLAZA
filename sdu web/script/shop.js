@@ -64,7 +64,7 @@ function getProducts(){
                     productDiv.innerHTML = `
                     <img src="../../img/${item.type}/${item.menu}/${item.image}.png" alt="">
                     <p class="price">${item.price} т</p>
-                    <p>${item.name}</p>
+                    <p id="pr-name">${item.name}</p>
                     <button class="add" onclick="addToBasketMain(${item.id}, '${item.name}', '${item.description}', ${item.price}, '${item.type}', '${item.menu}', '${item.image}')">
                         + Add
                     </button>
@@ -73,7 +73,7 @@ function getProducts(){
                     productDiv.innerHTML = `
                     <img src="../../img/${item.type}/${item.menu}/${item.image}" alt="">
                     <p class="price">${item.price} т</p>
-                    <p>${item.name}</p>
+                    <p id="pr-name">${item.name}</p>
                     <button class="add" onclick="addToBasketMain(${item.id}, '${item.name}', '${item.description}', ${item.price}, '${item.type}', '${item.menu}', '${item.image}')">
                         + Add
                     </button>
@@ -109,4 +109,33 @@ filterButtons.forEach(button => {
             
         })
     });
+});
+
+function performSearch() {
+    const input = document.getElementById('search-input');
+
+    const products = document.querySelectorAll('.product');
+
+    products.forEach(product => {
+        console.log(product);
+        const productName = product.querySelector('#pr-name').textContent.toLowerCase();
+
+        if (productName.includes(input.value.toLowerCase())) {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+    });
+}
+
+
+const searchButton = document.getElementById('search-button');
+const searchInput = document.getElementById('search-input');
+
+searchButton.addEventListener('click', performSearch);
+
+searchInput.addEventListener('keypress', function(event) {
+    if (event.keyCode === 13) {
+        performSearch();
+    }
 });

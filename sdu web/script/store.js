@@ -77,7 +77,7 @@ function getProducts(){
                         <button class="size" onclick="showMoreDetail('${index}')">
                             <img src="../../img/size.png" alt="">
                         </button>
-                        <p>${item.description}</p>
+                        <p id="pr-name">${item.description}</p>
                         <p class="price">${item.price} т</p>
                         <div id="${index}" class="modal" style="display: none;">
                             <div class="modal-content">
@@ -100,7 +100,7 @@ function getProducts(){
                         <button class="size" onclick="showMoreDetail('${index}')">
                             <img src="../../img/size.png" alt="">
                         </button>
-                        <p>${item.description}</p>
+                        <p id="pr-name">${item.description}</p>
                         <p class="price">${item.price} т</p>
                         <div id="${index}" class="modal" style="display: none;">
                             <div class="modal-content">
@@ -121,7 +121,7 @@ function getProducts(){
                     productDiv.innerHTML = `
                     <img src="../../img/${item.type}/${item.menu}/${item.image}.png" alt="">
                     <p class="price">${item.price} т</p>
-                    <p>${item.name}</p>
+                    <p id="pr-name">${item.name}</p>
                     <button class="add" onclick="addToBasketMain(${item.id}, '${item.name}', '${item.description}', ${item.price}, '${item.type}', '${item.menu}', '${item.image}')">
                         + Add
                     </button>
@@ -131,8 +131,8 @@ function getProducts(){
                     <img src="../../img/${item.type}/${item.menu}/${item.image}.png" alt="">
                     <button class="size" onclick="showColor('${index}')"><img src="../../img/size.png" alt=""></button>
                     <p class="b">SDU</p>
-                    <p>Shopper bag | standard</p>
-                    <p class="price">19 900 т</p>
+                    <p id="pr-name">${item.description}</p>
+                    <p class="price">${item.price}</p>
                     <div id="m${index}" class="modal" style="display: none;">
                         <div class="modal-content">
                             <div class="block">
@@ -256,4 +256,35 @@ filterButtons.forEach(button => {
             }
         })
     });
+});
+
+
+
+function performSearch() {
+    const input = document.getElementById('search-input');
+
+    const products = document.querySelectorAll('.product');
+
+    products.forEach(product => {
+        console.log(product);
+        const productName = product.querySelector('#pr-name').textContent.toLowerCase();
+
+        if (productName.includes(input.value.toLowerCase())) {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+    });
+}
+
+
+const searchButton = document.getElementById('search-button');
+const searchInput = document.getElementById('search-input');
+
+searchButton.addEventListener('click', performSearch);
+
+searchInput.addEventListener('keypress', function(event) {
+    if (event.keyCode === 13) {
+        performSearch();
+    }
 });
